@@ -1,0 +1,8 @@
+type: marketplace
+title: Refactoring Course
+language: English
+summary: |-
+  This is an introductory Refactoring course.
+programming_language: Kotlin
+content:
+- lesson1
