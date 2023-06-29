@@ -54,6 +54,12 @@ subprojects {
         testImplementation group: 'junit', name: 'junit', version: '4.12'
 
         implementation "org.jetbrains.academy.test.system:kotlin-test-system:1.0.9"
+
+        String junitJupiterVersion = "5.9.0"
+        implementation("org.junit.jupiter:junit-jupiter-api:$junitJupiterVersion")
+        runtimeOnly("org.junit.jupiter:junit-jupiter-engine:$junitJupiterVersion")
+        implementation("org.junit.jupiter:junit-jupiter-params:$junitJupiterVersion")
+        runtimeOnly("org.junit.platform:junit-platform-console:1.9.0")
     }
 
     compileKotlin {

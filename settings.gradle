@@ -34,3 +34,6 @@ def isTaskDir(File dir) {
 }
 
 include 'util'
+include 'util:src'
+findProject(':util:src')?.name = 'src'
+
