@@ -82,6 +82,7 @@ subprojects {
 
     mainClassName = project.hasProperty("mainClass") ? project.getProperty("mainClass") : ""
     test {
+        useJUnitPlatform()
         outputs.upToDateWhen { false }
         afterTest { TestDescriptor test, TestResult result ->
             if (result.resultType == TestResult.ResultType.FAILURE) {
