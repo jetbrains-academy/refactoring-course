@@ -1,0 +1,6 @@
+custom_name: Code style and formatting
+content:
+- WhatIsFormatting
+- ReformatTheCodeUsingIDE
+- CodeStyle
+- ChangeEditorConfig

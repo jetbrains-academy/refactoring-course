@@ -1,0 +1,6 @@
+custom_name: Renaming code
+content:
+- NamingRules
+- FixingTyposUsingIDE
+- RenameRefactoringInIDE
+- FixTypos

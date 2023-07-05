@@ -1,0 +1,5 @@
+type: theory
+custom_name: Naming rules
+files:
+- name: src/Main.kt
+  visible: true

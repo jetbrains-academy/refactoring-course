@@ -1,0 +1,5 @@
+type: theory
+custom_name: Common code issues and their impact on code quality
+files:
+- name: src/Main.kt
+  visible: true

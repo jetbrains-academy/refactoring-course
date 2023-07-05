@@ -1,0 +1,7 @@
+custom_name: Refactoring and its purpose
+content:
+- Introduction
+- WhatIsCodeRefactoring
+- CommonCodeIssuesAndTheirImpactOnCodeQuality
+- RefactoringTechniques
+- GettingFamiliarWithIDERefactoringFeatures
