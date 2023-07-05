@@ -1,4 +1,3 @@
-import org.jetbrains.kotlin.config.KotlinCompilerVersion
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 plugins {
@@ -53,7 +52,7 @@ allprojects {
 
     dependencies {
         implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.20")
-        testImplementation("junit:junit:4.13")
+        testImplementation("junit:junit:4.13.1")
 
         implementation("org.jetbrains.academy.test.system:kotlin-test-system:1.0.9")
 

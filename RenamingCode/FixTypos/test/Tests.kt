@@ -1,4 +1,4 @@
-import com.intellij.openapi.application.ReadAction
+import com.intellij.openapi.application.ApplicationManager
 import com.intellij.psi.PsiElement
 import com.intellij.psi.PsiRecursiveElementWalkingVisitor
 import com.intellij.testFramework.fixtures.BasePlatformTestCase
@@ -28,7 +28,7 @@ class Test : BasePlatformTestCase() {
         setUp()
         myFixture.configureByText("Task.kt", sourceText)
         val setNames = mutableSetOf<String>()
-        ReadAction.compute<Unit?, RuntimeException> {
+        ApplicationManager.getApplication().runReadAction<Unit?> {
             myFixture.file.accept(object : PsiRecursiveElementWalkingVisitor() {
                 override fun visitElement(element: PsiElement) {
                     if (element is KtNamedFunction) {
