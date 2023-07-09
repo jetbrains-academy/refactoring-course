@@ -1,1 +1,6 @@
 custom_name: Moving code
+content:
+- WhatIsMoveMethodRefactoring
+- FindMoreAppropriateClassesForMethods
+- WhatArePullUpAndPushDownRefactorings
+- ApplyPullUpAndPushDownRefactorings

@@ -45,6 +45,7 @@ allprojects {
 
     repositories {
         mavenCentral()
+        mavenLocal()
         maven {
             url = uri("https://packages.jetbrains.team/maven/p/kotlin-test-framework/kotlin-test-framework")
         }
@@ -54,7 +55,8 @@ allprojects {
         implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.20")
         testImplementation("junit:junit:4.13.1")
 
-        implementation("org.jetbrains.academy.test.system:kotlin-test-system:1.0.9")
+        implementation("org.jetbrains.academy.test.system:core:2.0.0")
+        implementation("org.jetbrains.academy.test.system:ij:2.0.0")
 
         val junitJupiterVersion = "5.9.0"
         implementation("org.junit.jupiter:junit-jupiter-api:$junitJupiterVersion")

@@ -1,7 +1,5 @@
 import com.intellij.codeInsight.daemon.impl.DaemonProgressIndicator
 import com.intellij.openapi.application.ApplicationManager
-import com.intellij.openapi.command.WriteCommandAction
-import com.intellij.psi.codeStyle.CodeStyleManager
 import org.junit.jupiter.api.Assertions
 import org.junit.jupiter.api.BeforeAll
 import org.junit.jupiter.api.Test
@@ -10,6 +8,7 @@ import java.io.File
 import com.intellij.codeInspection.InspectionManager
 import com.intellij.codeInspection.ProblemDescriptor
 import com.intellij.openapi.progress.ProgressManager
+import org.jetbrains.academy.test.system.ij.formatting.checkIfFormattingRulesWereApplied
 import org.jetbrains.kotlin.idea.inspections.KotlinUnusedImportInspection
 
 class Test : BasePlatformTestCase() {
@@ -31,14 +30,7 @@ class Test : BasePlatformTestCase() {
     fun testSolutionIsFormatted() {
         setUp()
         myFixture.configureByText("Task.kt", sourceText)
-        val originalCode = ApplicationManager.getApplication().runReadAction<String> { myFixture.file.text }
-        val codeStyleManager = CodeStyleManager.getInstance(myFixture.project)
-        WriteCommandAction.runWriteCommandAction(myFixture.project) {
-            codeStyleManager.reformat(myFixture.file)
-        }
-        val formattedCode = ApplicationManager.getApplication().runReadAction<String> { myFixture.file.text }
-
-        Assertions.assertEquals(formattedCode, originalCode)
+        myFixture.file.checkIfFormattingRulesWereApplied()
     }
 
     @Test

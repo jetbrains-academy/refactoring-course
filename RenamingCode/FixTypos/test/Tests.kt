@@ -18,7 +18,7 @@ class Test : BasePlatformTestCase() {
         @BeforeAll
         fun initialize() {
             val taskDirectoryPath = System.getProperty("user.dir")
-            val sourceCodeFile = File("$taskDirectoryPath/src/Task.kt")
+            val sourceCodeFile = File("$taskDirectoryPath/src/Student.kt")
             sourceText = sourceCodeFile.readText()
         }
     }
@@ -26,7 +26,7 @@ class Test : BasePlatformTestCase() {
     @Test
     fun testTyposInSolution() {
         setUp()
-        myFixture.configureByText("Task.kt", sourceText)
+        myFixture.configureByText("Student.kt", sourceText)
         val setNames = mutableSetOf<String>()
         ApplicationManager.getApplication().runReadAction<Unit?> {
             myFixture.file.accept(object : PsiRecursiveElementWalkingVisitor() {
@@ -41,5 +41,12 @@ class Test : BasePlatformTestCase() {
         }
         val setCorrectNames = setOf("getGradeStatus", "setName", "setAge", "setAverageScore")
         Assertions.assertEquals(setCorrectNames, setNames)
+    }
+
+    @Test
+    fun studentClassTest() {
+        val clazz = studentClass.checkBaseDefinition()
+        studentClass.checkFieldsDefinition(clazz)
+        studentClass.checkDeclaredMethods(clazz)
     }
 }

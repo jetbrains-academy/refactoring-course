@@ -1,0 +1,9 @@
+type: edu
+custom_name: Find more appropriate classes for methods
+files:
+- name: src/Main.kt
+  visible: true
+- name: test/Tests.kt
+  visible: false
+- name: test/DriverTestClass.kt
+  visible: false
