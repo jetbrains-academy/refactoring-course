@@ -1,4 +1,4 @@
-# Task: 4/5: Refactoring techniques
+# Task: 3/4: Refactoring techniques
 
 Refactoring kinds: 
 - floss refactoring 

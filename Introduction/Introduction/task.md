@@ -1,4 +1,4 @@
-# Task: 1/5: Introduction
+# Introduction
 
 Hello! Welcome to the Refactorings in IDE course. 
 This course will introduce you to refactorings and IDE features that would help you to perform them in an effective way.
