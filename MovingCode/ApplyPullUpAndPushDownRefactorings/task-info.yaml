@@ -1,0 +1,17 @@
+type: edu
+custom_name: Apply Pull Up and Push Down refactorings
+files:
+- name: test/Tests.kt
+  visible: false
+- name: src/PlayerController.kt
+  visible: true
+- name: src/Vector2.kt
+  visible: true
+- name: src/MousePlayerController.kt
+  visible: true
+- name: src/KeyboardPlayerController.kt
+  visible: true
+- name: src/Context.kt
+  visible: true
+- name: test/PlayerControllerClass.kt
+  visible: false
