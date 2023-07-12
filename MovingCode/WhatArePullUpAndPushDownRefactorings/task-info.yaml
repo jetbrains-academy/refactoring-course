@@ -1,5 +1,0 @@
-type: theory
-custom_name: What are Pull Up and Push Down refactorings?
-files:
-- name: src/Main.kt
-  visible: true

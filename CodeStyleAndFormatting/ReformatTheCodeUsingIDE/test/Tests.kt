@@ -1,11 +1,11 @@
-import com.intellij.testFramework.fixtures.BasePlatformTestCase
+import org.jetbrains.academy.test.system.ij.formatting.BaseIjTestClass
 import org.junit.jupiter.api.BeforeAll
 import org.junit.jupiter.api.Test
 import java.io.File
 import org.jetbrains.academy.test.system.ij.formatting.checkIfFormattingRulesWereApplied
 import org.jetbrains.academy.test.system.ij.formatting.checkIfOptimizeImportsWereApplied
 
-class Test : BasePlatformTestCase() {
+class Test : BaseIjTestClass() {
 
     companion object {
 

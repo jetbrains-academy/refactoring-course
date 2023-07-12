@@ -1,5 +1,0 @@
-type: theory
-custom_name: What is Extract Method refactoring?
-files:
-- name: src/Main.kt
-  visible: true
