@@ -10,7 +10,7 @@ internal val driverClass = TestClass(
     declaredFields = listOf(
         TestVariable(
             name = "car",
-            javaType = "class Car",
+            javaType = "Car",
             visibility = Visibility.PRIVATE,
             mutability = VariableMutability.VAR,
         ),
