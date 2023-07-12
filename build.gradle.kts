@@ -55,8 +55,9 @@ allprojects {
         implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.20")
         testImplementation("junit:junit:4.13.1")
 
-        implementation("org.jetbrains.academy.test.system:core:2.0.0")
-        implementation("org.jetbrains.academy.test.system:ij:2.0.0")
+        val testSystemVersion = "2.0.2"
+        implementation("org.jetbrains.academy.test.system:core:$testSystemVersion")
+        implementation("org.jetbrains.academy.test.system:ij:$testSystemVersion")
 
         val junitJupiterVersion = "5.9.0"
         implementation("org.junit.jupiter:junit-jupiter-api:$junitJupiterVersion")
