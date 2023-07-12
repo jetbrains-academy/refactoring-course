@@ -1,0 +1,7 @@
+type: edu
+custom_name: Extract magic constants and reduce method’s length
+files:
+- name: src/Task.kt
+  visible: true
+- name: test/Tests.kt
+  visible: false

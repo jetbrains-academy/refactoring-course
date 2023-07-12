@@ -1,11 +1,11 @@
+import com.intellij.testFramework.fixtures.BasePlatformTestCase
 import org.junit.jupiter.api.BeforeAll
 import org.junit.jupiter.api.Test
-import org.jetbrains.academy.test.system.ij.formatting.PsiClass
 import java.io.File
 import org.jetbrains.academy.test.system.ij.formatting.checkIfFormattingRulesWereApplied
 import org.jetbrains.academy.test.system.ij.formatting.checkIfOptimizeImportsWereApplied
 
-class Test {
+class Test : BasePlatformTestCase() {
 
     companion object {
 
@@ -22,13 +22,15 @@ class Test {
 
     @Test
     fun testSolutionIsFormatted() {
-        val psi = PsiClass(sourceText)
-        psi.getPsiFile()?.checkIfFormattingRulesWereApplied()
+        setUp()
+        myFixture.configureByText("Task.kt", sourceText)
+        myFixture.file.checkIfFormattingRulesWereApplied()
     }
 
     @Test
     fun testUnusedImport() {
-        val psi = PsiClass(sourceText)
-        psi.getPsiFile()?.checkIfOptimizeImportsWereApplied()
+        setUp()
+        myFixture.configureByText("Task.kt", sourceText)
+        myFixture.file.checkIfOptimizeImportsWereApplied()
     }
 }
