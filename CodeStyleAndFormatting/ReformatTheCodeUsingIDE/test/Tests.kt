@@ -5,7 +5,7 @@ import java.io.File
 import org.jetbrains.academy.test.system.ij.formatting.checkIfFormattingRulesWereApplied
 import org.jetbrains.academy.test.system.ij.formatting.checkIfOptimizeImportsWereApplied
 
-class Test : BaseIjTestClass() {
+class ReformatCodeTest : BaseIjTestClass() {
 
     companion object {
 

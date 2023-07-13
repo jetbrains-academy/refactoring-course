@@ -1,6 +1,6 @@
 import org.junit.jupiter.api.Test
 
-class Test {
+class RenamingTest {
 
     @Test
     fun studentClassTest() {
