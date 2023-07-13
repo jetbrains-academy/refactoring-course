@@ -7,6 +7,7 @@ import org.jetbrains.academy.test.system.core.models.variable.VariableMutability
 
 internal val studentClass = TestClass(
     "Student",
+    classPackage = "jetbrains.refactoring.course.renaming",
     declaredFields = listOf(
         TestVariable(
             name = "name",

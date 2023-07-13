@@ -1,5 +1,0 @@
-type: theory
-custom_name: Code style
-files:
-- name: src/Main.kt
-  visible: true

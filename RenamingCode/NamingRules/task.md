@@ -1,10 +1,10 @@
-# Task: 1/4: Naming rules
+# Task 1/4: Naming rules
 
-Poor names are bad: obfuscation, confusion, increased code review time, etc.
-
+Naming is one of the most important parts of writing code, it affects its understanding a lot.
+A good name should be descriptive and unambiguous, and clearly reflect what code does.
+Poor names lead to confusion and make it harder for other developers to understand and reuse.
 One of the most frequently used refactorings is **Rename refactoring**. 
-We change the name of code entity to make it more expressive, comply with naming conventions or fix typos. 
-A good name should be descriptive and unambiguous. 
+We change the name of the code element to make it more expressive, comply with naming conventions, or fix typos.
 
 Here is the set of rules that we suggest to keep in mind when you try to come up with a good name:
 - A name of package is usually a lowercase noun or a combination of nouns written in camelCase.
@@ -14,6 +14,8 @@ Here is the set of rules that we suggest to keep in mind when you try to come up
 For example, `Object`, `ArrayList`, or `ErrorReporter`.
 - Names of functions, properties and local variables start with a lowercase letter and use the camel case and no underscores.
      For example, `getType()`, `handleRecord()`, `createMetaObject()`.
-- Intention-revealing: how to come up with names that convey the purpose of a code entity (the distinction between WHAT and HOW). Usage of ChatGPT to come up with better names for coding entities.
+- Use [AI Assistant](https://blog.jetbrains.com/idea/2023/06/ai-assistant-in-jetbrains-ides/) to come up with better names for coding entities if you feel stuck. It is an IntelliJ IDEA plugin that uses ChatGPT to help with programming tasks (available only in EAP builds.
 
 See Also: https://kotlinlang.org/docs/coding-conventions.html#naming-rules
+
+See Also: https://blog.jetbrains.com/idea/2023/06/ai-assistant-in-jetbrains-ides/

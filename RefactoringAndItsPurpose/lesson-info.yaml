@@ -1,5 +1,6 @@
 custom_name: Refactoring and its purpose
 content:
+- RefactoringAndItsPurposeIntroduction
 - WhatIsCodeRefactoring
 - CommonCodeIssuesAndTheirImpactOnCodeQuality
 - RefactoringTechniques

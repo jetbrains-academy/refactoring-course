@@ -15,7 +15,7 @@ class Test : BaseIjTestClass() {
         @BeforeAll
         fun initialize() {
             val taskDirectoryPath = System.getProperty("user.dir")
-            val sourceCodeFile = File("$taskDirectoryPath/src/Task.kt")
+            val sourceCodeFile = File("$taskDirectoryPath/src/main/kotlin/jetbrains/refactoring/course/formatting/Task.kt")
             sourceText = sourceCodeFile.readText()
         }
     }
@@ -28,7 +28,7 @@ class Test : BaseIjTestClass() {
     }
 
     @Test
-    fun testUnusedImport() {
+    fun testUnusedImportsAreRemoved() {
         setUp()
         myFixture.configureByText("Task.kt", sourceText)
         myFixture.file.checkIfOptimizeImportsWereApplied()

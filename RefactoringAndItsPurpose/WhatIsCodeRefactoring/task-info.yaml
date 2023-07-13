@@ -1,5 +1,5 @@
 type: theory
 custom_name: What is code refactoring
 files:
-- name: src/Main.kt
+- name: src/main/kotlin/jetbrains/refactoring/course/refactoing/purpose/Main.kt
   visible: true
