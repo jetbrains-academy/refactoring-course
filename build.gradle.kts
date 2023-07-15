@@ -5,6 +5,7 @@ plugins {
     java
     kotlin("jvm") version "1.8.20" apply true
     application
+    id("org.jlleitschuh.gradle.ktlint") version "10.0.0"
 }
 
 buildscript {
@@ -35,11 +36,12 @@ allprojects {
         plugin("application")
         plugin("java")
         plugin("kotlin")
+        plugin("org.jlleitschuh.gradle.ktlint")
     }
 
     intellij {
         version.set("2022.1.1")
-        plugins.set(listOf("java","Kotlin"))
+        plugins.set(listOf("java", "Kotlin"))
         type.set("IC")
     }
 
@@ -105,6 +107,12 @@ allprojects {
         getByName("main").kotlin.srcDirs("src")
         getByName("test").java.srcDirs("test")
         getByName("test").kotlin.srcDirs("test")
+    }
+}
+
+project(":CodeStyleAndFormatting-ConfigureCodeStyleSettingsInIDE") {
+    tasks.withType<KotlinCompile> {
+        dependsOn("ktlintCheck")
     }
 }
 
