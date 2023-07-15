@@ -1,0 +1,10 @@
+type: edu
+custom_name: "Fix typos, change the code to comply with naming rules and camelCase\
+  \ convention"
+files:
+- name: src/main/kotlin/jetbrains/refactoring/course/renaming/Student.kt
+  visible: true
+- name: test/Tests.kt
+  visible: false
+- name: test/StudentTestClass.kt
+  visible: false
