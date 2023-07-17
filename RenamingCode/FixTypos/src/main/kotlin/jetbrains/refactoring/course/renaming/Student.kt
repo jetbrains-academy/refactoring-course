@@ -2,7 +2,7 @@ package jetbrains.refactoring.course.renaming
 
 class Student(private var name: String, private var age: Int, private var averageScore: Double) {
 
-    fun getgradestatus(): String {
+    fun getGradeStatus(): String {
         return when (averageScore) {
             in 90.0..100.0 -> "Excellent"
             in 80.0..89.99 -> "Good"
@@ -11,15 +11,15 @@ class Student(private var name: String, private var age: Int, private var averag
         }
     }
 
-    fun SetName(newName: String) {
+    fun setName(newName: String) {
         name = newName
     }
 
-    fun setaGe(newAge: Int) {
+    fun setAge(newAge: Int) {
         age = newAge
     }
 
-    fun setAvergeScore(newScore: Double) {
+    fun setAverageScore(newScore: Double) {
         averageScore = newScore
     }
 }
