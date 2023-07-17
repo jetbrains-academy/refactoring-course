@@ -1,6 +1,6 @@
 # What this repository is
 
-This repository contains sources of the Refactoring course.
+This repository contains sources of the Refactoring in IDE course.
 
 # Contributing
 
