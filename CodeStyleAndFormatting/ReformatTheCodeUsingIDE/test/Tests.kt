@@ -1,9 +1,9 @@
+import org.jetbrains.academy.test.system.ij.formatting.checkIfFormattingRulesWereApplied
+import org.jetbrains.academy.test.system.ij.formatting.checkIfOptimizeImportsWereApplied
 import org.jetbrains.academy.test.system.test.BaseIjTestClass
 import org.junit.jupiter.api.BeforeAll
 import org.junit.jupiter.api.Test
 import java.io.File
-import org.jetbrains.academy.test.system.ij.formatting.checkIfFormattingRulesWereApplied
-import org.jetbrains.academy.test.system.ij.formatting.checkIfOptimizeImportsWereApplied
 
 class ReformatCodeTest : BaseIjTestClass() {
 
@@ -15,7 +15,8 @@ class ReformatCodeTest : BaseIjTestClass() {
         @BeforeAll
         fun initialize() {
             val taskDirectoryPath = System.getProperty("user.dir")
-            val sourceCodeFile = File("$taskDirectoryPath/src/main/kotlin/jetbrains/refactoring/course/formatting/Task.kt")
+            val sourceCodeFile =
+                File("$taskDirectoryPath/src/main/kotlin/jetbrains/refactoring/course/formatting/Task.kt")
             sourceText = sourceCodeFile.readText()
         }
     }
