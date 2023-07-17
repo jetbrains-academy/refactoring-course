@@ -1,4 +1,4 @@
-import org.jetbrains.academy.test.system.ij.formatting.BaseIjTestClass
+import org.jetbrains.academy.test.system.test.BaseIjTestClass
 import org.junit.jupiter.api.BeforeAll
 import org.junit.jupiter.api.Test
 import java.io.File

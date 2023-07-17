@@ -4,20 +4,19 @@ files:
 - name: src/main/kotlin/jetbrains/refactoring/course/formatting/Task.kt
   visible: true
   placeholders:
-    - offset: 0
-      length: 301
-      placeholder_text: |-
-        package jetbrains.refactoring.course.formatting
-  
-        import java.io.File
-        
-        fun funWithFormattingIssues() {
-              println ("This function is definitely has formatting issues" )
-            println( "... that could be easily fixed using one shortcut")
-            for ( i in 1 ..10) {
-          println("Please, format me!")
-            }
-        }
+  - offset: 0
+    length: 280
+    placeholder_text: |-
+      package jetbrains.refactoring.course.formatting
 
+      import java.io.File
+
+      fun funWithFormattingIssues() {
+            println ("This function is definitely has formatting issues" )
+          println( "... that could be easily fixed using one shortcut")
+          for ( i in 1 ..10) {
+        println("Please, format me!")
+          }
+      }
 - name: test/Tests.kt
   visible: false

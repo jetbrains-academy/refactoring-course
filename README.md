@@ -1,7 +1,7 @@
 [![official project](https://jb.gg/badges/official.svg)](https://confluence.jetbrains.com/display/ALL/JetBrains+on+GitHub)
 [![Gradle Build](https://github.com/jetbrains-academy/refactoring-course/actions/workflows/gradle-build.yml/badge.svg)](https://github.com/jetbrains-academy/refactoring-course/actions/workflows/gradle-build.yml)
 
-# Refactoring Course
+# Refactoring in IDE Course
 
 This course will introduce you to refactorings and IDE features that would help you to perform them in an effective way.
 You will learn to recognize refactoring opportunities in code and how to deal with them.
@@ -21,11 +21,11 @@ Topics covered:
 - code style schema and EditorConfig;
 - automatic formatting using IDE;
 - naming rules;
-- Rename refactoring;
-- Move refactoring;
-- Pull Up and Push Down refactoring;
-- Extract refactoring;
-- Inline refactoring;
+- rename refactoring;
+- move refactoring;
+- pull up and push down refactoring;
+- extract refactoring;
+- inline refactoring;
 - design patterns and their relationships with refactoring.
 
 
@@ -45,9 +45,7 @@ If you have some troubles with the course installation, feel free to contact us 
 
 ## Getting started
 
-This course is available (TODO) on JetBrains Marketplace and can be installed from the
-[IntelliJ IDEA](https://www.jetbrains.com/idea/) IDE directly, but you can also use it in
-the Course Creator mode or create a course archive from the source code.
+You can use this course in the Course Creator mode or create a course archive from the source code.
 
 ### Getting started: create a course preview from the source code
 
@@ -57,11 +55,7 @@ You can create a [course preview](https://plugins.jetbrains.com/plugin/10081-edu
 git clone https://github.com/jetbrains-academy/refactoring-course.git
 ```
 
-2. Install [npm](https://www.npmjs.com/) and [yarn](https://yarnpkg.com/) on your computer.
-
-3. Run yarn install in each module with frontend.
-
-4. Build the project:
+2. Build the project:
 ```text
 ./gradlew build
 ```
