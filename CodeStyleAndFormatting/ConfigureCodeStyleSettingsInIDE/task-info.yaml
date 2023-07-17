@@ -3,5 +3,24 @@ custom_name: Configure code style settings in IDE
 files:
 - name: src/main/kotlin/jetbrains/refactoring/course/formatting/Task.kt
   visible: true
-- name: test/Test.kt
+  placeholders:
+  - offset: 0
+    length: 268
+    placeholder_text: |-
+      package jetbrains.refactoring.course.formatting
+
+      fun funWithCodeStyleIssues() {
+         println("What is the indent size in this file?")
+         println("What indent size should be according to .editorconfig?")
+         for ( i in 1..10) {
+            println("Please, fix me!")
+         }
+      }
+- name: .editorconfig
+  visible: true
+  placeholders:
+  - offset: 0
+    length: 40
+    placeholder_text: ""
+- name: test/EditorconfigTest.kt
   visible: false
