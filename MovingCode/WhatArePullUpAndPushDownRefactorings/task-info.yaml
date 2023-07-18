@@ -1,0 +1,5 @@
+type: theory
+custom_name: What are Pull Up and Push Down refactorings?
+files:
+- name: src/main/kotlin/jetbrains/refactoring/course/moving/Main.kt
+  visible: true
