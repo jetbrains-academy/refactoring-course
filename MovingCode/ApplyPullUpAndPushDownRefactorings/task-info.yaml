@@ -1,0 +1,85 @@
+type: edu
+custom_name: Apply Pull Up and Push Down refactorings
+files:
+- name: test/Tests.kt
+  visible: false
+- name: src/main/kotlin/jetbrains/refactoring/course/moving/controllers/PlayerController.kt
+  visible: true
+  placeholders:
+  - offset: 0
+    length: 415
+    placeholder_text: |-
+      package jetbrains.refactoring.course.moving.controllers
+
+      import jetbrains.refactoring.course.moving.utils.Vector2
+
+      abstract class PlayerController(private val speed: Int, private val screenSize: Vector2) {
+          val playerPosition = Vector2(0, 0)
+          abstract fun move()
+      }
+- name: src/main/kotlin/jetbrains/refactoring/course/moving/utils/Vector2.kt
+  visible: true
+- name: src/main/kotlin/jetbrains/refactoring/course/moving/controllers/MousePlayerController.kt
+  visible: true
+  placeholders:
+  - offset: 0
+    length: 776
+    placeholder_text: |-
+        package jetbrains.refactoring.course.moving.controllers
+      
+        import jetbrains.refactoring.course.moving.utils.Vector2
+        import java.awt.MouseInfo
+      
+        class MousePlayerController(private val speed: Int, private val screenSize: Vector2) :
+            PlayerController(speed, screenSize) {
+      
+            override fun move() {
+                val centerW = screenSize.x / 2
+                val centerH = screenSize.y / 2
+                val location = MouseInfo.getPointerInfo().location
+                val directionX = when {
+                    location.x > centerW -> 1 
+                    location.x < centerW -> -1
+                    else -> 0
+                }
+                val directionY = when {
+                    location.y > centerH -> 1
+                    location.y < centerH -> -1
+                    else -> 0
+                }
+                playerPosition.x += speed * directionX
+                playerPosition.y += speed * directionY
+            }
+        }
+
+- name: src/main/kotlin/jetbrains/refactoring/course/moving/controllers/KeyboardPlayerController.kt
+  visible: true
+  placeholders:
+  - offset: 0
+    length: 648
+    placeholder_text: |-
+      package jetbrains.refactoring.course.moving.controllers
+      
+      
+      import jetbrains.refactoring.course.moving.utils.Context
+      import jetbrains.refactoring.course.moving.utils.Vector2
+      
+      class KeyboardPlayerController(private val speed: Int, screenSize: Vector2, private val context: Context) :
+          PlayerController(speed, screenSize) {
+      
+          override fun move() {
+              val direction = Vector2(0, 0)
+              if (context.pressedKeys.contains("w")) direction.y--
+              if (context.pressedKeys.contains("a")) direction.x--
+              if (context.pressedKeys.contains("s")) direction.y++
+              if (context.pressedKeys.contains("d")) direction.x++
+                  
+              playerPosition.x += speed * direction.x
+              playerPosition.y += speed * direction.y
+          }
+      }
+
+- name: src/main/kotlin/jetbrains/refactoring/course/moving/utils/Context.kt
+  visible: true
+- name: test/PlayerControllerClass.kt
+  visible: false

@@ -1,0 +1,71 @@
+type: edu
+custom_name: Find more appropriate classes for methods
+files:
+- name: src/main/kotlin/jetbrains/refactoring/course/moving/Main.kt
+  visible: true
+  placeholders:
+  - offset: 0
+    length: 250
+    placeholder_text: |-
+      package jetbrains.refactoring.course.moving
+
+      class Car(private val gearsNumber: Int) {
+          var engineStarted: Boolean = false
+          var gear: Int = 0
+              set(value) {
+                  if (value > gearsNumber || value < 0)
+                      throw IllegalStateException()
+                  field = value
+              }
+      }
+
+      class Driver(private var car: Car) {
+
+          private fun start() {
+              car.engineStarted = true
+              car.gear = 1
+          }
+
+          private fun stop() {
+              car.gear = 0
+              car.engineStarted = false
+          }
+
+          fun changeCar(car: Car) {
+              this.car = car
+          }
+
+          private fun driving(destination: String) {
+              println("The driver is coming to $destination")
+          }
+
+          fun driveTo(destination: String) {
+              println("Start driving")
+              start()
+              driving(destination)
+              stop()
+              println("Arrived at destination")
+          }
+      }
+
+      fun main() {
+          val car = Car(5)
+          val driver = Driver(car)
+          driver.driveTo("Belgrade")
+      }
+- name: test/Tests.kt
+  visible: false
+- name: test/DriverTestClass.kt
+  visible: false
+- name: src/main/kotlin/jetbrains/refactoring/course/moving/car/Car.kt
+  visible: true
+  placeholders:
+  - offset: 0
+    length: 465
+    placeholder_text: ""
+- name: src/main/kotlin/jetbrains/refactoring/course/moving/driver/Driver.kt
+  visible: true
+  placeholders:
+  - offset: 0
+    length: 502
+    placeholder_text: ""
