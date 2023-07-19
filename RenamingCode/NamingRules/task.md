@@ -14,7 +14,8 @@ Here is the set of rules that we suggest to keep in mind when you try to come up
 For example, `Object`, `ArrayList`, or `ErrorReporter`.
 - Names of functions, properties and local variables start with a lowercase letter and use the camel case and no underscores.
      For example, `getType()`, `handleRecord()`, `createMetaObject()`.
-- Use [AI Assistant](https://blog.jetbrains.com/idea/2023/06/ai-assistant-in-jetbrains-ides/) to come up with better names for coding entities if you feel stuck. It is an IntelliJ IDEA plugin that uses ChatGPT to help with programming tasks (available only in EAP builds.
+- Use [AI Assistant](https://blog.jetbrains.com/idea/2023/06/ai-assistant-in-jetbrains-ides/) to come up with better names for coding entities if you feel stuck. 
+It is an IntelliJ IDEA plugin that uses ChatGPT to help with programming tasks (available only in EAP builds).
 
 See Also: https://kotlinlang.org/docs/coding-conventions.html#naming-rules
 

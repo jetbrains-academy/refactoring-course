@@ -5,5 +5,5 @@ in its implementation. That doesn’t necessarily mean that code has bugs, but i
 developing and maintaining much more complex. Ignoring code smells leads to increase of technical debt. 
 Resolving code smells via refactoring improves codebase’s quality and makes it more clear and extensible.
 
-In this course, we will take a look at several code quality issues such as long methods, duplicated code, 
-large class, feature envy.
+In this course, we will take a look at several code quality issues, such as long methods, duplicated code,
+large classes, feature envy, and middle man.
