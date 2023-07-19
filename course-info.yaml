@@ -11,3 +11,4 @@ content:
 - CodeStyleAndFormatting
 - RenamingCode
 - MovingCode
+- ExtractingCode
