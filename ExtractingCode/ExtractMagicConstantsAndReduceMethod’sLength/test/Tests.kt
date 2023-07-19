@@ -1,9 +1,10 @@
 import org.jetbrains.academy.test.system.test.BaseIjTestClass
+import org.junit.jupiter.api.Assertions
 import org.junit.jupiter.api.BeforeAll
 import org.junit.jupiter.api.Test
 import java.io.File
 
-class Test : BaseIjTestClass() {
+class ExtractingTest : BaseIjTestClass() {
 
     companion object {
 
@@ -21,17 +22,41 @@ class Test : BaseIjTestClass() {
     }
 
     @Test
-    fun test() {
+    fun testExtractedFunction() {
         setUp()
         myFixture.configureByText("Task.kt", sourceText)
-        val expected = "grades.sum()"
-        val namesFunction = getMethodsContainingContent(expected)
-        if (namesFunction.size == 1) {
-            val extractedMethod = namesFunction.toList()[0]
-            val methodsUsingExtractedMethod = getMethodsContainingContent(extractedMethod)
-            println(methodsUsingExtractedMethod)
-        } else {
-            println("Error")
+        val expected = """val inputStream = imageUrl.openStream()
+    if (!outPath.exists()) outPath.parent.createDirectories()
+    inputStream.use { input ->
+        Files.copy(input, outPath)
+    }
+    return outPath.toString()
+        """.trimIndent()
+        val methodNames = getMethodsContainingContent(expected)
+        Assertions.assertFalse(methodNames.size > 1) {
+            "Please, extract duplicated code into separate function"
         }
+        Assertions.assertFalse(methodNames.isEmpty()) {
+            "Extracted code not found"
+        }
+        val extractedMethod = methodNames[0]
+        val methodsUsingExtractedMethod = getMethodsContainingContent(extractedMethod)
+        Assertions.assertEquals(listOf("getCatWithTag", "getRandomCat"), methodsUsingExtractedMethod) {
+            "$extractedMethod function must be called in the functions from which the code was extracted"
+        }
+    }
+
+    private fun existsConstant(elementValue: String) {
+        Assertions.assertTrue(existsConstantWithTheValue(elementValue)) {
+            "Please, create constant values for $elementValue"
+        }
+    }
+
+    @Test
+    fun testExtractedVariable() {
+        setUp()
+        myFixture.configureByText("Task.kt", sourceText)
+        existsConstant("\"https://cataas.com/cat\"")
+        existsConstant("\"ExtractingCode/ExtractMagicConstantsAndReduceMethod’sLength/src/main/resources/cats/\"")
     }
 }

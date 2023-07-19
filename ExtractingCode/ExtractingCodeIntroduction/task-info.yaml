@@ -1,5 +1,5 @@
 type: theory
-custom_name: How to apply Extract Method/Variable refactoring using IDE?
+custom_name: Extracting Code - Introduction
 files:
 - name: src/main/kotlin/jetbrains/refactoring/course/extracting/Main.kt
   visible: true

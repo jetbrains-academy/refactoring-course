@@ -3,5 +3,47 @@ custom_name: Extract magic constants and reduce method’s length
 files:
 - name: src/main/kotlin/jetbrains/refactoring/course/extracting/Task.kt
   visible: true
+  placeholders:
+    - offset: 0
+      length: 1204
+      placeholder_text: |-
+        package jetbrains.refactoring.course.extracting
+
+        import java.net.URI
+        import java.nio.file.Files
+        import java.nio.file.Paths
+        import java.util.UUID
+        import kotlin.io.path.createDirectories
+        import kotlin.io.path.exists
+
+        fun getCatWithTag(tag: String): String {
+            val imageUrl = URI("https://cataas.com/cat/$tag").toURL()
+            val outPath = Paths.get("ExtractingCode/ExtractMagicConstantsAndReduceMethod’sLength/src/main/resources/cats/${tag}_${UUID.randomUUID()}.png")
+
+            val inputStream = imageUrl.openStream()
+            if (!outPath.exists()) outPath.parent.createDirectories()
+            inputStream.use { input ->
+                Files.copy(input, outPath)
+            }
+            return outPath.toString()
+        }
+
+        fun getRandomCat(): String {
+            val imageUrl = URI("https://cataas.com/cat").toURL()
+            val outPath = Paths.get("ExtractingCode/ExtractMagicConstantsAndReduceMethod’sLength/src/main/resources/cats/${UUID.randomUUID()}.png")
+
+            val inputStream = imageUrl.openStream()
+            if (!outPath.exists()) outPath.parent.createDirectories()
+            inputStream.use { input ->
+                Files.copy(input, outPath)
+            }
+            return outPath.toString()
+        }
+
+        fun main() {
+            println(getRandomCat())
+            println(getCatWithTag("funny"))
+        }
+
 - name: test/Tests.kt
   visible: false
