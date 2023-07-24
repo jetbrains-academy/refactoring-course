@@ -1,0 +1,7 @@
+custom_name: Inlining code
+content:
+- InliningCodeIntroduction
+- WhatIsInlineVariableRefactoring
+- InlineMethodRefactoring
+- MiddleManCodeSmell
+- InlineMethodAndVariables

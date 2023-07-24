@@ -1,0 +1,7 @@
+type: edu
+custom_name: Inline Method and variables
+files:
+- name: src/main/kotlin/jetbrains/refactoring/course/inlining/Task.kt
+  visible: true
+- name: test/Tests.kt
+  visible: false
