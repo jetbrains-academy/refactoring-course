@@ -1,4 +1,4 @@
-# Task: 1/4: What is Move Method refactoring?
+# Task: 2/5: What is Move refactoring?
 
 The next refactoring that we learn in this course is **_Move refactoring_**, which is a process of moving a code
 entity (e.g., a method or a class) from one place to a more appropriate place, making the codebase more organized and
