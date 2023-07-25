@@ -9,9 +9,9 @@ We apply _**Push Down refactoring**_ when a property/method in a superclass is u
 moving the property/method to the specific subclass, we simplify the class hierarchy and improve code organization. This
 refactoring is the inverse of Pull Up refactoring.
 
-To invoke Pull Up or Push Down refactoring, click on the element you would like to move, press **&shortcut:
-Refactorings.QuickListPopupAction;** (macOS) or **Shift+Ctrl+Alt+T** (Windows/Linux) and select _Pull Members Up_ or
-_Push Members Down_ option.
+To invoke Pull Up or Push Down refactoring, click on the element you would like to move, press
+**&shortcut:Refactorings.QuickListPopupAction;** (macOS) or **Shift+Ctrl+Alt+T** (Windows/Linux) and select _Pull
+Members Up_ or _Push Members Down_ option.
 
 <p align="center">
     <img src="../../util/src/test/resources/images/pull_up_oush_down_refactoring.png" alt="Pull Up and Push Down Dialog" width="400"/>
