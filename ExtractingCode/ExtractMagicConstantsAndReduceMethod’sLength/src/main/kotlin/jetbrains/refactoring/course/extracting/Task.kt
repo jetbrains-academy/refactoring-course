@@ -15,8 +15,8 @@ private const val path = "ExtractingCode/ExtractMagicConstantsAndReduceMethod’
 fun downloadPicture(imageUrl: URL, outPath: Path): String {
     val inputStream = imageUrl.openStream()
     if (!outPath.exists()) outPath.parent.createDirectories()
-    inputStream.use { input ->
-        Files.copy(input, outPath)
+    inputStream.use {
+        Files.copy(it, outPath)
     }
     return outPath.toString()
 }

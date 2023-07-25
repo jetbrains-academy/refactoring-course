@@ -1,3 +1,5 @@
+import com.intellij.openapi.command.WriteCommandAction
+import org.jetbrains.academy.test.system.ij.analyzer.findMethodsWhereMethodIsCalled
 import org.jetbrains.academy.test.system.test.BaseIjTestClass
 import org.junit.jupiter.api.Assertions
 import org.junit.jupiter.api.BeforeAll
@@ -25,29 +27,32 @@ class ExtractingTest : BaseIjTestClass() {
     fun testExtractedFunction() {
         setUp()
         myFixture.configureByText("Task.kt", sourceText)
-        val expected = """val inputStream = imageUrl.openStream()
-    if (!outPath.exists()) outPath.parent.createDirectories()
-    inputStream.use { input ->
-        Files.copy(input, outPath)
-    }
-    return outPath.toString()
+        val expected = """
+            val inputStream = imageUrl.openStream()
+            if (!outPath.exists()) outPath.parent.createDirectories()
+            inputStream.use { 
+                Files.copy(it, outPath)
+            }
+            return outPath.toString()
         """.trimIndent()
-        val methodNames = getMethodsContainingContent(expected)
-        Assertions.assertFalse(methodNames.size > 1) {
-            "Please, extract duplicated code into separate function"
-        }
-        Assertions.assertFalse(methodNames.isEmpty()) {
-            "Extracted code not found"
-        }
-        val extractedMethod = methodNames[0]
-        val methodsUsingExtractedMethod = getMethodsContainingContent(extractedMethod)
-        Assertions.assertEquals(listOf("getCatWithTag", "getRandomCat"), methodsUsingExtractedMethod) {
-            "$extractedMethod function must be called in the functions from which the code was extracted"
+        WriteCommandAction.runWriteCommandAction(project) {
+            val methodNames = findMethodsWithContent(expected)
+            Assertions.assertFalse(methodNames.size > 1) {
+                "Please, extract duplicated code into separate function"
+            }
+            Assertions.assertFalse(methodNames.isEmpty()) {
+                "Extracted code not found"
+            }
+            val extractedMethod = methodNames.first()
+            val methodsUsingExtractedMethod = myFixture.file.findMethodsWhereMethodIsCalled(extractedMethod)
+            Assertions.assertEquals(listOf("getCatWithTag", "getRandomCat"), methodsUsingExtractedMethod) {
+                "$extractedMethod function must be called in the functions from which the code was extracted"
+            }
         }
     }
 
     private fun existsConstant(elementValue: String) {
-        Assertions.assertTrue(existsConstantWithTheValue(elementValue)) {
+        Assertions.assertTrue(hasConstantWithGivenValue(elementValue)) {
             "Please, create constant values for $elementValue"
         }
     }
