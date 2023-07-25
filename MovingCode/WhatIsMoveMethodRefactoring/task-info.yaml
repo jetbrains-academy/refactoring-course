@@ -1,5 +1,5 @@
 type: theory
-custom_name: What is Move Method refactoring?
+custom_name: What is Move refactoring?
 files:
 - name: src/main/kotlin/jetbrains/refactoring/course/moving/Main.kt
   visible: true
