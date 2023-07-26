@@ -1,10 +1,11 @@
-package jetbrains.refactoring.course.moving.controllers
+package jetbrains.refactoring.course.moving.controller
 
+import jetbrains.refactoring.course.moving.model.Player
 import jetbrains.refactoring.course.moving.utils.Vector2
 import java.awt.MouseInfo
 
-class MousePlayerController(private val speed: Int, private val screenSize: Vector2) :
-    PlayerController(speed) {
+class MousePlayerController(speed: Int, player: Player, private val screenSize: Vector2) :
+    PlayerController(speed, player) {
 
     override fun getDirection(): Vector2 {
         val centerW = screenSize.x / 2
