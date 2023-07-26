@@ -12,5 +12,4 @@ class EnemyController(private val speed: Int, private val enemy: Enemy) : Contro
         val dy = ((random.nextInt() % 2) * 2 - 1) * speed
         enemy.position += Vector2(dx, dy)
     }
-
 }
