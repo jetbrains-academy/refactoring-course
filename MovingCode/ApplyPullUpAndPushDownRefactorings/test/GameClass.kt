@@ -159,7 +159,8 @@ internal val vector2Class = TestClass(
                 TestVariable(
                     name = "other",
                     javaType = "Vector2",
-            )),
+                )
+            ),
             returnType = TestKotlinType("Vector2"),
             returnTypeJava = "Vector2",
         ),
@@ -229,7 +230,8 @@ internal val characterClass = TestClass(
                 TestVariable(
                     name = "character",
                     javaType = "Character",
-                )),
+                )
+            ),
             returnType = TestKotlinType("Unit"),
             returnTypeJava = "void",
         ),
@@ -254,7 +256,8 @@ internal val enemyClass = TestClass(
                 TestVariable(
                     name = "character",
                     javaType = "Character",
-                )),
+                )
+            ),
             returnType = TestKotlinType("Unit"),
             returnTypeJava = "void",
         ),
@@ -279,7 +282,8 @@ internal val playerClass = TestClass(
                 TestVariable(
                     name = "character",
                     javaType = "Character",
-                )),
+                )
+            ),
             returnType = TestKotlinType("Unit"),
             returnTypeJava = "void",
         ),
