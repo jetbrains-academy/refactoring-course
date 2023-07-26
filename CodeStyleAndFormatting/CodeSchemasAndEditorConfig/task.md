@@ -1,6 +1,6 @@
 # Task 3/4: Code schemas and EditorConfig
 
-IntelliJ IDEA provides two ways to comply with the project’s code style guidelines: code schemas and editor configs.
+IntelliJ IDEA provides two ways to comply with the project’s code style guidelines: **_code schemas_** and **_editor configs_**.
 In this lesson, we will talk about the first one.
 
 There are two predefined code schemas:
@@ -24,7 +24,7 @@ for example, one for source code and another for tests, just put them in the cor
 will be applied to all sub-folders.
 
 There are two types of settings in .editorconfig files:
-- Standart options from EditorConfig such as tabs_width or indent_size. The full list of options is available here.
+- Standard options from EditorConfig such as tabs_width or indent_size. The full list of options is available here.
 - IntelliJ IDEA-specific options, their names start with the ij_ prefix. For example, ij_smart_tabs.
 
 If some setting is not configured in .editorconfig, IDE takes it from the code schema.

@@ -1,10 +1,10 @@
 # Task 1/4: What is formatting?
 
-The code style is a set of guidelines on how to write code that is used in a development team. 
+The **_code style_** is a set of guidelines on how to write code that is used in a development team. 
 Usually, code style depends on the programming language and developers’ preferences and includes rules about formatting,
 documentation, naming conventions, and other aspect that affect code readability.
 
-Code formatting refers to the arrangement of code, including indentation, spacing, line breaks, and other stylistic conventions.
+**_Code formatting_** refers to the arrangement of code, including indentation, spacing, line breaks, and other stylistic conventions.
 Consistent indentation, clear spacing, and logical line breaks help developers quickly understand the code's structure,
 flow, and relationships between different code elements.
 
