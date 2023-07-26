@@ -1,10 +1,11 @@
-package jetbrains.refactoring.course.moving.controllers
+package jetbrains.refactoring.course.moving.controller
 
+import jetbrains.refactoring.course.moving.model.Player
 import jetbrains.refactoring.course.moving.utils.Context
 import jetbrains.refactoring.course.moving.utils.Vector2
 
-class KeyboardPlayerController(private val speed: Int, private val context: Context) :
-    PlayerController(speed) {
+class KeyboardPlayerController(speed: Int, player: Player, private val context: Context) :
+    PlayerController(speed, player) {
 
     override fun getDirection(): Vector2 {
         val direction = Vector2(0, 0)
