@@ -7,7 +7,7 @@ files:
   visible: true
   placeholders:
   - offset: 0
-    length: 478
+    length: 477
     placeholder_text: |-
       package jetbrains.refactoring.course.moving.controller
 
@@ -26,7 +26,7 @@ files:
   visible: true
   placeholders:
   - offset: 0
-    length: 844
+    length: 843
     placeholder_text: |-
       package jetbrains.refactoring.course.moving.controller
 
@@ -63,7 +63,7 @@ files:
   visible: true
   placeholders:
   - offset: 0
-    length: 716
+    length: 715
     placeholder_text: |-
       package jetbrains.refactoring.course.moving.controller
 
@@ -122,11 +122,30 @@ files:
     - offset: 0
       length: 294
       placeholder_text: |-
-        package jetbrains.refactoring.course.moving.controller
-  
-        import jetbrains.refactoring.course.moving.model.Enemy
-
-        class EnemyController(private val speed: Int, private val enemy: Enemy) : Controller(speed, enemy)
+        package jetbrains.refactoring.course.moving.model
+        
+        import jetbrains.refactoring.course.moving.utils.Vector2
+        
+        class Enemy(position: Vector2) : Character(position) {
+        
+          companion object {
+            private const val DEFAULT = 10
+            private const val maxHealth = 100
+          }
+        
+          override var health: Int = maxHealth
+          val armor: Int = DEFAULT
+          override val damage: Int = DEFAULT
+          override var experience: Int = 5
+        
+          override fun attack(character: Character) {
+            character.beAttacked(this)
+          }
+        
+          override fun beAttacked(character: Character) {
+            health = (health - character.damage * (1 - 0.06 * armor / (1 + 0.06 * armor))).toInt()
+          }
+        }
 
 - name: src/main/kotlin/jetbrains/refactoring/course/moving/model/Player.kt
   visible: true
@@ -190,27 +209,8 @@ files:
     - offset: 0
       length: 523
       placeholder_text: |-
-        package jetbrains.refactoring.course.moving.model
-  
-        import jetbrains.refactoring.course.moving.utils.Vector2
-      
-        class Enemy(position: Vector2) : Character(position) {
-                                         
-          companion object {
-            private const val DEFAULT = 10
-            private const val maxHealth = 100
-          }
-                                           
-          override var health: Int = maxHealth
-          val armor: Int = DEFAULT
-          override val damage: Int = DEFAULT
-          override var experience: Int = 5
-                                           
-          override fun attack(character: Character) {
-            character.beAttacked(this)
-          }
-                                           
-          override fun beAttacked(character: Character) {
-            health = (health - character.damage * (1 - 0.06 * armor / (1 + 0.06 * armor))).toInt()
-          }
-        }
+        package jetbrains.refactoring.course.moving.controller
+        
+        import jetbrains.refactoring.course.moving.model.Enemy
+
+        class EnemyController(private val speed: Int, private val enemy: Enemy) : Controller(speed, enemy)
