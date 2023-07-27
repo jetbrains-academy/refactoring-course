@@ -18,6 +18,4 @@ For example, `Object`, `ArrayList`, or `ErrorReporter`.
 - Use [AI Assistant](https://blog.jetbrains.com/idea/2023/06/ai-assistant-in-jetbrains-ides/) to come up with better names for coding entities if you feel stuck. 
 It is an IntelliJ IDEA plugin that uses ChatGPT to help with programming tasks (available only in EAP builds).
 
-See Also: https://kotlinlang.org/docs/coding-conventions.html#naming-rules
-
-See Also: https://blog.jetbrains.com/idea/2023/06/ai-assistant-in-jetbrains-ides/
+**See Also**: [Kotlin naming rules](https://kotlinlang.org/docs/coding-conventions.html#naming-rules)

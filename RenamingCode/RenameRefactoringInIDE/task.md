@@ -17,4 +17,4 @@ any.
 It also provides a quick-fix for fixing typos.
 It also checks grammar in texts in JavaDocs and README.md files and provides automatic fixes.
 
-**See Also**: https://www.jetbrains.com/help/idea/proofreading.html
+**See Also**: [Spellchecking in IntelliJ IDEA](https://www.jetbrains.com/help/idea/spellchecking.html)

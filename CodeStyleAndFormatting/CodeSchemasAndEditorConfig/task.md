@@ -29,4 +29,4 @@ There are two types of settings in .editorconfig files:
 
 If some setting is not configured in .editorconfig, IDE takes it from the code schema.
 
-See Also: [Detailed overview of formatting features by Trisha Gee ](https://blog.jetbrains.com/idea/2020/06/code-formatting/)
+**See Also**: [Detailed overview of formatting features by Trisha Gee ](https://blog.jetbrains.com/idea/2020/06/code-formatting/)
