@@ -3,66 +3,63 @@ custom_name: Apply Pull Up and Push Down refactorings
 files:
 - name: test/Tests.kt
   visible: false
-- name: test/GameClass.kt
+- name: test/AnimalClass.kt
   visible: false
 - name: src/main/kotlin/jetbrains/refactoring/course/moving/Animal.kt
   visible: true
   placeholders:
-    - offset: 0
-      length: 149
-      placeholder_text: |-
-        interface Animal {
-            fun eat()
-            fun sleep()
-            fun bark()
-            fun meow()
-        }
-
+  - offset: 0
+    length: 149
+    placeholder_text: |-
+      interface Animal {
+          fun eat()
+          fun sleep()
+          fun bark()
+          fun meow()
+      }
 - name: src/main/kotlin/jetbrains/refactoring/course/moving/Cat.kt
   visible: true
   placeholders:
-    - offset: 0
-      length: 420
-      placeholder_text: |-
-        class Cat(private val name: String, private val age: Int) : Animal {
-          override fun eat() {
-            println("$name the cat is eating.")
-          }
-          override fun sleep() {
-            println("$name the cat is sleeping.")
-          }
-          override fun bark() {
-            println("$name the animal is barking.")
-          }
-          override fun meow() {
-            println("$name the animal is meowing.")
-          }
-          fun play() {
-            println("$name the cat is playing.")
-          }
+  - offset: 0
+    length: 420
+    placeholder_text: |-
+      class Cat(private val name: String, private val age: Int) : Animal {
+        override fun eat() {
+          println("$name the cat is eating.")
         }
-
+        override fun sleep() {
+          println("$name the cat is sleeping.")
+        }
+        override fun bark() {
+          println("$name the animal is barking.")
+        }
+        override fun meow() {
+          println("$name the animal is meowing.")
+        }
+        fun play() {
+          println("$name the cat is playing.")
+        }
+      }
 - name: src/main/kotlin/jetbrains/refactoring/course/moving/Dog.kt
   visible: true
   placeholders:
-    - offset: 0
-      length: 417
-      placeholder_text: |-
-        class Dog(private val name: String, private val age: Int) : Animal {
-          override fun eat() {
-            println("$name the dog is eating.")
-          }
-          override fun sleep() {
-            println("$name the dog is sleeping.")
-          }
-          override fun bark() {
-            println("$name the dog is barking.")
-          }
-          override fun meow() {
-            println("$name the animal is meowing.")
-          }
-          fun play() {
-            println("$name the dog is playing.")
-          }
+  - offset: 0
+    length: 417
+    placeholder_text: |-
+      class Dog(private val name: String, private val age: Int) : Animal {
+        override fun eat() {
+          println("$name the dog is eating.")
         }
-
+        override fun sleep() {
+          println("$name the dog is sleeping.")
+        }
+        override fun bark() {
+          println("$name the dog is barking.")
+        }
+        override fun meow() {
+          println("$name the animal is meowing.")
+        }
+        fun play() {
+          println("$name the dog is playing.")
+        }
+      }
