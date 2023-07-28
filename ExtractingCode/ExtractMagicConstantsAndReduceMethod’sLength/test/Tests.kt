@@ -1,5 +1,4 @@
 import com.intellij.openapi.command.WriteCommandAction
-import org.jetbrains.academy.test.system.ij.analyzer.findMethodUsages
 import org.jetbrains.academy.test.system.test.BaseIjTestClass
 import org.junit.jupiter.api.Assertions
 import org.junit.jupiter.api.BeforeAll
@@ -44,7 +43,7 @@ class ExtractingTest : BaseIjTestClass() {
                 "Extracted code not found"
             }
             val extractedMethod = methodNames.first() + "(imageUrl, outPath)"
-            val methodsUsingExtractedMethod = myFixture.file.findMethodUsages(extractedMethod)
+            val methodsUsingExtractedMethod = findMethodUsages(extractedMethod)
             Assertions.assertEquals(listOf("getCatWithTag", "getRandomCat"), methodsUsingExtractedMethod) {
                 "$extractedMethod function must be called in the functions from which the code was extracted"
             }
