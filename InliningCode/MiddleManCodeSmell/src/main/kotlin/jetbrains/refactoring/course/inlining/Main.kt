@@ -28,4 +28,3 @@ fun main() {
     val client = Client()
     println(client.processData()) // Output: Data from the server
 }
-

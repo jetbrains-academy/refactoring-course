@@ -64,6 +64,5 @@ class InliningTest : BaseIjTestClass() {
             "calculateAveragePrice",
             true
         )
-
     }
 }
