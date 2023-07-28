@@ -1,4 +1,17 @@
-type: theory
+type: choice
+is_multiple_choice: false
+quiz_header: What is the primary benefit of following consistent code formatting?
+options:
+  - text: It guarantees bug-free code.
+    is_correct: false
+  - text: It impresses colleagues and managers.
+    is_correct: false
+  - text: It improves the performance of the code.
+    is_correct: false
+  - text: It enhances code readability and maintainability.
+    is_correct: true
+message_correct: Congratulations!
+message_incorrect: Incorrect solution
 custom_name: What is formatting
 files:
 - name: src/main/kotlin/jetbrains/refactoring/course/formatting/Main.kt

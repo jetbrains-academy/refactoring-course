@@ -1,4 +1,17 @@
-type: theory
+type: choice
+is_multiple_choice: false
+quiz_header: What is the purpose of refactoring in software development?
+options:
+  - text: To add new features to the code.
+    is_correct: false
+  - text: To modify the behavior of the code.
+    is_correct: false
+  - text: To improve code readability and simplify its maintenance.
+    is_correct: true
+  - text: To completely rewrite the code.
+    is_correct: false
+message_correct: Congratulations!
+message_incorrect: Incorrect solution
 custom_name: What is code refactoring
 files:
 - name: src/main/kotlin/jetbrains/refactoring/course/refactoing/purpose/Main.kt

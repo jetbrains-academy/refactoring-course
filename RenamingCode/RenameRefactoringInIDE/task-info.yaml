@@ -1,4 +1,17 @@
-type: theory
+type: choice
+is_multiple_choice: false
+quiz_header: Which of the following code element names demonstrates good naming practice?
+options:
+  - text: Calculate_value
+    is_correct: false
+  - text: foo
+    is_correct: false
+  - text: Class1
+    is_correct: false
+  - text: fetchUserRecords
+    is_correct: true
+message_correct: Congratulations!
+message_incorrect: Incorrect solution
 custom_name: Rename refactoring in IDE
 files:
 - name: src/main/kotlin/jetbrains/refactoring/course/renaming/Main.kt
