@@ -2,14 +2,13 @@ type: choice
 is_multiple_choice: false
 quiz_header: What is the primary difference between "root-canal" refactoring and "floss" refactoring?
 options:
-  - text: "\"Root-canal\" refactoring is performed using automatic refactorings, while \"floss\" refactoring is done manually."
+  - text: "\"Floss\" refactoring is done manually, while \"root-canal\" refactoring is performed using automatic refactorings."
     is_correct: false
-  - text: "\"Root-canal\" refactoring is secondary to the main changes, while \"floss\" refactoring is the main goal in itself."
+  - text: "\"Floss\" refactoring is secondary to the main changes, while \"root-canal\" refactoring is the main goal in itself."
     is_correct: true
   - text: "\"Root-canal\" refactoring affects many parts of the codebase, while \"floss\" refactoring is language-independent."
     is_correct: false
   - text: "\"Root-canal\" refactoring requires splitting a monolith project, while \"floss\" refactoring is performed during new feature development."
-    is_correct: false
 message_correct: Congratulations!
 message_incorrect: Incorrect solution
 custom_name: Refactoring techniques
