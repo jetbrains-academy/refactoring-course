@@ -3,4 +3,4 @@ content:
 - ExtractingCodeIntroduction
 - WhatIsExtractMethodRefactoring
 - WhatIsExtractVariableRefactoring
-- ExtractMagicConstantsAndReduceMethod’sLength
+- ExtractMagicConstantsAndReduceMethodLength
