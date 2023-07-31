@@ -65,6 +65,8 @@ allprojects {
         runtimeOnly("org.junit.jupiter:junit-jupiter-engine:$junitJupiterVersion")
         implementation("org.junit.jupiter:junit-jupiter-params:$junitJupiterVersion")
         runtimeOnly("org.junit.platform:junit-platform-console:1.9.0")
+
+        implementation("org.ini4j:ini4j:0.5.4")
     }
 
     tasks {

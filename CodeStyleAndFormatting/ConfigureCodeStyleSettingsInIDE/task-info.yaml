@@ -20,7 +20,7 @@ files:
   visible: true
   placeholders:
   - offset: 0
-    length: 40
+    length: 91
     placeholder_text: ""
 - name: test/EditorconfigTest.kt
   visible: false
