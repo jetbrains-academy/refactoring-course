@@ -23,7 +23,6 @@ files:
 
           fun meow()
       }
-
 - name: src/main/kotlin/jetbrains/refactoring/course/moving/Cat.kt
   visible: true
   placeholders:
@@ -32,7 +31,7 @@ files:
     placeholder_text: |-
       package jetbrains.refactoring.course.moving
 
-      class Cat(private val name: String, private val age: Int) : Animal {
+      class Cat(val name: String, val age: Int) : Animal {
 
           override fun eat() {
               println("$name the cat is eating.")
@@ -54,7 +53,6 @@ files:
               println("$name the cat is playing.")
           }
       }
-
 - name: src/main/kotlin/jetbrains/refactoring/course/moving/Dog.kt
   visible: true
   placeholders:
@@ -63,7 +61,7 @@ files:
     placeholder_text: |-
       package jetbrains.refactoring.course.moving
 
-      class Dog(private val name: String, private val age: Int) : Animal {
+      class Dog(val name: String, val age: Int) : Animal {
 
           override fun eat() {
               println("$name the dog is eating.")
