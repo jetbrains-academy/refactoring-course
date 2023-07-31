@@ -21,6 +21,9 @@ files:
   placeholders:
   - offset: 0
     length: 91
-    placeholder_text: ""
+    placeholder_text: |-
+      [*]
+      # Write the settings here
+
 - name: test/EditorconfigTest.kt
   visible: false
