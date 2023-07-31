@@ -5,7 +5,7 @@ files:
   visible: true
   placeholders:
   - offset: 0
-    length: 268
+    length: 269
     placeholder_text: |-
       package jetbrains.refactoring.course.formatting
 
@@ -22,8 +22,7 @@ files:
   - offset: 0
     length: 91
     placeholder_text: |-
-      [*]
-      # Write the settings here
-
+        [*]
+        # Write the settings here
 - name: test/EditorconfigTest.kt
   visible: false
