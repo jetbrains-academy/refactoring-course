@@ -62,10 +62,14 @@ files:
   placeholders:
   - offset: 0
     length: 465
-    placeholder_text: ""
+    placeholder_text: |-
+      package jetbrains.refactoring.course.moving.car
+
 - name: src/main/kotlin/jetbrains/refactoring/course/moving/driver/Driver.kt
   visible: true
   placeholders:
   - offset: 0
     length: 502
-    placeholder_text: ""
+    placeholder_text: |-
+      package jetbrains.refactoring.course.moving.driver
+
