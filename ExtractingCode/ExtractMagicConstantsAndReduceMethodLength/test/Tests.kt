@@ -42,6 +42,7 @@ class ExtractingTest : BaseIjTestClass() {
             Assertions.assertFalse(methodNames.isEmpty()) {
                 "Extracted code not found"
             }
+
             val extractedMethod = methodNames.first() + "(imageUrl, outPath)"
             val methodsUsingExtractedMethod = findMethodUsages(extractedMethod)
             Assertions.assertEquals(listOf("getCatWithTag", "getRandomCat"), methodsUsingExtractedMethod) {
@@ -50,17 +51,18 @@ class ExtractingTest : BaseIjTestClass() {
         }
     }
 
-    private fun existsConstant(elementValue: String) {
-        Assertions.assertTrue(hasConstantWithGivenValue(elementValue)) {
-            "Please, create constant values for $elementValue"
-        }
-    }
-
     @Test
     fun testExtractedVariable() {
         setUp()
         myFixture.configureByText("Task.kt", sourceText)
-        existsConstant("\"https://cataas.com/cat\"")
-        existsConstant("\"ExtractingCode/ExtractMagicConstantsAndReduceMethod’sLength/src/main/resources/cats/\"")
+        var elementValue = "\"https://cataas.com/cat\""
+        Assertions.assertTrue(hasConstantWithGivenValue(elementValue)) {
+            "Please, create constant values for $elementValue"
+        }
+
+        elementValue = "\"ExtractingCode/ExtractMagicConstantsAndReduceMethod’sLength/src/main/resources/cats/\""
+        Assertions.assertTrue(hasConstantWithGivenValue(elementValue)) {
+            "Please, create constant values for $elementValue"
+        }
     }
 }
