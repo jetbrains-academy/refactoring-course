@@ -14,3 +14,7 @@ In this dialog, you can specify the scope of formatting changes and selects opti
 - **Do not keep line breaks** option reformats line breaks according to the code style settings.
 
 ![Reformat File](../../util/src/test/resources/images/imageReformatFile.png)
+
+<div class="hint">
+  Use &shortcut:ReformatCode; (macOS) or Ctrl + Alt + L (Windows/Linux) to reformat code.
+</div>

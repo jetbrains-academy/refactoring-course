@@ -14,10 +14,13 @@ You need to create `.editorconfig` in the project, and define the following sett
 Make sure that the source code complies with them, and if they don’t, fix the issues.
 
 <div class="hint">
+Check out EditorConfig documentation to read about existing properties: <a href="https://github.com/editorconfig/editorconfig/wiki/EditorConfig-Properties">GitHub</a>.
+</div>
 
+<div class="hint">
 - `indent_size` - indentation size;
 - `indent_style` - indentation style;
 - `max_line_length` - forces hard line wrapping after the amount of characters specified;
 - `insert_final_newline` - denotes whether file should end with a newline.
-
 </div>
+

@@ -11,10 +11,16 @@ files:
   - offset: 0
     length: 149
     placeholder_text: |-
+      package jetbrains.refactoring.course.moving
+
       interface Animal {
+
           fun eat()
+
           fun sleep()
+
           fun bark()
+
           fun meow()
       }
 - name: src/main/kotlin/jetbrains/refactoring/course/moving/Cat.kt
@@ -23,22 +29,29 @@ files:
   - offset: 0
     length: 420
     placeholder_text: |-
-      class Cat(private val name: String, private val age: Int) : Animal {
-        override fun eat() {
-          println("$name the cat is eating.")
-        }
-        override fun sleep() {
-          println("$name the cat is sleeping.")
-        }
-        override fun bark() {
-          println("$name the animal is barking.")
-        }
-        override fun meow() {
-          println("$name the animal is meowing.")
-        }
-        fun play() {
-          println("$name the cat is playing.")
-        }
+      package jetbrains.refactoring.course.moving
+
+      class Cat(val name: String, val age: Int) : Animal {
+
+          override fun eat() {
+              println("$name the cat is eating.")
+          }
+
+          override fun sleep() {
+              println("$name the cat is sleeping.")
+          }
+
+          override fun bark() {
+              println("$name the animal is barking.")
+          }
+
+          override fun meow() {
+              println("$name the animal is meowing.")
+          }
+
+          fun play() {
+              println("$name the cat is playing.")
+          }
       }
 - name: src/main/kotlin/jetbrains/refactoring/course/moving/Dog.kt
   visible: true
@@ -46,20 +59,27 @@ files:
   - offset: 0
     length: 417
     placeholder_text: |-
-      class Dog(private val name: String, private val age: Int) : Animal {
-        override fun eat() {
-          println("$name the dog is eating.")
-        }
-        override fun sleep() {
-          println("$name the dog is sleeping.")
-        }
-        override fun bark() {
-          println("$name the dog is barking.")
-        }
-        override fun meow() {
-          println("$name the animal is meowing.")
-        }
-        fun play() {
-          println("$name the dog is playing.")
-        }
+      package jetbrains.refactoring.course.moving
+
+      class Dog(val name: String, val age: Int) : Animal {
+
+          override fun eat() {
+              println("$name the dog is eating.")
+          }
+
+          override fun sleep() {
+              println("$name the dog is sleeping.")
+          }
+
+          override fun bark() {
+              println("$name the dog is barking.")
+          }
+
+          override fun meow() {
+              println("$name the animal is meowing.")
+          }
+
+          fun play() {
+              println("$name the dog is playing.")
+          }
       }
