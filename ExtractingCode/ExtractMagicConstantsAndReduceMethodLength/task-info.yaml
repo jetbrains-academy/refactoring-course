@@ -46,7 +46,3 @@ files:
 
 - name: test/Tests.kt
   visible: false
-- name: src/main/resources/cats/grey_200_300.png
-  visible: true
-- name: src/main/resources/cats/200_300.png
-  visible: true
