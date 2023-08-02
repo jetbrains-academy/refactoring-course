@@ -1,0 +1,5 @@
+type: theory
+custom_name: Inline Method refactoring
+files:
+- name: src/main/kotlin/jetbrains/refactoring/course/inlining/Main.kt
+  visible: true

@@ -47,6 +47,7 @@ allprojects {
 
     repositories {
         mavenCentral()
+        mavenLocal()
         maven {
             url = uri("https://packages.jetbrains.team/maven/p/kotlin-test-framework/kotlin-test-framework")
         }
