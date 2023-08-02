@@ -1,0 +1,6 @@
+custom_name: Extracting code
+content:
+- ExtractingCodeIntroduction
+- WhatIsExtractMethodRefactoring
+- WhatIsExtractVariableRefactoring
+- ExtractMagicConstantsAndReduceMethodLength
