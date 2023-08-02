@@ -22,13 +22,13 @@ fun downloadPicture(imageUrl: URL, outPath: Path): String {
 
 fun getGreyPictureOfKitten(width: Int, height: Int): String {
     val imageUrl = URI("$HTTP_PLACEKITTEN_COM/g/$width/$height").toURL()
-    val outPath = Paths.get("${path}/grey_${width}_$height.png")
+    val outPath = Paths.get("$path/grey_${width}_$height.png")
     return downloadPicture(imageUrl, outPath)
 }
 
 fun getPictureOfKitten(width: Int, height: Int): String {
     val imageUrl = URI("$HTTP_PLACEKITTEN_COM/$width/$height").toURL()
-    val outPath = Paths.get("${path}/${width}_$height.png")
+    val outPath = Paths.get("$path/${width}_$height.png")
     return downloadPicture(imageUrl, outPath)
 }
 

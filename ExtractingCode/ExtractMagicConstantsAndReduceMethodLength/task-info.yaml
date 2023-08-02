@@ -5,7 +5,7 @@ files:
   visible: true
   placeholders:
   - offset: 0
-    length: 1264
+    length: 1260
     placeholder_text: |-
       package jetbrains.refactoring.course.extracting
   
