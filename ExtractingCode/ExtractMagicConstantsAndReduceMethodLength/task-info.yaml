@@ -5,44 +5,48 @@ files:
   visible: true
   placeholders:
   - offset: 0
-    length: 1192
+    length: 1264
     placeholder_text: |-
       package jetbrains.refactoring.course.extracting
-
+  
       import java.net.URI
       import java.nio.file.Files
       import java.nio.file.Paths
-      import java.util.UUID
       import kotlin.io.path.createDirectories
       import kotlin.io.path.exists
 
-      fun getCatWithTag(tag: String): String {
-          val imageUrl = URI("https://cataas.com/cat/$tag").toURL()
-          val outPath = Paths.get("ExtractingCode/ExtractMagicConstantsAndReduceMethod’sLength/src/main/resources/cats/${tag}_${UUID.randomUUID()}.png")
-
+      fun getGreyPictureOfKitten(width: Int, height: Int): String {
+          val imageUrl = URI("http://placekitten.com/g/$width/$height").toURL()
+          val outPath = Paths.get("ExtractingCode/ExtractMagicConstantsAndReduceMethodLength/src/main/resources/cats/grey_${width}_$height.png")
+       
           val inputStream = imageUrl.openStream()
           if (!outPath.exists()) outPath.parent.createDirectories()
-          inputStream.use { input ->
-              Files.copy(input, outPath)
+          inputStream.use {
+              Files.copy(it, outPath)
           }
           return outPath.toString()
       }
 
-      fun getRandomCat(): String {
-          val imageUrl = URI("https://cataas.com/cat").toURL()
-          val outPath = Paths.get("ExtractingCode/ExtractMagicConstantsAndReduceMethod’sLength/src/main/resources/cats/${UUID.randomUUID()}.png")
-
+      fun getPictureOfKitten(width: Int, height: Int): String {
+          val imageUrl = URI("http://placekitten.com/$width/$height").toURL()
+          val outPath = Paths.get("ExtractingCode/ExtractMagicConstantsAndReduceMethodLength/src/main/resources/cats/${width}_$height.png")
+       
           val inputStream = imageUrl.openStream()
           if (!outPath.exists()) outPath.parent.createDirectories()
-          inputStream.use { input ->
-              Files.copy(input, outPath)
+          inputStream.use {
+              Files.copy(it, outPath)
           }
           return outPath.toString()
       }
-
+  
       fun main() {
-          println(getRandomCat())
-          println(getCatWithTag("funny"))
+          println(getGreyPictureOfKitten(200, 300))
+          println(getPictureOfKitten(200, 300))
       }
+
 - name: test/Tests.kt
   visible: false
+- name: src/main/resources/cats/grey_200_300.png
+  visible: true
+- name: src/main/resources/cats/200_300.png
+  visible: true

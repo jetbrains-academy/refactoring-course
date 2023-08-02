@@ -45,7 +45,7 @@ class ExtractingTest : BaseIjTestClass() {
 
             val extractedMethod = methodNames.first() + "(imageUrl, outPath)"
             val methodsUsingExtractedMethod = findMethodUsages(extractedMethod)
-            Assertions.assertEquals(listOf("getCatWithTag", "getRandomCat"), methodsUsingExtractedMethod) {
+            Assertions.assertEquals(listOf("getGreyPictureOfKitten", "getPictureOfKitten"), methodsUsingExtractedMethod) {
                 "$extractedMethod function must be called in the functions from which the code was extracted"
             }
         }
@@ -55,12 +55,12 @@ class ExtractingTest : BaseIjTestClass() {
     fun testExtractedVariable() {
         setUp()
         myFixture.configureByText("Task.kt", sourceText)
-        var elementValue = "\"https://cataas.com/cat\""
+        var elementValue = "\"http://placekitten.com\""
         Assertions.assertTrue(hasConstantWithGivenValue(elementValue)) {
             "Please, create constant values for $elementValue"
         }
 
-        elementValue = "\"ExtractingCode/ExtractMagicConstantsAndReduceMethod’sLength/src/main/resources/cats/\""
+        elementValue = "\"ExtractingCode/ExtractMagicConstantsAndReduceMethodLength/src/main/resources/cats\""
         Assertions.assertTrue(hasConstantWithGivenValue(elementValue)) {
             "Please, create constant values for $elementValue"
         }

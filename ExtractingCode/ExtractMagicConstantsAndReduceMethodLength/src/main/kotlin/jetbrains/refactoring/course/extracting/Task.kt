@@ -5,12 +5,11 @@ import java.net.URL
 import java.nio.file.Files
 import java.nio.file.Path
 import java.nio.file.Paths
-import java.util.UUID
 import kotlin.io.path.createDirectories
 import kotlin.io.path.exists
 
-private const val HTTPS_CATAAS_COM_CAT_ = "https://cataas.com/cat"
-private const val path = "ExtractingCode/ExtractMagicConstantsAndReduceMethod’sLength/src/main/resources/cats/"
+private const val HTTP_PLACEKITTEN_COM = "http://placekitten.com"
+private const val path = "ExtractingCode/ExtractMagicConstantsAndReduceMethodLength/src/main/resources/cats"
 
 fun downloadPicture(imageUrl: URL, outPath: Path): String {
     val inputStream = imageUrl.openStream()
@@ -21,19 +20,19 @@ fun downloadPicture(imageUrl: URL, outPath: Path): String {
     return outPath.toString()
 }
 
-fun getCatWithTag(tag: String): String {
-    val imageUrl = URI("$HTTPS_CATAAS_COM_CAT_/$tag").toURL()
-    val outPath = Paths.get("$path${tag}_${UUID.randomUUID()}.png")
+fun getGreyPictureOfKitten(width: Int, height: Int): String {
+    val imageUrl = URI("$HTTP_PLACEKITTEN_COM/g/$width/$height").toURL()
+    val outPath = Paths.get("${path}/grey_${width}_$height.png")
     return downloadPicture(imageUrl, outPath)
 }
 
-fun getRandomCat(): String {
-    val imageUrl = URI(HTTPS_CATAAS_COM_CAT_).toURL()
-    val outPath = Paths.get("$path${UUID.randomUUID()}.png")
+fun getPictureOfKitten(width: Int, height: Int): String {
+    val imageUrl = URI("$HTTP_PLACEKITTEN_COM/$width/$height").toURL()
+    val outPath = Paths.get("${path}/${width}_$height.png")
     return downloadPicture(imageUrl, outPath)
 }
 
 fun main() {
-    println(getRandomCat())
-    println(getCatWithTag("funny"))
+    println(getGreyPictureOfKitten(200, 300))
+    println(getPictureOfKitten(200, 300))
 }
