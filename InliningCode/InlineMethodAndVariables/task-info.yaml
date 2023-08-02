@@ -16,7 +16,7 @@ files:
           public fun calculateTotalPrice(productPrice: List<Int>): Int? {
               return try {
                   val totalPrice = productPrice.sum()
-                  totalPrice / numberOfProducts
+                  totalPrice
               } catch (error: Exception) {
                   logError(error, "Exception.txt")
                   null

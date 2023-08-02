@@ -27,12 +27,6 @@ class InliningTest : BaseIjTestClass() {
         Assertions.assertFalse(hasProperty("totalPrice")) {
             "Please, identify unnecessary variables"
         }
-        Assertions.assertFalse(hasProperty("file")) {
-            "Please, identify unnecessary variables"
-        }
-        Assertions.assertFalse(hasProperty("text")) {
-            "Please, identify unnecessary variables"
-        }
         Assertions.assertFalse(hasMethod("logError")) {
             "Please, identify unnecessary methods"
         }
@@ -52,9 +46,10 @@ class InliningTest : BaseIjTestClass() {
     fun testExpressionCallIsReplacedByItsBody() {
         setUp()
         myFixture.configureByText("Task.kt", sourceText)
-        checkExpressionCallIsReplacedByItsBody("productPrice.sum()", "{\n            productPrice.sum()\n        }")
-        checkExpressionCallIsReplacedByItsBody("File(\"Exception.txt\")", "File(\"Exception.txt\")")
-        checkExpressionCallIsReplacedByItsBody("error.toString()", "error.toString()")
+        checkExpressionCallIsReplacedByItsBody(
+            "productPrice.sum()",
+            "{\n            productPrice.sum()\n        }"
+        )
         checkExpressionCallIsReplacedByItsBody(
             "PrintWriter(File(\"Exception.txt\"), Charsets.UTF_8).use { it.print(error.toString()) }",
             "calculateTotalPrice",
