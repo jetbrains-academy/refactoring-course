@@ -4,31 +4,30 @@ files:
 - name: src/main/kotlin/jetbrains/refactoring/course/inlining/Task.kt
   visible: true
   placeholders:
-    - offset: 0
-      length: 424
-      placeholder_text: |-
-        package jetbrains.refactoring.course.inlining
-  
-        import java.io.File
-        import java.io.PrintWriter
-        
-        class Store {
-            public fun calculateAveragePrice(productPrice: List<Int>): Int? {
-                return try {
-                    val totalPrice = productPrice.sum()
-                    val numberOfProducts = productPrice.count()
-                    totalPrice / numberOfProducts
-                } catch (error: Exception) {
-                    logError(error, "Exception.txt")
-                    null
-                }
-            }
+  - offset: 0
+    length: 399
+    placeholder_text: |-
+      package jetbrains.refactoring.course.inlining
 
-            private fun logError(error: Exception, filePath: String) {
-                val file = File(filePath)
-                val text = error.toString()
-                PrintWriter(file, Charsets.UTF_8).use { it.print(text) }
-            }
-        }
+      import java.io.File
+      import java.io.PrintWriter
+
+      class Store {
+          public fun calculateTotalPrice(productPrice: List<Int>): Int? {
+              return try {
+                  val totalPrice = productPrice.sum()
+                  totalPrice / numberOfProducts
+              } catch (error: Exception) {
+                  logError(error, "Exception.txt")
+                  null
+              }
+          }
+
+          private fun logError(error: Exception, filePath: String) {
+              val file = File(filePath)
+              val text = error.toString()
+              PrintWriter(file, Charsets.UTF_8).use { it.print(text) }
+          }
+      }
 - name: test/Tests.kt
   visible: false

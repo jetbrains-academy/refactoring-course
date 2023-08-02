@@ -9,3 +9,14 @@ Inline Method refactoring can help to resolve the Middle Man code smell by remov
 directly calling the target methods from the client classes. By inlining the methods, you eliminate the Middle Man 
 and reduce the abstraction, leading to cleaner and more straightforward code.
 
+The **MiddleMan.kt** file contains an example of Middle Man code smell.
+
+In this example, the MiddleMan class acts as an intermediary by forwarding the call to DataProvider to fetch data.
+However, the MiddleMan class does not add any meaningful behavior or value of its own and only complicates the code.
+This is a typical example of the Middle Man code smell.
+
+To resolve this, we can apply the Inline Method refactoring and directly use the DataProvider class in the Client class.
+See **MiddleManSolution.kt**.
+
+By inlining the method and removing the Middle Man, the code becomes simpler, easier to understand, 
+and maintains a direct interaction with the DataProvider class.
