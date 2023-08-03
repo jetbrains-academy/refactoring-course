@@ -1,9 +1,9 @@
 # Task 4/4: Getting familiar with IDE refactoring features
 
-There are two places to explore available refactoring actions in IDE: **Refactor This** and **Search Everywhere**
+There are two places to explore available refactoring actions in the IDE: the **Refactor This** and **Search Everywhere**
 dialogs.
 
-To invoke refactoring in IntelliJ IDEA, select an item to refactor (variable, method, class, package, etc)
+To invoke refactoring in IntelliJ IDEA, select an item to refactor (a variable, method, class, package, etc.)
 and press **&shortcut:Refactorings.QuickListPopupAction;** (macOS) or **Shift+Ctrl+Alt+T** (Windows/Linux) to open a
 list of
 refactorings that can be applied.
@@ -15,13 +15,13 @@ It is possible to undo any refactoring by pressing **&shortcut:$Undo;** (macOS) 
     <img src="../../util/src/test/resources/images/imageRefactorThis.png" alt="Refactor This" width="400"/>
 </p>
 
-If you want to refactor the code and are unfamiliar with IDE’s refactorings shortcuts, you can open **Search
+If you want to refactor some code and are unfamiliar with the IDE’s refactorings shortcuts, you can open the **Search
 Everywhere** dialog and type the name of the action you would like to perform.
 
-To open the Search Everywhere dialog, press **⇧⇧** (macOS) or **Shift+Shift** (Windows/Linux).
+To open the **Search Everywhere** dialog, press **⇧⇧** (macOS) or **Shift+Shift** (Windows/Linux).
 
-For example, if you want to extract a function or explore any extract possibilities in IDE,
-open the **Search Everywhere** dialog, type “Extract”, and it will show available options.
+For example, if you want to extract a function or explore any extract possibilities in the IDE,
+open the **Search Everywhere** dialog, type “Extract”, and it will show the available options.
 <p align="center">
     <img src="../../util/src/test/resources/images/searchEverywhere.png" alt="Search Everywhere" width="500"/>
 </p>
@@ -36,9 +36,9 @@ Here is a table with the most popular refactorings and hotkeys to invoke them:
 |------------------------|-----------------------------------------------------------------------|---------------------------------------------------------------------|
 | **Rename**             | Changes the name of the code element.                                 | &shortcut:RenameElement; (macOS) or Shift+F6 (Windows/Linux)        |
 | **Change Signature**   | Allows to change the method’s name, parameters, and return type.      | &shortcut:ChangeSignature; (macOS) or Ctrl+F6 (Windows/Linux)       |
-| **Introduce Variable** | Extracts value into a new variable.                                   | &shortcut:IntroduceVariable; (macOS) or Ctrl+Alt+V  (Windows/Linux) |
-| **Inline**             | Removes variable/method and moves its body to the place it’s used at. | &shortcut:Inline; (macOS) or Ctrl+Alt+N (Windows/Linux)             |
+| **Introduce Variable** | Extracts a value into a new variable.                                 | &shortcut:IntroduceVariable; (macOS) or Ctrl+Alt+V  (Windows/Linux) |
+| **Inline**             | Removes a variable/method and puts its body to the place it’s used at.| &shortcut:Inline; (macOS) or Ctrl+Alt+N (Windows/Linux)             |
 | **Extract Function**   | Creates a new method and moves a selected piece of code to it.        | &shortcut:ExtractMethod; (macOS) or Ctrl+Alt+M (Windows/Linux)      |
 | **Move**               | Moves code method/class to another place in the codebase.             | &shortcut:DatabaseView.MoveToGroup; (macOS) or F6 (Windows/Linux)   |
 
-We will discuss these and other refactorings in the next lessons.
+We will discuss these and other refactorings in the following lessons.
