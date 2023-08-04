@@ -3,5 +3,5 @@
 In this section, we will cover the following topics:
 - Naming conventions and rules
 - Rename refactoring
-- Fixing typos in IDE automatically
+- Fixing typos in the IDE automatically
 
