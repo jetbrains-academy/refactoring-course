@@ -1,4 +1,4 @@
-# Task 2/4: Reformat code using IDE
+# Task 3/6: Reformat code using IDE
 
 In this lesson, you will learn a very useful shortcut that will format your code automatically according to the project’s settings.
 
