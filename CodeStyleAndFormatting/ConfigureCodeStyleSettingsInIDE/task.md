@@ -2,9 +2,9 @@
 
 In this task, we will practice defining our custom settings in the `.editorconfig` file.
 The full list of **EditorConfig** properties is
-available [here](https://github.com/editorconfig/editorconfig/wiki/EditorConfig-Properties).
+available [in the EditorConfig documentation](https://github.com/editorconfig/editorconfig/wiki/EditorConfig-Properties).
 
-You need to create `.editorconfig` in the project and define the following settings:
+You need to define the following settings in the `.editorconfig` file:
 
 - Indentation size is equal to 4;
 - Indentation style is spaces;
@@ -12,10 +12,11 @@ You need to create `.editorconfig` in the project and define the following setti
 - Add a newline character at the end of the last line in the file.
 
 <div class="hint">
-Check out EditorConfig documentation to read about the existing properties: <a href="https://github.com/editorconfig/editorconfig/wiki/EditorConfig-Properties">GitHub</a>.
+Check out EditorConfig documentation to read about the existing properties: <a href="https://github.com/editorconfig/editorconfig/wiki/EditorConfig-Properties">EditorConfig GitHub page</a>.
 </div>
 
 <div class="hint">
+
 - `indent_size` - indentation size;
 - `indent_style` - indentation style;
 - `max_line_length` - forces hard line wrapping after the number of characters specified;
