@@ -4,6 +4,6 @@ In this task, you need to move classes and methods to a more appropriate place u
 Classify the files by packages, identify classes with many responsibilities, and move some methods from them to other
 classes.
 
-<div class="hint">
+<div class="hint" title="Shortcut for Move refactoring">
   Use the F6 shortcut to move a code element.
 </div>

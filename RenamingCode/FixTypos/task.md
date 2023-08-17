@@ -3,6 +3,6 @@
 In this task, you need to fix all typos in the file, change the names to comply with the camelCase naming convention, 
 and rename entities according to the rules described in the previous lesson.
 
-<div class="hint">
+<div class="hint" title="Shortcut for Rename refactoring">
   Use the &shortcut:RenameElement; (macOS) or Shift+F6 (Windows/Linux) shortcut to rename a code element.
 </div>
