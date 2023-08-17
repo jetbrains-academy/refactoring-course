@@ -7,7 +7,7 @@ To invoke refactoring in IntelliJ IDEA, select an item to refactor (a variable, 
 and press **&shortcut:Refactorings.QuickListPopupAction;** (macOS) or **Shift+Ctrl+Alt+T** (Windows/Linux) to open a
 list of
 refactorings that can be applied.
-You can also use a hotkey to invoke specific refactoring.
+You can also use a shortcut to invoke specific refactoring.
 
 It is possible to undo any refactoring by pressing **&shortcut:$Undo;** (macOS) or **Ctrl + Z** (Windows/Linux).
 
@@ -30,7 +30,7 @@ Moreover, for some refactorings, IntelliJ IDEA allows users to see the preview b
 It could be useful if you are not sure how refactoring changes would affect your code and want to make sure that it
 would work as you expect.
 
-Here is a table with the most popular refactorings and hotkeys to invoke them:
+Here is a table with the most popular refactorings and shortcuts to invoke them:
 
 | Refactoring type       | Description                                                           | Shortcut                                                            |
 |------------------------|-----------------------------------------------------------------------|---------------------------------------------------------------------|
