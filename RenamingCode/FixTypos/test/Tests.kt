@@ -29,13 +29,13 @@ class RenamingTest : BaseIjTestClass() {
         setUp()
         myFixture.configureByText("Student.kt", studentText)
         Assertions.assertTrue(hasMethod("getGradeStatus")) {
-            "Please, fix the typos in the method name - getgradestatus"
+            "Please, change method name according to the сamelCase style - getgradestatus"
         }
         Assertions.assertTrue(hasMethod("setName")) {
-            "Please, fix the typos in the method name - SetName"
+            "Please, change method name according to the сamelCase style - SetName"
         }
         Assertions.assertTrue(hasMethod("setAge")) {
-            "Please, fix the typos in the method name - setaGe"
+            "Please, change method name according to the сamelCase style - setaGe"
         }
         Assertions.assertTrue(hasMethod("setAverageScore")) {
             "Please, fix the typos in the method name - setAvergeScore"
