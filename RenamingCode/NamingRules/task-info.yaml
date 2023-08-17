@@ -11,7 +11,9 @@ options:
   - text: Similar to names of other code elements in the project.
     is_correct: false
 message_correct: Congratulations!
-message_incorrect: Incorrect solution
+message_incorrect: "Incorrect solution. Explanation:
+A good name is one that provides clear information about the code element's purpose and behavior,
+enhancing code readability and understanding."
 custom_name: Naming rules
 files:
 - name: src/main/kotlin/jetbrains/refactoring/course/renaming/Main.kt

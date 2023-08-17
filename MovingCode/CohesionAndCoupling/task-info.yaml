@@ -11,7 +11,9 @@ options:
   - text: Low cohesion and high coupling to increase code efficiency.
     is_correct: false
 message_correct: Congratulations!
-message_incorrect: Incorrect solution
+message_incorrect: "Incorrect solution. Explanation:
+High cohesion means each module has a clear purpose, and low coupling minimizes how much modules rely on each other.
+This improves how easy the code is to read, maintain, and adapt."
 custom_name: Cohesion and coupling
 files:
   - name: src/Main.kt

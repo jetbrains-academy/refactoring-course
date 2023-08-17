@@ -11,7 +11,10 @@ options:
   - text: It enhances code readability and maintainability.
     is_correct: true
 message_correct: Congratulations!
-message_incorrect: Incorrect solution
+message_incorrect: "Incorrect solution. Explanation:
+Consistent code formatting helps to improve code readability and maintainability,
+but it doesn't guarantee that the code is completely free of bugs.
+Formatting doesn't impact on code performance."
 custom_name: What is formatting
 files:
 - name: src/main/kotlin/jetbrains/refactoring/course/formatting/Main.kt

@@ -11,7 +11,10 @@ options:
   - text: To completely rewrite the code.
     is_correct: false
 message_correct: Congratulations!
-message_incorrect: Incorrect solution
+message_incorrect: "Incorrect solution. Explanation:
+The purpose of refactoring in software development is to improve code quality,
+readability, and maintainability without changing its behavior. It's an incremental process of improving code step by step
+without adding new features."
 custom_name: What is code refactoring
 files:
 - name: src/main/kotlin/jetbrains/refactoring/course/refactoing/purpose/Main.kt

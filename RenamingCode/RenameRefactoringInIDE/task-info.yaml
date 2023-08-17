@@ -11,7 +11,10 @@ options:
   - text: fetchUserRecords
     is_correct: true
 message_correct: Congratulations!
-message_incorrect: Incorrect solution
+message_incorrect: "Incorrect solution. Explanation:
+The option \"Calculate_value\" doesnt follow camelCase style.
+\"foo\" and \"Class1\" options don't convey any information about the purpose of the element.
+The \"fetchUserRecords\" option uses camelCase and provides a clear description of the code element's purpose."
 custom_name: Rename refactoring in IDE
 files:
 - name: src/main/kotlin/jetbrains/refactoring/course/renaming/Main.kt
