@@ -5,12 +5,12 @@ files:
   visible: true
   placeholders:
   - offset: 0
-    length: 147
+    length: 144
     placeholder_text: |-
       package jetbrains.refactoring.course.formatting
 
       fun funWithFormattingIssues() {
-      println ("This function is definitely has formatting issues" )
+      println ("This function definitely has formatting issues" )
       }
 - name: test/Tests.kt
   visible: false

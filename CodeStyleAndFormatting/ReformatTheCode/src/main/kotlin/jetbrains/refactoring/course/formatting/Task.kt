@@ -1,5 +1,5 @@
 package jetbrains.refactoring.course.formatting
 
 fun funWithFormattingIssues() {
-    println("This function is definitely has formatting issues")
+    println("This function definitely has formatting issues")
 }

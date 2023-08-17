@@ -18,9 +18,11 @@ We will move on from small local refactoring changes to more complex ones, which
     - Task 4: Getting familiar with IDE refactoring features
 - **Section 2: Code style and Formatting**
     - Task 1: What is code style and formatting?
-    - Task 2: Task - Reformat the code using IDE
-    - Task 3:  Code schemas and EditorConfig
-    - Task 4:  Task - Configure code style settings in IDE
+    - Task 2: Task - Reformat the code
+    - Task 3: Task - Reformat the code using IDE
+    - Task 4: Code schemas and EditorConfig
+    - Task 5: Task - Configure code style settings in IDE
+    - Task 6: Task - Reformat the code according to style settings
 - **Section 3: Renaming code**
     - Task 1: Naming rules
     - Task 2: Rename refactoring in IDE
