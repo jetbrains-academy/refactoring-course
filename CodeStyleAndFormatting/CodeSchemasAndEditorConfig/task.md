@@ -1,4 +1,4 @@
-# Task 3/4: Code schemas and EditorConfig
+# Task 4/6: Code schemas and EditorConfig
 
 IntelliJ IDEA provides two ways to comply with the project’s code style guidelines:
 **_code schemas_** and **_editor configs_**.

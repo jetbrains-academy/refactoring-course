@@ -1,4 +1,4 @@
-# Task 2/4: Reformat code using IDE
+# Task 3/6: Reformat code using IDE
 
 In this lesson, you will learn a very useful shortcut that will format your code automatically according to the project’s settings.
 
@@ -15,6 +15,6 @@ In this dialog, you can specify the scope of formatting changes and select the o
 
 ![Reformat File](../../util/src/test/resources/images/imageReformatFile.png)
 
-<div class="hint">
+<div class="hint" title="Shortcut to reformat code">
   Use &shortcut:ReformatCode; (macOS) or Ctrl + Alt + L (Windows/Linux) to reformat code.
 </div>

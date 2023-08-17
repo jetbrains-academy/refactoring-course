@@ -3,6 +3,7 @@
 There are two places to explore available refactoring actions in the IDE: the **Refactor This** and **Search Everywhere**
 dialogs.
 
+### Refactor This
 To invoke refactoring in IntelliJ IDEA, select an item to refactor (a variable, method, class, package, etc.)
 and press **&shortcut:Refactorings.QuickListPopupAction;** (macOS) or **Shift+Ctrl+Alt+T** (Windows/Linux) to open a
 list of
@@ -15,6 +16,7 @@ It is possible to undo any refactoring by pressing **&shortcut:$Undo;** (macOS) 
     <img src="../../util/src/test/resources/images/imageRefactorThis.png" alt="Refactor This" width="400"/>
 </p>
 
+### Search Everywhere
 If you want to refactor some code and are unfamiliar with the IDE’s refactorings shortcuts, you can open the **Search
 Everywhere** dialog and type the name of the action you would like to perform.
 
@@ -30,6 +32,7 @@ Moreover, for some refactorings, IntelliJ IDEA allows users to see the preview b
 It could be useful if you are not sure how refactoring changes would affect your code and want to make sure that it
 would work as you expect.
 
+### Refactoring shortcuts
 Here is a table with the most popular refactorings and shortcuts to invoke them:
 
 | Refactoring type       | Description                                                           | Shortcut                                                            |
