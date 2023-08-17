@@ -15,6 +15,6 @@ In this dialog, you can specify the scope of formatting changes and select the o
 
 ![Reformat File](../../util/src/test/resources/images/imageReformatFile.png)
 
-<div class="hint">
+<div class="hint" title="Shortcut to reformat code">
   Use &shortcut:ReformatCode; (macOS) or Ctrl + Alt + L (Windows/Linux) to reformat code.
 </div>

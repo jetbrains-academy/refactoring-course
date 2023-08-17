@@ -11,11 +11,8 @@ You need to define the following settings in the `.editorconfig` file:
 - Maximum line length is equal to 120;
 - Add a newline character at the end of the last line in the file.
 
-<div class="hint">
+<div class="hint" title="EditorConfig properties">
 Check out EditorConfig documentation to read about the existing properties: <a href="https://github.com/editorconfig/editorconfig/wiki/EditorConfig-Properties">EditorConfig GitHub page</a>.
-</div>
-
-<div class="hint">
 
 - `indent_size` - indentation size;
 - `indent_style` - indentation style;
