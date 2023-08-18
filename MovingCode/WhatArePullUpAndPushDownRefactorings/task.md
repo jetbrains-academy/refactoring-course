@@ -1,5 +1,3 @@
-# Task: 4/5: What are Pull Up and Push Down refactorings?
-
 To avoid code duplication and ensure consistency, we use the _**Pull Up refactoring**_. If multiple sibling classes in a
 class hierarchy define the same properties or methods with the same signature and identical method bodies, we move them
 to a common base class. This way, we eliminate redundant code. Thus, when we fix an issue in one place, it is solved for

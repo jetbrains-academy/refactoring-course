@@ -1,0 +1,13 @@
+type: edu
+custom_name: Apply Pull Up refactoring
+files:
+- name: test/Tests.kt
+  visible: false
+- name: test/AnimalClass.kt
+  visible: false
+- name: src/main/kotlin/jetbrains/refactoring/course/moving/animal/Animal.kt
+  visible: true
+- name: src/main/kotlin/jetbrains/refactoring/course/moving/animal/Cat.kt
+  visible: true
+- name: src/main/kotlin/jetbrains/refactoring/course/moving/animal/Dog.kt
+  visible: true

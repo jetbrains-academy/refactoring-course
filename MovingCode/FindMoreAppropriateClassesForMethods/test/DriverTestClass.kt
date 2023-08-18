@@ -7,7 +7,7 @@ import org.jetbrains.academy.test.system.core.models.variable.VariableMutability
 
 internal val driverClass = TestClass(
     "Driver",
-    classPackage = "jetbrains.refactoring.course.moving.driver",
+    classPackage = "jetbrains.refactoring.course.moving.app.driver",
     declaredFields = listOf(
         TestVariable(
             name = "car",
@@ -41,7 +41,7 @@ internal val driverClass = TestClass(
 
 internal val carClass = TestClass(
     "Car",
-    classPackage = "jetbrains.refactoring.course.moving.car",
+    classPackage = "jetbrains.refactoring.course.moving.app.car",
     declaredFields = listOf(
         TestVariable(
             name = "gearsNumber",

@@ -1,8 +1,12 @@
+type: framework
 custom_name: Moving code
 content:
 - MovingCodeIntroduction
 - CohesionAndCoupling
 - WhatIsMoveMethodRefactoring
+- FindMoreAppropriateFilesForClasses
 - FindMoreAppropriateClassesForMethods
 - WhatArePullUpAndPushDownRefactorings
-- ApplyPullUpAndPushDownRefactorings
+- ApplyPullUpRefactoring
+- ApplyPushDownRefactoring
+is_template_based: false

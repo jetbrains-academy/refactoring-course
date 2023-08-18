@@ -14,7 +14,19 @@ message_correct: Congratulations!
 message_incorrect: "Incorrect solution. Explanation:
 High cohesion means each module has a clear purpose, and low coupling minimizes how much modules rely on each other.
 This improves how easy the code is to read, maintain, and adapt."
-custom_name: Cohesion and coupling
 files:
-  - name: src/Main.kt
-    visible: true
+- name: src/main/kotlin/jetbrains/refactoring/course/moving/Task.kt
+  visible: true
+- name: src/main/kotlin/jetbrains/refactoring/course/moving/app/car/Car.kt
+  visible: true
+- name: src/main/kotlin/jetbrains/refactoring/course/moving/app/driver/Driver.kt
+  visible: true
+- name: src/main/kotlin/jetbrains/refactoring/course/moving/app/Main.kt
+  visible: true
+- name: src/main/kotlin/jetbrains/refactoring/course/moving/animal/Cat.kt
+  visible: true
+- name: src/main/kotlin/jetbrains/refactoring/course/moving/animal/Dog.kt
+  visible: true
+- name: src/main/kotlin/jetbrains/refactoring/course/moving/animal/Animal.kt
+  visible: true
+custom_name: Cohesion and coupling

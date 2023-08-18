@@ -1,5 +1,17 @@
 type: theory
 custom_name: What is Move refactoring?
 files:
-- name: src/main/kotlin/jetbrains/refactoring/course/moving/Main.kt
+- name: src/main/kotlin/jetbrains/refactoring/course/moving/Task.kt
+  visible: true
+- name: src/main/kotlin/jetbrains/refactoring/course/moving/app/Main.kt
+  visible: true
+- name: src/main/kotlin/jetbrains/refactoring/course/moving/app/driver/Driver.kt
+  visible: true
+- name: src/main/kotlin/jetbrains/refactoring/course/moving/app/car/Car.kt
+  visible: true
+- name: src/main/kotlin/jetbrains/refactoring/course/moving/animal/Cat.kt
+  visible: true
+- name: src/main/kotlin/jetbrains/refactoring/course/moving/animal/Dog.kt
+  visible: true
+- name: src/main/kotlin/jetbrains/refactoring/course/moving/animal/Animal.kt
   visible: true
