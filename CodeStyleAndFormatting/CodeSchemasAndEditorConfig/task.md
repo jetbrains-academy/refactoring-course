@@ -34,7 +34,7 @@ will be applied to all sub-folders.
 There are two types of settings in `.editorconfig` files:
 - Standard options from EditorConfig, such as `tabs_width` or `indent_size`. The full list of options
 is available [here](https://github.com/editorconfig/editorconfig/wiki/EditorConfig-Properties).
-- IntelliJ IDEA-specific options, their names start with the ij_ prefix. For example, ij_smart_tabs.
+- IntelliJ IDEA-specific options, their names start with the `ij_` prefix. For example, `ij_smart_tabs`.
 
 - Standard properties from EditorConfig such as `tabs_width` or `indent_size`. The full list of properties is
   available [here](https://github.com/editorconfig/editorconfig/wiki/EditorConfig-Properties).
