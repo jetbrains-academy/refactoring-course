@@ -2,14 +2,13 @@ Next, you need to move methods to a more appropriate place using move refactorin
 Identify classes with many responsibilities, and move some methods from one class to another.
 
 <div class="hint" title="Shortcut for Move refactoring">
-  Use the F6 shortcut to move a code element.
+  
+Use the F6 shortcut to move a code element.
+
 </div>
 
 <div class="hint" title="Refactoring hint">
 
 Move `start()` and `stop()` methods to the `Car` class.
 
-Move `Car` class to the `Car.kt` file.
-
-Move `Driver` class for the `Driver.kt` file.
 </div>
