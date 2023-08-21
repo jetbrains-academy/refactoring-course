@@ -1,0 +1,7 @@
+type: framework
+custom_name: What are Pull Up and Push Down refactorings?
+content:
+- WhatArePullUpAndPushDownRefactorings
+- ApplyPullUpRefactoring
+- ApplyPushDownRefactoring
+is_template_based: false

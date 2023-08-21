@@ -113,7 +113,7 @@ allprojects {
     }
 }
 
-project(":CodeStyleAndFormatting-ReformatTheCodeAccordingToStyleSettings") {
+project(":CodeStyleAndFormatting-CodeSchemasAndEditorConfig-ReformatTheCodeAccordingToStyleSettings") {
     tasks.withType<KotlinCompile> {
         dependsOn("ktlintCheck")
     }

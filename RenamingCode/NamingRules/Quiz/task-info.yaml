@@ -1,0 +1,19 @@
+type: choice
+is_multiple_choice: false
+#quiz_header: Which of the following is a characteristic of a good name?
+options:
+  - text: Short and cryptic, leaving room for interpretation.
+    is_correct: false
+  - text: Descriptive, unambiguous, and reflects what the code does.
+    is_correct: true
+  - text: Unrelated to the functionality of the code element.
+    is_correct: false
+  - text: Similar to names of other code elements in the project.
+    is_correct: false
+message_correct: Congratulations!
+message_incorrect: "Incorrect solution. Explanation:
+A good name is one that provides clear information about the code element's purpose and behavior,
+enhancing code readability and understanding."
+files:
+- name: src/Main.kt
+  visible: true

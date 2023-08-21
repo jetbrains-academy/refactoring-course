@@ -1,5 +1,0 @@
-type: theory
-custom_name: What is Extract Variable refactoring?
-files:
-- name: src/main/kotlin/jetbrains/refactoring/course/extracting/Main.kt
-  visible: true

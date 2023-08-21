@@ -1,0 +1,5 @@
+type: theory
+custom_name: Renaming Code - Introduction
+files:
+- name: src/main/kotlin/jetbrains/refactoring/course/renaming/Main.kt
+  visible: true

@@ -1,0 +1,20 @@
+type: choice
+is_multiple_choice: false
+#quiz_header: What is the primary benefit of following consistent code formatting?
+options:
+  - text: It guarantees bug-free code.
+    is_correct: false
+  - text: It impresses colleagues and managers.
+    is_correct: false
+  - text: It improves the performance of the code.
+    is_correct: false
+  - text: It enhances code readability and maintainability.
+    is_correct: true
+message_correct: Congratulations!
+message_incorrect: "Incorrect solution. Explanation:
+Consistent code formatting helps to improve code readability and maintainability,
+but it doesn't guarantee that the code is completely free of bugs.
+Formatting doesn't impact on code performance."
+files:
+- name: src/Main.kt
+  visible: true
