@@ -1,5 +1,0 @@
-type: theory
-custom_name: Inlining code - Introduction
-files:
-- name: src/main/kotlin/jetbrains/refactoring/course/inlining/Main.kt
-  visible: true

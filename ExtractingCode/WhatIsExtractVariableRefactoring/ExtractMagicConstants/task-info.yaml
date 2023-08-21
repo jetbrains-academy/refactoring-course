@@ -1,0 +1,30 @@
+type: edu
+custom_name: Extract magic numbers
+files:
+- name: src/main/kotlin/jetbrains/refactoring/course/extracting/Task.kt
+  visible: true
+  placeholders:
+    - offset: 0
+      length: 636
+      placeholder_text: |-
+        package jetbrains.refactoring.course.extracting
+
+        fun calculatePhotonEnergy(waveLength: Double): Double {
+            val frequency = 299792458.0 / waveLength
+            return 6.62607015e-34 * frequency
+        }
+
+        fun calculatePhotonMass(energy: Double): Double {
+            return energy / (299792458.0 * 299792458.0)
+        }
+
+        fun main() {
+            val photonEnergy = calculatePhotonEnergy(0.5e-6)
+            val photonMass = calculatePhotonMass(photonEnergy)
+
+            println("Photon energy: $photonEnergy Joules")
+            println("Photon mass: $photonMass kg")
+        }
+
+- name: test/Tests.kt
+  visible: false

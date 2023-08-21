@@ -1,5 +1,0 @@
-type: theory
-custom_name: Moving Code - Introduction
-files:
-- name: src/main/kotlin/jetbrains/refactoring/course/moving/Main.kt
-  visible: true

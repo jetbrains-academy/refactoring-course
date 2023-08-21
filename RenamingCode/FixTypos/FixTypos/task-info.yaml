@@ -1,0 +1,38 @@
+type: edu
+custom_name: "Fix typos, change the code to comply with naming rules and camelCase\
+  \ convention"
+files:
+- name: src/main/kotlin/jetbrains/refactoring/course/renaming/Student.kt
+  visible: true
+  placeholders:
+  - offset: 154
+    length: 14
+    placeholder_text: getgradestatus
+  - offset: 389
+    length: 7
+    placeholder_text: SetName
+  - offset: 454
+    length: 6
+    placeholder_text: setaGe
+  - offset: 512
+    length: 15
+    placeholder_text: setAvergeScore
+- name: test/Tests.kt
+  visible: false
+- name: test/StudentTestClass.kt
+  visible: false
+- name: src/main/kotlin/jetbrains/refactoring/course/renaming/University.kt
+  visible: true
+  placeholders:
+    - offset: 734
+      length: 14
+      placeholder_text: getgradestatus
+    - offset: 481
+      length: 7
+      placeholder_text: SetName
+    - offset: 518
+      length: 6
+      placeholder_text: setaGe
+    - offset: 553
+      length: 15
+      placeholder_text: setAvergeScore

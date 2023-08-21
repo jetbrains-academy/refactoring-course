@@ -1,5 +1,0 @@
-type: theory
-custom_name: Refactoring and its purpose - Introduction
-files:
-- name: src/main/kotlin/jetbrains/refactoring/course/refactoing/purpose/Main.kt
-  visible: true

@@ -1,0 +1,20 @@
+type: choice
+is_multiple_choice: false
+#quiz_header: Which of the following code element names demonstrates good naming practice?
+options:
+  - text: Calculate_value
+    is_correct: false
+  - text: foo
+    is_correct: false
+  - text: Class1
+    is_correct: false
+  - text: fetchUserRecords
+    is_correct: true
+message_correct: Congratulations!
+message_incorrect: "Incorrect solution. Explanation:
+The option \"Calculate_value\" doesnt follow camelCase style.
+\"foo\" and \"Class1\" options don't convey any information about the purpose of the element.
+The \"fetchUserRecords\" option uses camelCase and provides a clear description of the code element's purpose."
+files:
+- name: src/Main.kt
+  visible: true

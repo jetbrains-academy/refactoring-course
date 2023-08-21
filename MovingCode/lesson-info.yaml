@@ -1,8 +1,0 @@
-custom_name: Moving code
-content:
-- MovingCodeIntroduction
-- CohesionAndCoupling
-- WhatIsMoveMethodRefactoring
-- FindMoreAppropriateClassesForMethods
-- WhatArePullUpAndPushDownRefactorings
-- ApplyPullUpAndPushDownRefactorings

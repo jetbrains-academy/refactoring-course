@@ -1,5 +1,0 @@
-type: theory
-custom_name: Code style and Formatting - Introduction
-files:
-- name: src/main/kotlin/jetbrains/refactoring/course/formatting/Main.kt
-  visible: true

@@ -1,0 +1,19 @@
+type: choice
+is_multiple_choice: false
+#quiz_header: Which of the following is a code smell?
+options:
+  - text: A method with meaningful comment.
+    is_correct: false
+  - text: A class with well-encapsulated data.
+    is_correct: false
+  - text: A variable with a clear purpose and naming.
+    is_correct: false
+  - text: A long method containing too many lines of code.
+    is_correct: true
+message_correct: Congratulations!
+message_incorrect: "Incorrect solution. Explanation:
+While meaningful comments, encapsulated classes, and clear variable names are all positive practices,
+a long method with excessive code can lead to readability and maintenance issues, making it a potential code smell."
+files:
+- name: src/Main.kt
+  visible: true
