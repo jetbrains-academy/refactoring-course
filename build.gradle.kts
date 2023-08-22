@@ -112,15 +112,6 @@ allprojects {
     }
 }
 
-project(":CodeStyleAndFormatting-CodeSchemasAndEditorConfig-ReformatTheCodeAccordingToStyleSettings") {
-    apply {
-        plugin("org.jlleitschuh.gradle.ktlint")
-    }
-    tasks.withType<KotlinCompile> {
-        dependsOn("ktlintCheck")
-    }
-}
-
 project(":util") {
     dependencies {
         implementation("junit:junit:4.13")
@@ -130,5 +121,14 @@ project(":util") {
 configure(subprojects.filter { it.name != "util" }) {
     dependencies {
         implementation(project(":util"))
+    }
+}
+
+configure(subprojects.filter { it.name == "CodeStyleAndFormatting-CodeSchemasAndEditorConfig-ReformatTheCodeAccordingToStyleSettings" }) {
+    apply {
+        plugin("org.jlleitschuh.gradle.ktlint")
+    }
+    tasks.withType<KotlinCompile> {
+        dependsOn("ktlintCheck")
     }
 }
