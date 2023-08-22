@@ -1,5 +1,3 @@
-# Task 2/2: Extract magic numbers
-
 In this task, you need to identify magic numbers and create constant values for them.
 
 <div class="hint" title="Shortcut for Introduce constant refactoring">

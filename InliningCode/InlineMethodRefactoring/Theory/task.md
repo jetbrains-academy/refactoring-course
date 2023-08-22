@@ -1,5 +1,3 @@
-# Task 1/1: Inline Method refactoring
-
 Apply the Inline Method refactoring when a method's behavior is simple and its purpose is clear, but it is called from only one place.
 If the method has become redundant or does not add significant value, it can be safely inlined.
 

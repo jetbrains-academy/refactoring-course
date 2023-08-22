@@ -13,7 +13,7 @@ You can also use a shortcut to invoke specific refactoring.
 It is possible to undo any refactoring by pressing **&shortcut:$Undo;** (macOS) or **Ctrl + Z** (Windows/Linux).
 
 <p align="center">
-    <img src="../../util/src/test/resources/images/imageRefactorThis.png" alt="Refactor This" width="400"/>
+    <img src="../../../util/src/test/resources/images/imageRefactorThis.png" alt="Refactor This" width="400"/>
 </p>
 
 ### Search Everywhere
@@ -25,7 +25,7 @@ To open the **Search Everywhere** dialog, press **⇧⇧** (macOS) or **Shift+Sh
 For example, if you want to extract a function or explore any extract possibilities in the IDE,
 open the **Search Everywhere** dialog, type “Extract”, and it will show the available options.
 <p align="center">
-    <img src="../../util/src/test/resources/images/searchEverywhere.png" alt="Search Everywhere" width="500"/>
+    <img src="../../../util/src/test/resources/images/searchEverywhere.png" alt="Search Everywhere" width="500"/>
 </p>
 
 Moreover, for some refactorings, IntelliJ IDEA allows users to see the preview before applying changes.

@@ -23,7 +23,6 @@ We will move on from small local refactoring changes to more complex ones, which
 - **Section 3: Renaming code**
     - Lesson 1: Naming rules
     - Lesson 2: Rename refactoring in IDE
-    - Lesson 3: Task - Fix typos, change the code to comply with naming rules and camelCase convention
 - **Section 4: Moving code**
     - Lesson 1: Cohesion and coupling
     - Lesson 2: What is Move refactoring?
@@ -35,7 +34,6 @@ We will move on from small local refactoring changes to more complex ones, which
     - Lesson 1: What is Inline Variable refactoring?
     - Lesson 2: Inline Method refactoring
     - Lesson 3: Middle Man code smell
-    - Lesson 4: Inline Method and variables
 - **Section 7: Refactoring to Design patterns and architectural refactorings**
     - Lesson 1: Design patterns and their relationships with refactoring
     - Lesson 2: Design-related refactorings

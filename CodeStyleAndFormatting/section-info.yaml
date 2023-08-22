@@ -2,5 +2,4 @@ custom_name: "Section 2: Code style and Formatting"
 content:
 - Introduction
 - WhatIsFormatting
-- ReformatTheCodeUsingIDE
 - CodeSchemasAndEditorConfig

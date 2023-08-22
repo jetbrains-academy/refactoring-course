@@ -1,5 +1,7 @@
+type: framework
 custom_name: Code schemas and EditorConfig
 content:
 - Theory
 - ConfigureCodeStyleSettingsInIDE
 - ReformatTheCodeAccordingToStyleSettings
+is_template_based: false
