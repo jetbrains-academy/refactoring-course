@@ -12,5 +12,5 @@ To invoke the Pull Up or Push Down refactoring, click on the element you would l
 Members Up_ or _Push Members Down_ option.
 
 <p align="center">
-    <img src="../../util/src/test/resources/images/pull_up_oush_down_refactoring.png" alt="Pull Up and Push Down Dialog" width="400"/>
+    <img src="../../../util/src/test/resources/images/pull_up_oush_down_refactoring.png" alt="Pull Up and Push Down Dialog" width="400"/>
 </p>

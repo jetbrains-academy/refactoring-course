@@ -1,5 +1,9 @@
 type: theory
-custom_name: Theory
+custom_name: What is formatting?
 files:
 - name: src/main/kotlin/jetbrains/refactoring/course/formatting/Main.kt
+  visible: true
+- name: src/main/kotlin/jetbrains/refactoring/course/formatting/Task1.kt
+  visible: true
+- name: src/main/kotlin/jetbrains/refactoring/course/formatting/Task2.kt
   visible: true

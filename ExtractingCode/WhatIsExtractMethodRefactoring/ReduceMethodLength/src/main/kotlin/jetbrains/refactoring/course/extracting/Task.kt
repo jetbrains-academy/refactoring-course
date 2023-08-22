@@ -19,7 +19,7 @@ fun wordCount(fileName: String): Int {
     return wordCount
 }
 
-private fun copyFile(srcName: String, destName: String) {
+fun copyFile(srcName: String, destName: String) {
     val file = File(srcName)
     val to = File(destName)
     validateFile(file)

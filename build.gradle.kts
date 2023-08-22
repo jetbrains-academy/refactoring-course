@@ -36,7 +36,6 @@ allprojects {
         plugin("application")
         plugin("java")
         plugin("kotlin")
-        plugin("org.jlleitschuh.gradle.ktlint")
     }
 
     intellij {
@@ -114,6 +113,9 @@ allprojects {
 }
 
 project(":CodeStyleAndFormatting-CodeSchemasAndEditorConfig-ReformatTheCodeAccordingToStyleSettings") {
+    apply {
+        plugin("org.jlleitschuh.gradle.ktlint")
+    }
     tasks.withType<KotlinCompile> {
         dependsOn("ktlintCheck")
     }

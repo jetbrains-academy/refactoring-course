@@ -1,5 +1,3 @@
-# Task 2/3: Configure code style settings in IDE
-
 In this task, we will practice defining our custom settings in the `.editorconfig` file.
 The full list of **EditorConfig** properties is
 available [in the EditorConfig documentation](https://github.com/editorconfig/editorconfig/wiki/EditorConfig-Properties).

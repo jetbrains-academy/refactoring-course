@@ -1,5 +1,3 @@
-# Task 1/3: Code schemas and EditorConfig
-
 IntelliJ IDEA provides two ways to comply with the project’s code style guidelines:
 **_code schemas_** and **_editor configs_**.
 In this lesson, we will talk about both of them.
@@ -21,7 +19,7 @@ To configure the **code schema**,
 3. Select the code schema you would like to configure (Project or Default).
 4. Configure code style settings, such as tabs and indents, import settings (using single name import or import with `*`), and many others.
 
-![Code Style](../../util/src/test/resources/images/imageCodeStyle.png)
+![Code Style](../../../util/src/test/resources/images/imageCodeStyle.png)
 
 ### EditorConfig
 

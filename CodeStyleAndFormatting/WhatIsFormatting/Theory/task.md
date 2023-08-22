@@ -1,5 +1,3 @@
-# Task 1/2: What is formatting?
-
 **_Code style_** is a set of guidelines used in a development team on how to write code. 
 Usually, the code style depends on the programming language and developers’ preferences and includes rules about formatting,
 documentation, naming conventions, and other aspect that affect code readability.

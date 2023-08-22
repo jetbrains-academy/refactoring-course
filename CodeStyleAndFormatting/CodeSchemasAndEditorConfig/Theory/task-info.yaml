@@ -1,5 +1,7 @@
 type: theory
-custom_name: Theory
+custom_name: Code schemas and EditorConfig
 files:
-- name: src/main/kotlin/jetbrains/refactoring/course/formatting/Main.kt
+- name: src/main/kotlin/jetbrains/refactoring/course/formatting/Task.kt
+  visible: true
+- name: .editorconfig
   visible: true
