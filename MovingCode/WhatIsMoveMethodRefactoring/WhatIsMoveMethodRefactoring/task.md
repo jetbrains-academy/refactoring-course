@@ -11,5 +11,5 @@ To perform Move refactoring, click on the code element you want to move and pres
 dialog appears, specify the target class/package and click Refactor. It is also possible to see the refactoring preview.
 
 <p align="center">
-    <img src="../../../util/src/test/resources/images/move_function_refactoring.png" alt="Move Dialog" width="400"/>
+    <img src="../../../util/src/main/resources/images/move_function_refactoring.png" alt="Move Dialog" width="400"/>
 </p>
