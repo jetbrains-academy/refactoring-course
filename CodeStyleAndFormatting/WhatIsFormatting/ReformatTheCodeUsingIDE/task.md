@@ -11,7 +11,7 @@ In this dialog, you can specify the scope of formatting changes and select the o
 - **Code cleanup** option runs code cleanup inspections.
 - **Do not keep line breaks** option reformats line breaks according to the code style settings.
 
-![Reformat File](../../../util/src/test/resources/images/imageReformatFile.png)
+![Reformat File](../../../util/src/main/resources/images/imageReformatFile.png)
 
 <div class="hint" title="Shortcut to reformat code">
   Use &shortcut:ReformatCode; (macOS) or Ctrl + Alt + L (Windows/Linux) to reformat code.

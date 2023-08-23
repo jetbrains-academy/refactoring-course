@@ -29,5 +29,3 @@ rootProject.projectDir.walkTopDown().forEach {
 fun isTaskDir(dir: File) = File(dir, "src").exists()
 
 include("util")
-include("util:src")
-findProject(":util:src")?.name = "src"
