@@ -1,7 +1,7 @@
 [![official project](https://jb.gg/badges/official.svg)](https://confluence.jetbrains.com/display/ALL/JetBrains+on+GitHub)
 [![Gradle Build](https://github.com/jetbrains-academy/refactoring-course/actions/workflows/gradle-build.yml/badge.svg)](https://github.com/jetbrains-academy/refactoring-course/actions/workflows/gradle-build.yml)
 
-# Refactoring in IDE Course
+# Introduction to IDE Code Refactoring
 
 This course will introduce you to refactorings and IDE features that would help you to perform them in an effective way.
 You will learn to recognize refactoring opportunities in code and how to deal with them.

@@ -15,21 +15,15 @@ Design patterns are categorized into three main types: creational, structural, a
 - **Structural Patterns**: Structural patterns deal with the composition of classes and objects, emphasizing how objects are connected to form larger structures. Examples include Adapter, Bridge, Composite, Decorator, Facade, Flyweight, and Proxy patterns.
 - **Behavioral Patterns**: Behavioral patterns concern the interactions between objects, defining how they communicate and collaborate. Examples include Chain of Responsibility, Command, Interpreter, Iterator, Mediator, Memento, Observer, State, Strategy, Template Method, and Visitor patterns.
 
-<div class="hint" title="Kotlin Design Patterns and Best Practices book">
+**See Also**: [Kotlin Design Patterns and Best Practices book](https://www.packtpub.com/product/kotlin-design-patterns-and-best-practices-second-edition/9781801815727)
 
-https://www.packtpub.com/product/kotlin-design-patterns-and-best-practices-second-edition/9781801815727
-</div>
+**See Also**: [Examples of design patterns in Kotlin](https://github.com/dbacinski/Design-Patterns-In-Kotlin)
 
-<div class="hint" title="Examples of design patterns in Kotlin">
-
-https://github.com/dbacinski/Design-Patterns-In-Kotlin
-</div>
-
-Refactoring can be used to implement design patterns. 
+_Refactoring_ can be used to implement design patterns. 
 While refactoring existing code to introduce a design pattern, developers often reorganize and modify the codebase 
 to align with the pattern's principles. 
 As the project evolves, patterns may be identified, applied, and refined through refactoring to achieve design goals.
 
-In summary, design patterns and refactoring work together to enhance software design, quality, and maintainability.
+**In summary**, design patterns and refactoring work together to enhance software design, quality, and maintainability.
 While design patterns offer structured solutions to common problems, refactoring serves as a means to continuously
 improve code, align it with patterns, and adapt to changing requirements.

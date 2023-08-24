@@ -1,4 +1,4 @@
-Clean the main method and create instances of `PaymentProcessor`, passing the appropriate payment strategy during object creation.
+In the main method, create an instance of `PaymentProcessor`, passing the appropriate payment strategy during object creation.
 
 <div class="hint" title="Refactoring hint">
 
@@ -15,7 +15,7 @@ fun main() {
 ```
 </div>
 
-By using the Strategy design pattern, the payment processing logic is separated from the `Order` class,
+By using the **Strategy** design pattern, the payment processing logic is separated from the `Order` class,
 making it more flexible and maintainable.
 Adding new payment methods or modifying existing ones is easier and doesn't affect the `Order` class.
 The client code also becomes cleaner, as it focuses on creating instances of `PaymentProcessor` with desired payment strategies.

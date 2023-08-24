@@ -1,4 +1,5 @@
-Implement separate class for each payment method: `CreditCardPayment`, `PayPalPayment`, `BitcoinPayment`. 
+Implement a separate class for each payment method: `CreditCardPayment`, `PayPalPayment`, `BitcoinPayment`. 
+
 Each of these classes should implement base `PaymentStrategy` interface and override `processPayment()` method.
 
 <div class="hint" title="Refactoring hint">
