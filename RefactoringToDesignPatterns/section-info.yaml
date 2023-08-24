@@ -1,0 +1,10 @@
+custom_name: "Section 7: Refactoring to Design Patterns"
+content:
+- Introduction
+- DesignPatternsAndTheirRelationshipsWithRefactoring
+- FacadePatternTheory
+- FacadePatternPractice
+- StrategyPatternTheory
+- StrategyPatternPractice
+- FactoryMethodPatternTheory
+- FactoryMethodPatternPractice

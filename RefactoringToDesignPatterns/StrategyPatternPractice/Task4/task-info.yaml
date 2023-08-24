@@ -1,0 +1,17 @@
+type: edu
+custom_name: Strategy Pattern
+files:
+- name: src/main/kotlin/jetbrains/refactoring/course/patterns/Main.kt
+  visible: true
+- name: test/Tests.kt
+  visible: false
+- name: src/main/kotlin/jetbrains/refactoring/course/patterns/strategy/PaymentStrategy.kt
+  visible: true
+- name: src/main/kotlin/jetbrains/refactoring/course/patterns/strategy/CreditCardPayment.kt
+  visible: true
+- name: src/main/kotlin/jetbrains/refactoring/course/patterns/strategy/PayPalPayment.kt
+  visible: true
+- name: src/main/kotlin/jetbrains/refactoring/course/patterns/strategy/BitcoinPayment.kt
+  visible: true
+- name: src/main/kotlin/jetbrains/refactoring/course/patterns/processor/PaymentProcessor.kt
+  visible: true

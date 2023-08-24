@@ -1,0 +1,5 @@
+type: theory
+custom_name: Refactoring to Design Patterns - Introduction
+files:
+- name: src/main/kotlin/jetbrains/refactoring/course/patterns/Main.kt
+  visible: true
