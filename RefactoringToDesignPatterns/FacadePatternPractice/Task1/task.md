@@ -1,4 +1,4 @@
-Create a class named `VideoConversionFacade` and create properties `loader`, `processor`, `encoder`, and `saver`.
+Create a class named `VideoConversionFacade` with properties `loader`, `processor`, `encoder`, and `saver`.
 
 <div class="hint" title="Refactoring hint">
 

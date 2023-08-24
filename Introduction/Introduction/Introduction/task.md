@@ -1,15 +1,20 @@
 # Introduction
 
-Hello! Welcome to the Refactorings in IDE course. 
+Hello!
+
+Welcome to the **Introduction to IDE Code Refactoring** course.✨ 
+
 This course will introduce you to refactorings and the IDE features that will help you to perform them in an effective way.
 You will learn to recognize refactoring opportunities in code and to deal with them. 
 Using automatic IDE refactorings, you will transform code to improve its structure, readability, and maintainability.
 
-The course consists of 8 modules. Each module focuses on one group of refactorings and 
+The course consists of 8 sections. Each section focuses on one group of refactorings and 
 provides brief theory and several small tasks for practice. 
 We will move on from small local refactoring changes to more complex ones, which affect the entire project architecture.
 
-### Course Plan
+Embark on a coding journey with refactoring and design patterns – your path to coding excellence begins now! 🚀
+
+<div class="hint" title="Course Plan"> 
 
 - **Section 1: Refactoring and its purpose**
     - Lesson 1: What is code refactoring?
@@ -34,10 +39,11 @@ We will move on from small local refactoring changes to more complex ones, which
     - Lesson 1: What is Inline Variable refactoring?
     - Lesson 2: Inline Method refactoring
     - Lesson 3: Middle Man code smell
-- **Section 7: Refactoring to Design patterns and architectural refactorings**
+- **Section 7: Refactoring to Design patterns**
     - Lesson 1: Design patterns and their relationships with refactoring
     - Lesson 2: Facade Pattern	
     - Lesson 3: Strategy Pattern	
     - Lesson 4: Factory Method Pattern
 - **Section 8: Conclusion**
     - Next steps for further learning
+</div>
