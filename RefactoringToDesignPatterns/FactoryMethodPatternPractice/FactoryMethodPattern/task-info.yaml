@@ -1,0 +1,13 @@
+type: theory
+custom_name: Factory Method Pattern
+files:
+- name: src/main/kotlin/jetbrains/refactoring/course/patterns/Main.kt
+  visible: true
+- name: src/main/kotlin/jetbrains/refactoring/course/patterns/Transport.kt
+  visible: true
+- name: src/main/kotlin/jetbrains/refactoring/course/patterns/Car.kt
+  visible: true
+- name: src/main/kotlin/jetbrains/refactoring/course/patterns/Bicycle.kt
+  visible: true
+- name: src/main/kotlin/jetbrains/refactoring/course/patterns/TransportationServiceFactory.kt
+  visible: true

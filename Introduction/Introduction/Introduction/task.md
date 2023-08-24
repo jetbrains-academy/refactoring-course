@@ -36,7 +36,8 @@ We will move on from small local refactoring changes to more complex ones, which
     - Lesson 3: Middle Man code smell
 - **Section 7: Refactoring to Design patterns and architectural refactorings**
     - Lesson 1: Design patterns and their relationships with refactoring
-    - Lesson 2: Design-related refactorings
-    - Lesson 3: Decrease code cohesion
+    - Lesson 2: Facade Pattern	
+    - Lesson 3: Strategy Pattern	
+    - Lesson 4: Factory Method Pattern
 - **Section 8: Conclusion**
     - Next steps for further learning

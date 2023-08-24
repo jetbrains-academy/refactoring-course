@@ -1,0 +1,21 @@
+type: theory
+custom_name: Facade Pattern
+files:
+- name: src/main/kotlin/jetbrains/refactoring/course/patterns/Main.kt
+  visible: true
+- name: src/main/kotlin/jetbrains/refactoring/course/patterns/VideoLoader.kt
+  visible: true
+- name: src/main/kotlin/jetbrains/refactoring/course/patterns/VideoProcessor.kt
+  visible: true
+- name: src/main/kotlin/jetbrains/refactoring/course/patterns/VideoEncoder.kt
+  visible: true
+- name: src/main/kotlin/jetbrains/refactoring/course/patterns/VideoSaver.kt
+  visible: true
+- name: src/main/kotlin/jetbrains/refactoring/course/patterns/VideoConversionFacade.kt
+  visible: true
+- name: src/main/kotlin/jetbrains/refactoring/course/patterns/video/Video.kt
+  visible: true
+- name: src/main/kotlin/jetbrains/refactoring/course/patterns/video/ProcessedVideo.kt
+  visible: true
+- name: src/main/kotlin/jetbrains/refactoring/course/patterns/video/EncodedVideo.kt
+  visible: true
