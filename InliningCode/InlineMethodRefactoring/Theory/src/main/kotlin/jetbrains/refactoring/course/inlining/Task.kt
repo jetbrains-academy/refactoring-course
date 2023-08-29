@@ -4,7 +4,7 @@ import java.io.File
 import java.io.PrintWriter
 
 class Store {
-    public fun calculateTotalPrice(productPrice: List<Int>): Int? {
+    fun calculateTotalPrice(productPrice: List<Int>): Int? {
         return try {
             val totalPrice = productPrice.sum()
             totalPrice

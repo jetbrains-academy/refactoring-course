@@ -51,7 +51,7 @@ class InliningTest : BaseIjTestClass() {
             "{\n            productPrice.sum()\n        }"
         )
         checkExpressionCallIsReplacedByItsBody(
-            "PrintWriter(File(\"Exception.txt\"), Charsets.UTF_8).use { it.print(error.toString()) }",
+            "PrintWriter(File(\"Exception.txt\"), Charsets.UTF_8).use { it.print(error) }",
             "calculateTotalPrice",
             true
         )

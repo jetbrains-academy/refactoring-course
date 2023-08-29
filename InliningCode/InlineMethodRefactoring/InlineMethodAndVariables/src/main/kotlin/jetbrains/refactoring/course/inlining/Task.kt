@@ -4,11 +4,11 @@ import java.io.File
 import java.io.PrintWriter
 
 class Store {
-    public fun calculateTotalPrice(productPrice: List<Int>): Int? {
+    fun calculateTotalPrice(productPrice: List<Int>): Int? {
         return try {
             productPrice.sum()
         } catch (error: Exception) {
-            PrintWriter(File("Exception.txt"), Charsets.UTF_8).use { it.print(error.toString()) }
+            PrintWriter(File("Exception.txt"), Charsets.UTF_8).use { it.print(error) }
             null
         }
     }
