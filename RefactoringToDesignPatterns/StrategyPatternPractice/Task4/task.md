@@ -17,6 +17,6 @@ fun main() {
 
 By using the **Strategy** design pattern, the payment processing logic is separated from the `Order` class,
 making it more flexible and maintainable.
-Adding new payment methods or modifying existing ones is easier and doesn't affect the `Order` class.
-The client code also becomes cleaner, as it focuses on creating instances of `PaymentProcessor` with desired payment strategies.
+Adding new payment methods or modifying the existing ones is easier and doesn't affect the `Order` class.
+The client code also becomes cleaner, as it focuses on creating instances of `PaymentProcessor` with the desired payment strategies.
 
