@@ -45,3 +45,5 @@ Here is a table with the most popular refactorings and shortcuts to invoke them:
 | **Move**               | Moves code method/class to another place in the codebase.             | &shortcut:DatabaseView.MoveToGroup; (macOS) or F6 (Windows/Linux)   |
 
 We will discuss these and other refactorings in the following lessons.
+
+**See Also**: [IntelliJ IDEA keyboard shortcuts sheet](https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA_ReferenceCard.pdf)
