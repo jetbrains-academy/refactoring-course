@@ -1,4 +1,4 @@
-Let’s try to use **Factory Method** design pattern to encapsulate the creation of objects and provide a more flexible
+Let’s try to use the **Factory Method** design pattern to encapsulate the creation of objects and provide a more flexible
 and maintainable approach to handling different transport modes.
 
 Let’s take a look at the example in the editor. \
