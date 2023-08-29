@@ -1,4 +1,4 @@
-Finally, change the main method, it should create an instance of the `VideoConversionFacade` method and invoke the `convertVideo()` method.
+Finally, change the main method: it should create an instance of the `VideoConversionFacade` method and invoke the `convertVideo()` method.
 
 <div class="hint" title="Refactoring hint">
 
