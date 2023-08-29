@@ -1,4 +1,4 @@
-# Task 1/1: Facade Pattern - Theory
+# Task 1/1: Facade Pattern – Theory
 
 The **Facade** is a _structural pattern_ that provides a simplified interface 
 to a complex system of classes, libraries, or APIs.
