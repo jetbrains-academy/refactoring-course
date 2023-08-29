@@ -1,5 +1,5 @@
 type: edu
-custom_name: Reduce method’s length
+custom_name: Extract duplicated code
 files:
 - name: src/main/kotlin/jetbrains/refactoring/course/extracting/Task.kt
   visible: true
