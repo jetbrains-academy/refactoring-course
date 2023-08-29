@@ -1,16 +1,16 @@
 type: choice
 is_multiple_choice: false
 options:
-- text: A method with meaningful comment.
+- text: A method name consisting of 3 words.
   is_correct: false
-- text: A class with well-encapsulated data.
+- text: A class implementing several interfaces.
   is_correct: false
 - text: A variable with a clear purpose and naming.
   is_correct: false
 - text: A long method containing too many lines of code.
   is_correct: true
-message_incorrect: "Incorrect solution. Explanation: While meaningful comments, encapsulated\
-  \ classes, and clear variable names are all positive practices, a long method with\
+message_incorrect: "Incorrect solution. Explanation: While meaningful names,
+classes implementing several interfaces, and clear variable names are all normal practices, a long method with\
   \ excessive code can lead to readability and maintenance issues, making it a potential\
   \ code smell."
 files:
