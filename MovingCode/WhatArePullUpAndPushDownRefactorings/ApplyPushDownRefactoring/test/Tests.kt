@@ -20,15 +20,33 @@ class PushDownTest : BaseIjTestClass() {
     }
 
     @Test
-    fun testPushDownMethods() {
+    fun testPushDownMeowMethod() {
+        setUp()
+        myFixture.configureByText("Animal.kt", animalText)
+        Assertions.assertFalse(hasMethod("meow")) {
+            "Please, push down the \"meow\" method"
+        }
+        val clazz = dogClass.checkBaseDefinition()
+        Assertions.assertThrows(
+            AssertionError::class.java,
+            { dogClass.findMethod(clazz, meowMethod) },
+            "Please, remove the \"meow\" method from the Dog class"
+        )
+    }
+
+    @Test
+    fun testPushDownBarkMethod() {
         setUp()
         myFixture.configureByText("Animal.kt", animalText)
         Assertions.assertFalse(hasMethod("bark")) {
             "Please, push down the \"bark\" method"
         }
-        Assertions.assertFalse(hasMethod("meow")) {
-            "Please, push down the \"meow\" method"
-        }
+        val clazz = catClass.checkBaseDefinition()
+        Assertions.assertThrows(
+            AssertionError::class.java,
+            { catClass.findMethod(clazz, barkMethod) },
+            "Please, remove the \"bark\" method from the Cat class"
+        )
     }
 
     @Test
