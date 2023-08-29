@@ -1,6 +1,6 @@
 Create a `PaymentProcessor` class that encapsulates the payment behavior. 
 This class should take as a constructor parameter `paymentStrategy: 
-PaymentStrategy` and should contain `processOrderPayment` method which invokes `processPayment` method.
+PaymentStrategy` and should contain the `processOrderPayment` method, which invokes the `processPayment` method.
 
 <div class="hint" title="Refactoring hint">
 
