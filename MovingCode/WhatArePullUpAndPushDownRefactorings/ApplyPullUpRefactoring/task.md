@@ -1,13 +1,18 @@
-Identify places where Pull-Up refactorings are needed and apply them.
+In this task, there are three files:
+- `Animal` - base interface for different animal types, it contains several methods.
+- `Cat` - represents a cat and implements the Animal interface.
+- `Dog` - represents a dog and implements the Animal interface.
+
+Take a look at the `Cat` and `Dog` classes and identify one method and properties that are not specific to animal type
+and move them to the base interface `Animal` using the Pull Up refactoring.
 
 <div class="hint" title="Shortcut for Pull Up refactorings">
 
-Use the &shortcut:Refactorings.QuickListPopupAction; (macOS) or Shift+Ctrl+Alt+T (Windows/Linux) shortcut to Pull Up a code element.
+Use the &shortcut:Refactorings.QuickListPopupAction; (macOS) or `Shift+Ctrl+Alt+T` (Windows/Linux) shortcut to Pull Up a code element.
 
 </div>
 
 <div class="hint" title="Refactoring Hint">
 
-Identify a common method in the `Cat` and `Dog` classes and Pull Up it to the `Animal` interface.
-
+Move `name` and `age` properties and `play()` method to the `Animal` interface.
 </div>
