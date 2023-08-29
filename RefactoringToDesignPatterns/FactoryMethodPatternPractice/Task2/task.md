@@ -1,4 +1,4 @@
-In the main method, add an invocation of `getTransportation` method.
+In the main method, add an invocation of the `getTransportation` method.
 
 <div class="hint" title="Refactoring hint">
 
