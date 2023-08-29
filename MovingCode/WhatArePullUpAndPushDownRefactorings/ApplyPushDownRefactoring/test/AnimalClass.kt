@@ -29,6 +29,12 @@ internal val animalClass = TestClass(
     ),
 )
 
+internal val meowMethod = TestMethod(
+    name = "meow",
+    returnType = TestKotlinType("Unit"),
+    returnTypeJava = "void",
+)
+
 internal val catClass = TestClass(
     "Cat",
     classPackage = "jetbrains.refactoring.course.moving",
@@ -62,12 +68,14 @@ internal val catClass = TestClass(
             returnType = TestKotlinType("Unit"),
             returnTypeJava = "void",
         ),
-        TestMethod(
-            name = "meow",
-            returnType = TestKotlinType("Unit"),
-            returnTypeJava = "void",
-        ),
+        meowMethod,
     ),
+)
+
+internal val barkMethod = TestMethod(
+    name = "bark",
+    returnType = TestKotlinType("Unit"),
+    returnTypeJava = "void",
 )
 
 internal val dogClass = TestClass(
@@ -103,10 +111,6 @@ internal val dogClass = TestClass(
             returnType = TestKotlinType("Unit"),
             returnTypeJava = "void",
         ),
-        TestMethod(
-            name = "bark",
-            returnType = TestKotlinType("Unit"),
-            returnTypeJava = "void",
-        ),
+        barkMethod,
     ),
 )
