@@ -19,7 +19,7 @@ To configure the **code schema**,
 3. Select the code schema you would like to configure (Project or Default).
 4. Configure code style settings, such as tabs and indents, import settings (using single name import or import with `*`), and many others.
 
-![Code Style](../../../util/src/main/resources/images/imageCodeStyle.png)
+![Code Style](../../../util/src/main/resources/images/CodeStyleAndFormatting/CodeSchemasAndEditorConfig/code_style.png)
 
 ### EditorConfig
 
