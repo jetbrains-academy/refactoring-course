@@ -14,5 +14,7 @@ Use the &shortcut:Refactorings.QuickListPopupAction; (macOS) or `Shift+Ctrl+Alt+
 
 <div class="hint" title="Refactoring Hint">
 
-Move `name` and `age` properties and `play()` method to the `Animal` interface.
+Pull Up `name` and `age` properties to the `Animal` interface and add `override` modifier before its declarations in `Cat` and `Dog` constructors.
+
+Pull Up `play()` method to the `Animal` interface and add `override` modifier before its implementations in `Cat` and `Dog` classes.
 </div>
