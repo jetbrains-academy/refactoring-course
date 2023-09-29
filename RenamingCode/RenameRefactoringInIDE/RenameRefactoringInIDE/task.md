@@ -13,6 +13,6 @@ name shadowing for variables and fields.
 IntelliJ IDEA checks the **spelling** of all source code and comments in the project and highlights typos if there are
 any.
 It also provides a quick fix for the typos.
-Bsides, it checks the grammar in the JavaDocs and README.md files and provides automatic fixes.
+Besides, it checks the grammar in the JavaDocs and README.md files and provides automatic fixes.
 
 **See Also**: [Spellchecking in IntelliJ IDEA](https://www.jetbrains.com/help/idea/spellchecking.html)
