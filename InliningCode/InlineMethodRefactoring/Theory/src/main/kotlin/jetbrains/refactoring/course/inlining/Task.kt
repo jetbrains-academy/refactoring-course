@@ -16,7 +16,7 @@ class Store {
 
     private fun logError(error: Exception, filePath: String) {
         val file = File(filePath)
-        val text = error.toString()
+        val text = error
         PrintWriter(file, Charsets.UTF_8).use { it.print(text) }
     }
 }
