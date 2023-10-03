@@ -20,3 +20,8 @@ class Store {
         PrintWriter(file, Charsets.UTF_8).use { it.print(text) }
     }
 }
+
+fun main() {
+    val client = Store()
+    println(client.calculateTotalPrice(listOf(1, 2, 3))) // Output: Sum of prices
+}

@@ -7,3 +7,6 @@ fun funWithCodeStyleIssues() {
       println("Please, fix me!")
    }
 }
+
+fun main() {
+}
