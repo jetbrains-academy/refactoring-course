@@ -55,7 +55,7 @@ class Order(
     val orderId: Int,
     val product: Product,
     val quantity: Int,
-    val shippingAddress: String
+    val shippingAddress: String,
 ) {
 
     fun processOrder() {
