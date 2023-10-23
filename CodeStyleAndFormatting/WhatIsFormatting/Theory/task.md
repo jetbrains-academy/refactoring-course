@@ -10,18 +10,31 @@ Let's take a look at the two simple code snippets.
 
 **Before fixing formatting:**
 ```kotlin
-fun  calculateCircleArea  (radius: Double){
-return radius*radius  * 3.14159    }
+fun calculateRectangleArea(length:Double,width:Double): Double{
+    return length*width }
+
+fun main(){
+    val l= 5.0; val w=3.0; val area=calculateRectangleArea(l,w)
+    println("Rectangle area: $area")
+}
 ```
 This code snippet doesn't have consistent indentation and proper spacing, making the code difficult to read and understand.
 
 **After fixing formatting:**
 ```kotlin
-fun calculateCircleArea(radius: Double) {
-    return radius * radius * 3.14159
+fun calculateRectangleArea(length: Double, width: Double) = length * width
+
+fun main() {
+    val length = 5.0
+    val width = 3.0
+    val area = calculateRectangleArea(length, width)
+    println("Rectangle area: $area")
 }
 ```
-The refactored version demonstrates improved formatting, leading to enhanced readability and maintainability.
+In Kotlin, you can omit the curly braces and the return statement if a function has only one expression.
+This makes the code more concise and easier to read.
+
+The **refactored version** demonstrates improved formatting and naming, leading to enhanced readability and maintainability.
 
 <div class="hint" title="Code Formatting's Role in Code Review">
 
