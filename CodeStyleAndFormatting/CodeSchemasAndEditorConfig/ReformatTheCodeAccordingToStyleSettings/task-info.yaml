@@ -1,9 +1,9 @@
 type: edu
 custom_name: Reformat the code according to style settings
 files:
-- name: src/main/kotlin/jetbrains/refactoring/course/formatting/Task.kt
-  visible: true
-- name: test/Tests.kt
-  visible: false
-- name: .editorconfig
-  visible: true
+  - name: src/main/kotlin/jetbrains/refactoring/course/formatting/Task.kt
+    visible: true
+  - name: test/ReformatCodeBasedOnEditorConfigSettingsTest.kt
+    visible: false
+  - name: .editorconfig
+    visible: true
