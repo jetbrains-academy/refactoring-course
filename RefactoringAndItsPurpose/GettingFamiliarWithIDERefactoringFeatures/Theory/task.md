@@ -35,14 +35,15 @@ would work as you expect.
 ### Refactoring shortcuts
 Here is a table with the most popular refactorings and shortcuts to invoke them:
 
-| Refactoring type       | Description                                                           | Shortcut                                                            |
-|------------------------|-----------------------------------------------------------------------|---------------------------------------------------------------------|
-| **Rename**             | Changes the name of the code element.                                 | &shortcut:RenameElement; (macOS) or Shift+F6 (Windows/Linux)        |
-| **Change Signature**   | Allows to change the method’s name, parameters, and return type.      | &shortcut:ChangeSignature; (macOS) or Ctrl+F6 (Windows/Linux)       |
-| **Introduce Variable** | Extracts a value into a new variable.                                 | &shortcut:IntroduceVariable; (macOS) or Ctrl+Alt+V  (Windows/Linux) |
-| **Inline**             | Removes a variable/method and puts its body to the place it’s used at.| &shortcut:Inline; (macOS) or Ctrl+Alt+N (Windows/Linux)             |
-| **Extract Function**   | Creates a new method and moves a selected piece of code to it.        | &shortcut:ExtractMethod; (macOS) or Ctrl+Alt+M (Windows/Linux)      |
-| **Move**               | Moves code method/class to another place in the codebase.             | &shortcut:DatabaseView.MoveToGroup; (macOS) or F6 (Windows/Linux)   |
+| Refactoring type       | Description                                                            | Shortcut                                                            |
+|------------------------|------------------------------------------------------------------------|---------------------------------------------------------------------|
+| **Refactor This**      | Shows available refactoring options.                                   | ⌃T (macOS) or Shift+Ctrl+Alt+T (Windows/Linux)                      |
+| **Rename**             | Changes the name of the code element.                                  | &shortcut:RenameElement; (macOS) or Shift+F6 (Windows/Linux)        |
+| **Change Signature**   | Allows to change the method’s name, parameters, and return type.       | &shortcut:ChangeSignature; (macOS) or Ctrl+F6 (Windows/Linux)       |
+| **Introduce Variable** | Extracts a value into a new variable.                                  | &shortcut:IntroduceVariable; (macOS) or Ctrl+Alt+V  (Windows/Linux) |
+| **Inline**             | Removes a variable/method and puts its body to the place it’s used at. | &shortcut:Inline; (macOS) or Ctrl+Alt+N (Windows/Linux)             |
+| **Extract Function**   | Creates a new method and moves a selected piece of code to it.         | &shortcut:ExtractMethod; (macOS) or Ctrl+Alt+M (Windows/Linux)      |
+| **Move**               | Moves code method/class to another place in the codebase.              | &shortcut:DatabaseView.MoveToGroup; (macOS) or F6 (Windows/Linux)   |
 
 We will discuss these and other refactorings in the following lessons.
 
