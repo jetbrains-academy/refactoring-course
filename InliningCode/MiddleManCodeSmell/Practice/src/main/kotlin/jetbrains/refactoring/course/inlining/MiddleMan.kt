@@ -1,4 +1,12 @@
-package jetbrains.refactoring.course.inlining.solution
+package jetbrains.refactoring.course.inlining
+
+// Middle Man class
+class MiddleMan {
+    fun doSomething(): String {
+        val dataProvider = DataProvider()
+        return dataProvider.fetchData()
+    }
+}
 
 // DataProvider class
 class DataProvider {
@@ -8,11 +16,11 @@ class DataProvider {
     }
 }
 
-// Client class without MiddleMan
+// Client class using MiddleMan
 class Client {
     fun processData(): String {
-        val dataProvider = DataProvider()
-        return dataProvider.fetchData()
+        val middleMan = MiddleMan()
+        return middleMan.doSomething()
     }
 }
 
