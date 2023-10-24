@@ -1,0 +1,7 @@
+type: edu
+custom_name: Identify code issues and fix them
+files:
+  - name: test/IdentifyIssuesInCodeSnippetTest.kt
+    visible: false
+  - name: src/main/kotlin/jetbrains/refactoring/course/refactoring/purpose/Task.kt
+    visible: true

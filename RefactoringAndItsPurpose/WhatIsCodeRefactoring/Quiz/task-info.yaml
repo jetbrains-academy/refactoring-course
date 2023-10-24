@@ -14,6 +14,6 @@ message_incorrect: "Incorrect solution. Explanation: The purpose of refactoring 
   \ without changing its behavior. It's an incremental process of improving code step\
   \ by step without adding new features."
 files:
-- name: src/main/kotlin/jetbrains/refactoring/course/refactoing/purpose/Main.kt
-  visible: true
+  - name: src/main/kotlin/jetbrains/refactoring/course/refactoring/purpose/Main.kt
+    visible: true
 local_check: true
