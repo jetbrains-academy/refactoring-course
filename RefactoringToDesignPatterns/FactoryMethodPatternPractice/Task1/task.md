@@ -1,5 +1,9 @@
+### Task
+
 Create a class `TransportationServiceFactory` with the `getTransportation(transport: String)` method. 
 This method should return an appropriate message based on the given transport mode, using the `when` construction.
+
+### Hints
 
 <div class="hint" title="Refactoring hint">
 

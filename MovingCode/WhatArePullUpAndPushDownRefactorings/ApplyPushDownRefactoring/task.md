@@ -1,6 +1,10 @@
+### Task
+
 In the `Animal` file, there are methods that are common for all animal types such as `sleep()` and `eat()`.
 You need to identify methods that are specific for some animals and apply the Push Down refactoring
 to move them to the corresponding classes from the base interface.
+
+### Hints
 
 <div class="hint" title="Shortcut for Push Down refactorings">
 

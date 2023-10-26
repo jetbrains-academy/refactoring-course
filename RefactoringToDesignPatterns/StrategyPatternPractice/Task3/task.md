@@ -1,6 +1,10 @@
+### Task
+
 Create a `PaymentProcessor` class that encapsulates the payment behavior. 
 This class should take as a constructor parameter `paymentStrategy: 
 PaymentStrategy` and should contain the `processOrderPayment` method, which invokes the `processPayment` method.
+
+### Hints
 
 <div class="hint" title="Refactoring hint">
 

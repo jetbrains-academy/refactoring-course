@@ -1,5 +1,9 @@
+### Task
+
 Next, you need to move methods to a more appropriate place using move refactoring.
 Move some methods from one class to another.
+
+### Hints
 
 <div class="hint" title="Shortcut for Move refactoring">
 

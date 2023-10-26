@@ -1,4 +1,9 @@
+### Task
+
 In this task, you need to resolve Middle Man code smell using Inline refactoring.
+
+
+### Hints
 
 <div class="hint" title="Refactoring hint">
 

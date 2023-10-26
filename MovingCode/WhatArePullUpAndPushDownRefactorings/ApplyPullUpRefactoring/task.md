@@ -1,3 +1,5 @@
+### Task
+
 In this task, there are three files:
 - `Animal` - base interface for different animal types, it contains several methods.
 - `Cat` - represents a cat and implements the Animal interface.
@@ -5,6 +7,8 @@ In this task, there are three files:
 
 Take a look at the `Cat` and `Dog` classes and identify one method and properties that are not specific to animal type
 and move them to the base interface `Animal` using the Pull Up refactoring.
+
+### Hints
 
 <div class="hint" title="Shortcut for Pull Up refactorings">
 

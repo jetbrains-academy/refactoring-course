@@ -1,3 +1,5 @@
+### Task
+
 In this task, we will practice defining our custom settings in the `.editorconfig` file.
 The full list of **EditorConfig** properties is
 available [in the EditorConfig documentation](https://github.com/editorconfig/editorconfig/wiki/EditorConfig-Properties).
@@ -8,6 +10,8 @@ You need to define the following settings in the `.editorconfig` file:
 - Indentation style is spaces;
 - Maximum line length is equal to 120;
 - Add a newline character at the end of the last line in the file.
+
+### Hints
 
 <div class="hint" title="EditorConfig properties">
 Check out EditorConfig documentation to read about the existing properties: <a href="https://github.com/editorconfig/editorconfig/wiki/EditorConfig-Properties">EditorConfig GitHub page</a>.

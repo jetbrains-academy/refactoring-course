@@ -1,4 +1,8 @@
+### Task
+
 In this task, you need to identify magic numbers and create constant values for them.
+
+### Hints
 
 <div class="hint" title="Shortcut for Introduce constant refactoring">
 

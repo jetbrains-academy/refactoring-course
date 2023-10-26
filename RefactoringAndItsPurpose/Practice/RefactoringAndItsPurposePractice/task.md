@@ -1,6 +1,10 @@
+### Task
+
 In this task, you will practice identifying and fixing code imperfections and bad practices.
 Take a look at Kotlin function `calculate_area`, find issues related to naming, variable usage, and readability, and fix
 them.
+
+### Hints
 
 <div class="hint" title="Redundant variable hint">
 

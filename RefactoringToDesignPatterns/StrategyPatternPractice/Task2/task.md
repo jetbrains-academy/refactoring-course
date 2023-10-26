@@ -1,6 +1,10 @@
+### Task
+
 Implement a separate class for each payment method: `CreditCardPayment`, `PayPalPayment`, and `BitcoinPayment`. 
 
 Each of these classes should implement the base `PaymentStrategy` interface and override the `processPayment()` method.
+
+### Hints
 
 <div class="hint" title="Refactoring hint">
 

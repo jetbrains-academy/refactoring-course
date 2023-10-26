@@ -1,4 +1,8 @@
+### Task
+
 In this task, you need to move classes to a more appropriate place using move refactoring.
+
+### Hints
 
 <div class="hint" title="Shortcut for Move refactoring">
 

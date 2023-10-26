@@ -1,4 +1,8 @@
+### Task
+
 In the main method, add an invocation of the `getTransportation` method.
+
+### Hints
 
 <div class="hint" title="Refactoring hint">
 

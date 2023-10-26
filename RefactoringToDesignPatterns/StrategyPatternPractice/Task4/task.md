@@ -1,4 +1,8 @@
+### Task
+
 In the main method, create an instance of `PaymentProcessor`, passing the appropriate payment strategy during object creation.
+
+### Hints
 
 <div class="hint" title="Refactoring hint">
 
