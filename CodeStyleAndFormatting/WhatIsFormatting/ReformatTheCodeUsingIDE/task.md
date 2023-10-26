@@ -1,4 +1,6 @@
-In this lesson, you will learn a very useful shortcut that will format your code automatically according to the project’s settings.
+### Task
+
+In this task, you will learn a very useful shortcut that will format your code automatically according to the project’s settings.
 
 To perform any refactoring in the IDE, you can use the Refactoring Menu or a specific shortcut. 
 It’s also possible to configure custom shortcuts.
@@ -12,7 +14,11 @@ In this dialog, you can specify the scope of formatting changes and select the o
 - **Code cleanup** option runs code cleanup inspections.
 - **Do not keep line breaks** option reformats line breaks according to the code style settings.
 
-![Reformat File](../../../util/src/main/resources/images/CodeStyleAndFormatting/WhatIsFormatting/reformat_dialog.png)
+<p align="center">
+    <img src="../../../util/src/main/resources/images/CodeStyleAndFormatting/WhatIsFormatting/reformat_dialog.png" alt="Reformat dialog" width="400"/>
+</p>
+
+### Hints
 
 <div class="hint" title="Shortcut to reformat code">
   Use &shortcut:ReformatCode; (macOS) or Ctrl + Alt + L (Windows/Linux) to reformat code.

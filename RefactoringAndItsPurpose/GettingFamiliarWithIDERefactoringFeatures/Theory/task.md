@@ -25,7 +25,7 @@ To open the **Search Everywhere** dialog, press **⇧⇧** (macOS) or **Shift+Sh
 For example, if you want to extract a function or explore any extract possibilities in the IDE,
 open the **Search Everywhere** dialog, type “Extract”, and it will show the available options.
 <p align="center">
-    <img src="../../../util/src/main/resources/images/RefactoringAndItsPurpose/GettingFamiliarWithIDERefactoringFeatures/search_everywhere.png" alt="Search Everywhere" width="500"/>
+    <img src="../../../util/src/main/resources/images/RefactoringAndItsPurpose/GettingFamiliarWithIDERefactoringFeatures/search_everywhere.png" alt="Search Everywhere" width="400"/>
 </p>
 
 Moreover, for some refactorings, IntelliJ IDEA allows users to see the preview before applying changes.
