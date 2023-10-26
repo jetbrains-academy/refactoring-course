@@ -4,6 +4,10 @@ Hello!
 
 Welcome to the **Introduction to IDE Code Refactoring** course.✨ 
 
+<p align="center">
+    <img src="../../../util/src/main/resources/images/Introduction/Introduction/introduction_intro.png" alt="Introduction" width="400"/>
+</p>
+
 This course will introduce you to refactorings and the IDE features that will help you to perform them in an effective way.
 You will learn to recognize refactoring opportunities in code and to deal with them. 
 Using automatic IDE refactorings, you will transform code to improve its structure, readability, and maintainability.
