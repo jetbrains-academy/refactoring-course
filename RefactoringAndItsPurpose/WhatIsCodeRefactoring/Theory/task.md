@@ -32,9 +32,7 @@ The constant `3.14159` is hard-coded within the method, leading to lack of clari
 ```kotlin
 const val PI_VALUE = 3.14159
 
-fun calculateCircleArea(radius: Double): Double {
-    return PI_VALUE * radius * radius
-}
+fun calculateCircleArea(radius: Double): Double = PI_VALUE * radius * radius
 
 fun main() {
     val circleRadius = 5.0
@@ -47,7 +45,8 @@ To improve readability of the original snippet of code, the following refactorin
 
 - Method `calculate` was **renamed** to `calculateCircleArea` to better express its purpose: calculating the area of a
   circle.
+- The curly braces and the return statement were omitted because the function contains only a single expression.
 - Variable `n` was **renamed** to `circleRadius` for better code clarity.
 - Parameter `r` was **renamed** to `radius` for better code clarity.
-- `PI_VALUE` constant was **extracted** to hold the value of Pi value, making the calculation formula more
+- `PI_VALUE` constant was **extracted** to hold the value of `Pi` value, making the calculation formula more
   understandable and reusable.

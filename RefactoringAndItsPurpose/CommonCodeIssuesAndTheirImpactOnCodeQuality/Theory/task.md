@@ -35,7 +35,7 @@ class Order(
 
 In this code snippet, class `Order` takes **9** parameters in the constructor,
 which makes the code less readable and harder to understand.
-A situation when a class/method takes more than 5 parameters is called **_Long Parameter List_** code smell.
+A situation when a class/method takes many parameters is called **_Long Parameter List_** code smell.
 As the number of parameters increases, it becomes challenging to keep track of their order and purpose,
 leading to potential mistakes and maintenance difficulties.
 
