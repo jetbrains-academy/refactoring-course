@@ -10,25 +10,25 @@ internal val videoConversionFacadeClass = TestClass(
     classPackage = "jetbrains.refactoring.course.patterns",
     declaredFields = listOf(
         TestVariable(
-            name = "loader",
+            name = "videoLoader",
             javaType = "VideoLoader",
             mutability = VariableMutability.VAL,
             visibility = Visibility.PRIVATE,
         ),
         TestVariable(
-            name = "processor",
+            name = "videoProcessor",
             javaType = "VideoProcessor",
             mutability = VariableMutability.VAL,
             visibility = Visibility.PRIVATE,
         ),
         TestVariable(
-            name = "encoder",
+            name = "videoEncoder",
             javaType = "VideoEncoder",
             mutability = VariableMutability.VAL,
             visibility = Visibility.PRIVATE,
         ),
         TestVariable(
-            name = "saver",
+            name = "videoSaver",
             javaType = "VideoSaver",
             mutability = VariableMutability.VAL,
             visibility = Visibility.PRIVATE,

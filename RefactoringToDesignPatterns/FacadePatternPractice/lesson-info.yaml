@@ -1,8 +1,6 @@
 type: framework
 custom_name: Facade Pattern - Practice
 content:
-- FacadePattern
-- Task1
-- Task2
-- Task3
+  - FacadePattern
+  - Task
 is_template_based: false

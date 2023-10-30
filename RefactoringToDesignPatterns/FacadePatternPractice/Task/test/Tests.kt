@@ -23,14 +23,33 @@ class FacadePatternTest : BaseIjTestClass() {
 
     @Test
     fun videoConversionFacadeClassTest() {
+        Assertions.assertDoesNotThrow(
+            {
+                videoConversionFacadeClass.checkBaseDefinition()
+            },
+            "Please, create a VideoConversionFacade class"
+        )
+
         setUp()
         myFixture.configureByText("VideoConversionFacade.kt", facadeText)
-        val methodName = "convertVideo"
-        Assertions.assertTrue(hasMethod(methodName)) {
-            "Please, create the method $methodName"
+        var propertyName = "videoLoader"
+        Assertions.assertTrue(hasProperty(propertyName)) {
+            "Please, create the property $propertyName"
+        }
+        propertyName = "videoProcessor"
+        Assertions.assertTrue(hasProperty(propertyName)) {
+            "Please, create the property $propertyName"
+        }
+        propertyName = "videoEncoder"
+        Assertions.assertTrue(hasProperty(propertyName)) {
+            "Please, create the property $propertyName"
+        }
+        propertyName = "videoSaver"
+        Assertions.assertTrue(hasProperty(propertyName)) {
+            "Please, create the property $propertyName"
         }
 
         val clazz = videoConversionFacadeClass.checkBaseDefinition()
-        videoConversionFacadeClass.checkDeclaredMethods(clazz)
+        videoConversionFacadeClass.checkFieldsDefinition(clazz)
     }
 }
