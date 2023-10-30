@@ -4,6 +4,6 @@ files:
 - name: src/main/kotlin/jetbrains/refactoring/course/formatting/Main.kt
   visible: true
 - name: src/main/kotlin/jetbrains/refactoring/course/formatting/Task1.kt
-  visible: true
+  visible: false
 - name: src/main/kotlin/jetbrains/refactoring/course/formatting/Task2.kt
-  visible: true
+  visible: false

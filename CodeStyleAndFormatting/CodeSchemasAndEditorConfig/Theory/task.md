@@ -14,7 +14,7 @@ There are two predefined code schemas:
 Note that code schemas are language-specific.
 
 To configure the **code schema**,
-1. Press `⌘Сmd,` (macOS) or `Ctrl+Alt+S` (Linux/Windows) to open the IDE settings and select Editor | Code Style.
+1. Press `⌘,` (macOS) or `Ctrl+Alt+S` (Linux/Windows) to open the IDE settings and select Editor | Code Style.
 2. Select `Kotlin` programming language.
 3. Select the code schema you would like to configure (Project or Default).
 4. Configure code style settings, such as tabs and indents, import settings (using single name import or import with `*`), and many others.
