@@ -1,4 +1,4 @@
-type: edu
+type: theory
 custom_name: Middle Man code smell
 files:
   - name: src/main/kotlin/jetbrains/refactoring/course/inlining/MiddleMan.kt
