@@ -13,3 +13,6 @@ dialog appears, specify the target class/package and click Refactor. It is also 
 <p align="center">
     <img src="../../../util/src/main/resources/images/MovingCode/WhatIsMoveMethodRefactoring/move_refactoring.png" alt="Move Dialog" width="400"/>
 </p>
+
+Currently, in Kotlin, the move refactoring **is restricted to top-level declarations and nested classes** only.
+For other scenarios, you'll need to perform the move refactoring manually.
