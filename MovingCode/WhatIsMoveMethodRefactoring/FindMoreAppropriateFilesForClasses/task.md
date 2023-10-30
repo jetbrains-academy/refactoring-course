@@ -14,6 +14,6 @@ Use the &shortcut:Move; shortcut to move a code element.
 
 Move `Car` class to the `Car.kt` file.
 
-Move `Driver` class for the `Driver.kt` file.
+Move `Driver` class to the `Driver.kt` file.
 
 </div>

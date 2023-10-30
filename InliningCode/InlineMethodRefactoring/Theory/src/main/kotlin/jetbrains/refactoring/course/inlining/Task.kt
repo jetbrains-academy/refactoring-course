@@ -22,6 +22,6 @@ class Store {
 }
 
 fun main() {
-    val client = Store()
-    println(client.calculateTotalPrice(listOf(1, 2, 3))) // Output: Sum of prices
+    val store = Store()
+    println(store.calculateTotalPrice(listOf(1, 2, 3))) // Output: Sum of prices
 }
