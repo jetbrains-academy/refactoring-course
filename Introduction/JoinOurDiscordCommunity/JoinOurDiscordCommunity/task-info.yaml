@@ -1,0 +1,5 @@
+type: theory
+custom_name: Join our Discord community
+files:
+  - name: src/main/kotlin/jetbrains/refactoring/course/introduction/Main.kt
+    visible: true
