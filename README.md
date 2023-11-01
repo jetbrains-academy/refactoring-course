@@ -45,7 +45,9 @@ If you have some troubles with the course installation, feel free to contact us 
 
 ## Getting started
 
-You can use this course in the Course Creator mode or create a course archive from the source code.
+This course is [available](https://plugins.jetbrains.com/plugin/23048-introduction-to-ide-code-refactoring) on JetBrains
+Marketplace and can be installed from the IntelliJ IDEA IDE directly, but you can also use it in the Course Creator mode
+or create a course archive from the source code.
 
 ### Getting started: create a course preview from the source code
 
