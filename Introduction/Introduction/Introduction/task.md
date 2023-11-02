@@ -12,7 +12,7 @@ This course will introduce you to refactorings and the IDE features that will he
 You will learn to recognize refactoring opportunities in code and to deal with them. 
 Using automatic IDE refactorings, you will transform code to improve its structure, readability, and maintainability.
 
-The course consists of 9 sections. Each section focuses on one group of refactorings and 
+The course consists of 8 sections. Each section focuses on one group of refactorings and 
 provides brief theory and several small tasks for practice. 
 We will move on from small local refactoring changes to more complex ones, which affect the entire project architecture.
 
@@ -20,37 +20,34 @@ Embark on a coding journey with refactoring and design patterns – your path to
 
 <div class="hint" title="Course Plan"> 
 
-- **Section 1: Introduction**
-    - Lesson 1: Introduction
-    - Lesson 2: Join our Discord community
-- **Section 2: Refactoring and its purpose**
+- **Section 1: Refactoring and its purpose**
     - Lesson 1: What is code refactoring?
     - Lesson 2: Common code issues and their impact on code quality
     - Lesson 3: Refactoring techniques
     - Lesson 4: Getting familiar with IDE refactoring features
-- **Section 3: Code style and Formatting**
+- **Section 2: Code style and Formatting**
     - Lesson 1: What is code style and formatting?
     - Lesson 2: Reformat the code using IDE
     - Lesson 3: Code schemas and EditorConfig
-- **Section 4: Renaming code**
+- **Section 3: Renaming code**
     - Lesson 1: Naming rules
     - Lesson 2: Rename refactoring in IDE
-- **Section 5: Moving code**
+- **Section 4: Moving code**
     - Lesson 1: Cohesion and coupling
     - Lesson 2: What is Move refactoring?
     - Lesson 3: What are Pull Up and Push Down refactorings?
-- **Section 6: Extracting code**
+- **Section 5: Extracting code**
     - Lesson 1: What is Extract Function refactoring?
     - Lesson 2: What is Extract Variable refactoring?
-- **Section 7: Inlining code**
+- **Section 6: Inlining code**
     - Lesson 1: What is Inline Variable refactoring?
     - Lesson 2: Inline Method refactoring
     - Lesson 3: Middle Man code smell
-- **Section 8: Refactoring to Design patterns**
+- **Section 7: Refactoring to Design patterns**
     - Lesson 1: Design patterns and their relationships with refactoring
     - Lesson 2: Facade Pattern	
     - Lesson 3: Strategy Pattern	
     - Lesson 4: Factory Method Pattern
-- **Section 9: Conclusion**
+- **Section 8: Conclusion**
     - Next steps for further learning
 </div>
