@@ -15,7 +15,7 @@ class ReformatCodeWithoutIDETest : BaseIjTestClass() {
         fun initialize() {
             val taskDirectoryPath = System.getProperty("user.dir")
             val sourceCodeFile =
-                File("$taskDirectoryPath/src/main/kotlin/jetbrains/refactoring/course/formatting/Task.kt")
+                File("$taskDirectoryPath/src/main/kotlin/jetbrains/refactoring/course/formatting/Task1.kt")
             sourceText = sourceCodeFile.readText()
         }
     }
@@ -23,7 +23,7 @@ class ReformatCodeWithoutIDETest : BaseIjTestClass() {
     @Test
     fun testSolutionIsFormatted() {
         setUp()
-        myFixture.configureByText("Task.kt", sourceText)
+        myFixture.configureByText("Task1.kt", sourceText)
         myFixture.file.checkIfFormattingRulesWereApplied()
     }
 }
