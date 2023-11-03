@@ -6,7 +6,7 @@ files:
     visible: true
     placeholders:
       - offset: 58
-        length: 73
+        length: 117
         placeholder_text: |-
           fun calculate_area(l: Double, w: Double): Double {
               val length = l
@@ -16,6 +16,7 @@ files:
           
               return result
           }
-      - offset: 150
-        length: 13
-        placeholder_text: calculate_area
+          
+          fun main() {
+              calculate_area(5.0, 8.0)
+          }
