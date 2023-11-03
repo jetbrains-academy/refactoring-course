@@ -1,12 +1,65 @@
 type: edu
-custom_name: "Fix typos, change the code to comply with naming rules and camelCase\
-  \ convention"
 files:
 - name: src/main/kotlin/jetbrains/refactoring/course/renaming/Student.kt
   visible: true
+  placeholders:
+    - offset: 47
+      length: 540
+      placeholder_text: |-
+        class Student(private var name: String, private var age: Int, private var averageScore: Double) {
+        
+            fun getgradestatus(): String {
+                return when (averageScore) {
+                    in 90.0..100.0 -> "Excellent"
+                    in 80.0..89.99 -> "Good"
+                    in 70.0..79.99 -> "Average"
+                    else -> "Fail"
+                }
+            }
+        
+            fun SetName(newName: String) {
+                name = newName
+            }
+        
+            fun setaGe(newAge: Int) {
+                age = newAge
+            }
+        
+            fun setAvergeScore(newScore: Double) {
+                averageScore = newScore
+            }
+        }
 - name: test/Tests.kt
   visible: false
 - name: test/StudentTestClass.kt
   visible: false
 - name: src/main/kotlin/jetbrains/refactoring/course/renaming/University.kt
   visible: true
+  placeholders:
+    - offset: 47
+      length: 752
+      placeholder_text: |-
+        class University {
+            private val students = mutableListOf<Student>()
+        
+            fun admitStudent(name: String, age: Int, averageScore: Double) {
+                val student = Student(name, age, averageScore)
+                students.add(student)
+            }
+        
+            fun updateStudentInfo(index: Int, newName: String, newAge: Int, newScore: Double) {
+                if (index >= 0 && index < students.size) {
+                    val student = students[index]
+                    student.SetName(newName)
+                    student.setaGe(newAge)
+                    student.setAvergeScore(newScore)
+                }
+            }
+        
+            fun getStudentGradeStatus(index: Int): String {
+                if (index >= 0 && index < students.size) {
+                    return students[index].getgradestatus()
+                }
+                return "Invalid index"
+            }
+        }

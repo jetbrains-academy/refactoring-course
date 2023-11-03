@@ -1,7 +1,5 @@
-type: framework
 custom_name: Rename refactoring in IDE
 content:
 - RenameRefactoringInIDE
 - Quiz
 - FixTypos
-is_template_based: false

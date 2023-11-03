@@ -1,3 +1,5 @@
+# Task 3/3: Fix typos, change the code to comply with naming rules and camelCase convention
+
 ### Task
 
 In this task, you need to fix all typos in the file, change the names to comply with the `camelCase` naming convention, 
