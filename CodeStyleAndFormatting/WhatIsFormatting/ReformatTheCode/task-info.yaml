@@ -1,9 +1,14 @@
 type: edu
 custom_name: Reformat the code
 files:
-- name: src/main/kotlin/jetbrains/refactoring/course/formatting/Task1.kt
-  visible: true
 - name: test/Tests.kt
   visible: false
-- name: src/main/kotlin/jetbrains/refactoring/course/formatting/Task2.kt
+- name: src/main/kotlin/jetbrains/refactoring/course/formatting/Task.kt
   visible: true
+  placeholders:
+    - offset: 49
+      length: 101
+      placeholder_text: |-
+        fun funWithLittleFormattingIssues() {
+        println ("This function definitely has formatting issues" )
+        }

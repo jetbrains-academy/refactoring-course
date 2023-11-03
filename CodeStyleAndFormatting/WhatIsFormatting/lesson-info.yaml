@@ -1,8 +1,6 @@
-type: framework
-custom_name: What is formatting
+custom_name: What is formatting?
 content:
 - Theory
 - Quiz
 - ReformatTheCode
 - ReformatTheCodeUsingIDE
-is_template_based: false
