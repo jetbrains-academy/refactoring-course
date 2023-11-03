@@ -16,8 +16,3 @@ message_incorrect: "Incorrect solution. Explanation: The option \"Calculate_valu
 files:
 - name: src/main/kotlin/jetbrains/refactoring/course/renaming/Main.kt
   visible: true
-- name: src/main/kotlin/jetbrains/refactoring/course/renaming/Student.kt
-  visible: true
-- name: src/main/kotlin/jetbrains/refactoring/course/renaming/University.kt
-  visible: true
-custom_name: Which of the following code element names demonstrates good naming practice?
