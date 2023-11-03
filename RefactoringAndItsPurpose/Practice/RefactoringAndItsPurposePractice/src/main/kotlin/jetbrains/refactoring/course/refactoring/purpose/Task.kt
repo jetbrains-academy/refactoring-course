@@ -1,14 +1,7 @@
 package jetbrains.refactoring.course.refactoring.purpose
 
-fun calculate_area(l: Double, w: Double): Double {
-    val length = l
-    val width = w
-
-    val result = length * width
-
-    return result
-}
+fun calculateArea(length: Double, width: Double): Double = length * width
 
 fun main() {
-    calculate_area(5.0, 8.0)
+    calculateArea(5.0, 8.0)
 }
