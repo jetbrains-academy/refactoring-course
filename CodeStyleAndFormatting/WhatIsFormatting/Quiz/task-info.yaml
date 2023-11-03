@@ -1,5 +1,4 @@
 type: choice
-custom_name: What is the primary benefit of following consistent code formatting?
 is_multiple_choice: false
 options:
 - text: It guarantees bug-free code.
@@ -15,9 +14,5 @@ message_incorrect: "Incorrect solution. Explanation: Consistent code formatting 
   \ the code is completely free of bugs. Formatting doesn't impact on code performance."
 files:
 - name: src/main/kotlin/jetbrains/refactoring/course/formatting/Main.kt
-  visible: true
-- name: src/main/kotlin/jetbrains/refactoring/course/formatting/Task1.kt
-  visible: true
-- name: src/main/kotlin/jetbrains/refactoring/course/formatting/Task2.kt
   visible: true
 local_check: true

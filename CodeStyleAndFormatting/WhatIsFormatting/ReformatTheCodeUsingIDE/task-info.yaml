@@ -1,7 +1,20 @@
 type: edu
 custom_name: Reformat the code using IDE
 files:
-- name: src/main/kotlin/jetbrains/refactoring/course/formatting/Task2.kt
-  visible: true
 - name: test/Tests.kt
   visible: false
+- name: src/main/kotlin/jetbrains/refactoring/course/formatting/Task.kt
+  visible: true
+  placeholders:
+    - offset: 49
+      length: 227
+      placeholder_text: |-
+        import java.io.File
+        
+        fun funWithFormattingIssues() {
+              println ("This function definitely has formatting issues" )
+            println( "... that could be easily fixed using one shortcut")
+            for ( i in 1 ..10) {
+          println("Please, format me!")
+            }
+        }

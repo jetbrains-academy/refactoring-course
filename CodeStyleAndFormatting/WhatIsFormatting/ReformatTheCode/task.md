@@ -1,3 +1,5 @@
+# Task 3/4: Reformat the code
+
 ### Task
 
 In this task, you need to correct formatting in a file without using IDE features.
