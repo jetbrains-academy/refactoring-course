@@ -1,3 +1,5 @@
+# Task 1/1: Identify code issues and fix them
+
 ### Task
 
 In this task, you will practice identifying and fixing code imperfections and bad practices.
