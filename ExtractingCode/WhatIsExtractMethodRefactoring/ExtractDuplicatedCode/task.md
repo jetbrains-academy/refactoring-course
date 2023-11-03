@@ -1,3 +1,5 @@
+# Task 2/2: Extract duplicated code
+
 ### Task
 
 In this task, you need to identify duplicated code and extract it into a separate function.

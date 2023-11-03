@@ -1,6 +1,4 @@
-type: framework
 custom_name: What is Extract Method refactoring?
 content:
 - Theory
 - ExtractDuplicatedCode
-is_template_based: false
