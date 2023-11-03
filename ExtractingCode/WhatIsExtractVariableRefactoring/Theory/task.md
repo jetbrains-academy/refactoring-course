@@ -1,3 +1,5 @@
+# Task 1/2: What is Extract Variable refactoring?
+
 A *magic number* is a numerical value used in the code without a comment explaining its purpose. 
 Using magic numbers in code is considered bad practice because it makes the code prone to errors and less maintainable and readable.
 

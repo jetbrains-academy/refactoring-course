@@ -1,3 +1,5 @@
+# Task 2/2: Extract magic numbers
+
 ### Task
 
 In this task, you need to identify magic numbers and create constant values for them.
