@@ -1,4 +1,5 @@
 type: edu
+custom_name: Identify code issues and fix them
 files:
   - name: test/IdentifyIssuesInCodeSnippetTest.kt
     visible: false
