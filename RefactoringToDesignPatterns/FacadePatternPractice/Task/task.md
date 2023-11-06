@@ -14,7 +14,7 @@
 - Additionally, transfer the declarations of `videoLoader`, `videoProcessor`, `videoEncoder`,
   and `videoSaver` to become `private` properties of the `VideoConversionFacade` class.
 
-- Finally, change the main method: it should create an instance of the `VideoConversionFacade` method and invoke
+- Finally, change the main method: it should create an instance of the `VideoConversionFacade` class and invoke
   the `convertVideo` method.
 
 ### Hints
