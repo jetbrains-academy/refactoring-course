@@ -1,4 +1,5 @@
 type: choice
+custom_name: What is the primary benefit of following consistent code formatting?
 is_multiple_choice: false
 options:
 - text: It guarantees bug-free code.
