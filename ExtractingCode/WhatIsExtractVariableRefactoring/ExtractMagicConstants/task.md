@@ -2,7 +2,15 @@
 
 ### Task
 
-In this task, you need to identify magic numbers and create constant values for them.
+To calculate the **energy of a photon**, we use a simple formula: multiply the Planck constant, which is a very small
+number (`6.62607015 × 10^-34`), by the light's frequency (the number of waves that pass a point in one second). To find
+the frequency of light, divide the speed of light (which is `299,792,458` meters per second) by the wave length of
+the light. The greater the frequency, the higher the energy of the photon.
+
+To calculate the **mass of a photon**, take the energy of the photon and divide it by the speed of
+light squared. However, in practice, photons are considered to have zero mass.
+
+In this task, you need to identify magic numbers in the code and create constant values for them.
 
 ### Hints
 
