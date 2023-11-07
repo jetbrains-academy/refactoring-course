@@ -17,19 +17,8 @@ Please, create a new class named `TransportationServiceFactory` and implement `g
 
 <div class="hint" title="How should TransportationServiceFactory class look?">
 
-Here's the `TransportationServiceFactory` code:
-
-```kotlin
-class TransportationServiceFactory {
-    fun getTransportation(transport: String): Transport {
-        return when (transport) {
-            "car" -> Car()
-            "bicycle" -> Bicycle()
-            else -> throw IllegalArgumentException("Unknown transport")
-        }
-    }
-}
-```
+Examine the code in the `main` method to identify the lines that create specific transports based on their names.
+Then, move those lines manually to the `getTransportation(transport: String)` method in the `TransportationServiceFactory` class.
 
 </div>
 
