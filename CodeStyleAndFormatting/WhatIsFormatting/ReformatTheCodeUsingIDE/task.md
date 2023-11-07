@@ -1,8 +1,6 @@
 # Task 4/4: Reformat the code using IDE
 
-### Task
-
-#### Theory
+### Theory
 
 To perform any refactoring in the IDE, you can use the Refactoring Menu or a specific shortcut. 
 It’s also possible to configure custom shortcuts.
@@ -20,7 +18,7 @@ In this dialog, you can specify the scope of formatting changes and select the o
     <img src="../../../util/src/main/resources/images/CodeStyleAndFormatting/WhatIsFormatting/reformat_dialog.png" alt="Reformat dialog" width="400"/>
 </p>
 
-#### Task
+### Task
 
 In this task, you need to reformat the provided code fragment using the shortcut. 
 
