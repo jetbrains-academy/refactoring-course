@@ -67,6 +67,18 @@ class StrategyPatternTest : BaseIjTestClass() {
     }
 
     @Test
+    fun orderClassTest() {
+        Assertions.assertDoesNotThrow(
+            {
+                val clazz = orderClass.checkBaseDefinition()
+                orderClass.checkFieldsDefinition(clazz)
+            },
+            "Please, create a data class Order with two fields: totalAmount: Double," +
+                    "and date: LocalDate"
+        )
+    }
+
+    @Test
     fun testCreatedInstancesInMainMethod() {
         setUp()
         myFixture.configureByText("Main.kt", sourceText)
