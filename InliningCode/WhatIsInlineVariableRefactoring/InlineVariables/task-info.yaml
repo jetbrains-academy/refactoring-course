@@ -1,0 +1,19 @@
+type: edu
+custom_name: Practice
+files:
+  - name: test/Tests.kt
+    visible: false
+  - name: src/main/kotlin/jetbrains/refactoring/course/inlining/Task.kt
+    visible: true
+    placeholders:
+      - offset: 124
+        length: 209
+        placeholder_text: |-
+          fun readFileContent(path: String): String {
+                  val fileExists = File(path).exists()
+                  if (!fileExists) {
+                      throw FileNotFoundException("File not found at path: $path")
+                  }
+                  val content = File(path).readText()
+                  return content
+              }
