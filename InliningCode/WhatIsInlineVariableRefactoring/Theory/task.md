@@ -1,4 +1,4 @@
-# Task 1/1: What is Inline Variable refactoring?
+# Task 1/2: What is Inline Variable refactoring?
 
 We apply the **Inline refactoring** to simplify code by removing an unnecessary method or variable declarations and directly 
 replacing them with their respective expressions or values.
