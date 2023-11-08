@@ -21,3 +21,5 @@ files:
     visible: false
   - name: test/PaymentProcessorClass.kt
     visible: false
+  - name: test/OrderClass.kt
+    visible: false

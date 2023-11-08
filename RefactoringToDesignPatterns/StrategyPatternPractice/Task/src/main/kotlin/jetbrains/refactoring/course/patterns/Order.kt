@@ -1,4 +1,5 @@
 package jetbrains.refactoring.course.patterns
 
-// The Order class is no longer necessary
-class Order(val totalAmount: Double)
+import java.time.LocalDate
+
+data class Order(val totalAmount: Double, val date: LocalDate)

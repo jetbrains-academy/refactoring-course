@@ -8,6 +8,7 @@
 - Create a `PaymentProcessor` class that encapsulates the payment behavior.
   This class should take as a constructor parameter `paymentStrategy: PaymentStrategy`
   and should contain the `processOrderPayment` method, which invokes the `processPayment` method from `paymentStrategy`.
+- Transform the `Order` class into a `data class` that encapsulates details regarding the order's price and date.
 - Within the `Main::main` method, for every payment type, instantiate a `PaymentProcessor`. Ensure you pass the
   corresponding payment strategy during the object's creation.
 
