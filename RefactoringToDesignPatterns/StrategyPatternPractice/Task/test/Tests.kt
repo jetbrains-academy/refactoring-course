@@ -103,21 +103,21 @@ class StrategyPatternTest : BaseIjTestClass() {
     fun testInvokedMethodsOfPaymentClassesInMainMethod() {
         setUp()
         myFixture.configureByText("Main.kt", sourceText)
-        var method = "processOrderPayment(100.0)"
+        var method = "processOrderPayment(order1.totalAmount)"
         Assertions.assertEquals(
             findMethodUsages(method),
             listOf("main")
         ) {
             "Please, invoke the $method method of Credit Card Payment in the main method"
         }
-        method = "processOrderPayment(50.0)"
+        method = "processOrderPayment(order2.totalAmount)"
         Assertions.assertEquals(
             findMethodUsages(method),
             listOf("main")
         ) {
             "Please, invoke the $method method of PayPal Payment in the main method"
         }
-        method = "processOrderPayment(200.0)"
+        method = "processOrderPayment(order3.totalAmount)"
         Assertions.assertEquals(
             findMethodUsages(method),
             listOf("main")
