@@ -108,21 +108,21 @@ class StrategyPatternTest : BaseIjTestClass() {
             findMethodUsages(method),
             listOf("main")
         ) {
-            "Please, invoke the $method method of Credit Card Payment in the main method"
+            "Please, invoke the $method method of Credit Card Payment and pass in the totalAmount from the first order within the main method"
         }
         method = "processOrderPayment(order2.totalAmount)"
         Assertions.assertEquals(
             findMethodUsages(method),
             listOf("main")
         ) {
-            "Please, invoke the $method method of PayPal Payment in the main method"
+            "Please, invoke the $method method of PayPal Payment and pass in the totalAmount from the second order within the main method"
         }
         method = "processOrderPayment(order3.totalAmount)"
         Assertions.assertEquals(
             findMethodUsages(method),
             listOf("main")
         ) {
-            "Please, invoke the $method method of Bitcoin Payment in the main method"
+            "Please, invoke the $method method of Bitcoin Payment and pass in the totalAmount from the third order within the main method"
         }
     }
 }
