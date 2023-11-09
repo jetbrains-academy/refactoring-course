@@ -9,8 +9,8 @@
   This class should take as a constructor parameter `paymentStrategy: PaymentStrategy`
   and should contain the `processOrderPayment` method, which invokes the `processPayment` method from `paymentStrategy`.
 - Transform the `Order` class into a `data class` that encapsulates details regarding the order's price and date.
-- Within the `Main::main` method, for every payment type, instantiate a `PaymentProcessor`. Ensure you pass the
-  corresponding payment strategy during the object's creation.
+- Within the `Main::main` method, instantiate an `Order` object for each order and a `PaymentProcessor` for each payment type.
+  Make sure to pass the corresponding payment strategy when creating the `PaymentProcessor` object.
 
 By using the **Strategy** design pattern, the payment processing logic is separated from the `Order` class,
 making it more flexible and maintainable.
@@ -52,13 +52,15 @@ class CreditCardPayment : PaymentStrategy {
 
 <div class="hint" title="How to fix main method?">
 
-In the main method, you should instantiate a `PaymentProcessor` object and provide the appropriate payment strategy as
-an
-argument. For instance, for a credit card payment type, the code would be:
+In the main method, **for each order**, you should instantiate an `Order` object, providing it with the corresponding total amount and date.
+Then, you need to instantiate a `PaymentProcessor` object, supplying it with the appropriate payment strategy as an argument.
+Finally, you should invoke the `processOrderPayment()` method.
+For example, the code for processing a payment with a credit card would be:
 
 ```kotlin
+val order1 = Order(100.0, LocalDate.of(2023, 3, 1))
 val creditCardPayment = PaymentProcessor(CreditCardPayment())
-creditCardPayment.processOrderPayment(100.0)
+creditCardPayment.processOrderPayment(order1.totalAmount)
 ```
 
 </div>
