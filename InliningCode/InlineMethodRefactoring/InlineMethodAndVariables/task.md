@@ -1,3 +1,5 @@
+# Task 2/2: Inline methods and variables
+
 ### Task
 
 In this task, you need to identify unnecessary variables and method and inline them using the automatic Inline

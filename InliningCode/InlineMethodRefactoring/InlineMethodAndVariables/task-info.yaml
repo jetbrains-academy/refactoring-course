@@ -3,5 +3,24 @@ custom_name: Inline methods and variables
 files:
 - name: src/main/kotlin/jetbrains/refactoring/course/inlining/Task.kt
   visible: true
+  placeholders:
+    - offset: 113
+      length: 265
+      placeholder_text: |-
+        fun calculateTotalPrice(productPrice: List<Int>): Int? {
+                return try {
+                    val totalPrice = productPrice.sum()
+                    totalPrice
+                } catch (error: Exception) {
+                    logError(error, "Exception.txt")
+                    null
+                }
+            }
+        
+            private fun logError(error: Exception, filePath: String) {
+                val file = File(filePath)
+                val text = error
+                PrintWriter(file, Charsets.UTF_8).use { it.print(text) }
+            }
 - name: test/Tests.kt
   visible: false
