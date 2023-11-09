@@ -13,3 +13,8 @@ class Store {
         }
     }
 }
+
+fun main() {
+    val store = Store()
+    println(store.calculateTotalPrice(listOf(1, 2, 3))) // Output: Sum of prices
+}

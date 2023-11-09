@@ -1,6 +1,4 @@
-type: framework
 custom_name: What is Inline Method refactoring?
 content:
 - Theory
 - InlineMethodAndVariables
-is_template_based: false
