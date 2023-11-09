@@ -6,8 +6,8 @@ files:
   - name: src/main/kotlin/jetbrains/refactoring/course/inlining/Task.kt
     visible: true
     placeholders:
-      - offset: 124
-        length: 209
+      - offset: 128
+        length: 205
         placeholder_text: |-
           fun readFileContent(path: String): String {
                   val fileExists = File(path).exists()
