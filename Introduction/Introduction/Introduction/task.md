@@ -26,9 +26,8 @@ Embark on a coding journey with refactoring and design patterns – your path to
     - [Lesson 3: Refactoring techniques](course://RefactoringAndItsPurpose/RefactoringTechniques)
     - [Lesson 4: Getting familiar with IDE refactoring features](course://RefactoringAndItsPurpose/GettingFamiliarWithIDERefactoringFeatures)
 - **[Section 2: Code style and Formatting](course://CodeStyleAndFormatting)**
-    - [Lesson 1: What is code style and formatting?](course://CodeStyleAndFormatting/WhatIsFormatting)
-    - Lesson 2: Reformat the code using IDE
-    - [Lesson 3: Code schemas and EditorConfig](course://CodeStyleAndFormatting/CodeSchemasAndEditorConfig)
+    - [Lesson 1: What is formatting?](course://CodeStyleAndFormatting/WhatIsFormatting)
+    - [Lesson 2: Code schemas and EditorConfig](course://CodeStyleAndFormatting/CodeSchemasAndEditorConfig)
 - **[Section 3: Renaming code](course://RenamingCode)**
     - [Lesson 1: Naming rules](course://RenamingCode/NamingRules)
     - [Lesson 2: Rename refactoring in IDE](course://RenamingCode/RenameRefactoringInIDE)
