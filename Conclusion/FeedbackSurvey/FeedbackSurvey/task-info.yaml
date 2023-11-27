@@ -1,0 +1,5 @@
+custom_name: Feedback survey
+type: theory
+files:
+  - name: src/main/kotlin/jetbrains/refactoring/course/conclusion/Main.kt
+    visible: true
