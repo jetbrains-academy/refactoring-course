@@ -1,7 +1,4 @@
-import com.intellij.openapi.application.ApplicationManager
-import org.jetbrains.academy.test.system.ij.analyzer.extractElementsOfTypes
-import org.jetbrains.academy.test.system.test.BaseIjTestClass
-import org.jetbrains.kotlin.psi.KtParameter
+import org.jetbrains.academy.test.system.kotlin.test.BaseIjTestClass
 import org.junit.jupiter.api.Test
 import org.junit.jupiter.api.Assertions
 import org.junit.jupiter.api.BeforeAll
@@ -54,9 +51,5 @@ class IdentifyIssuesInCodeSnippetTest : BaseIjTestClass() {
         Assertions.assertFalse(hasParameter("w")) {
             "Please, rename \"w\" parameter to \"width\""
         }
-    }
-
-    private fun hasParameter(parameterName: String) = ApplicationManager.getApplication().runReadAction<Boolean> {
-        myFixture.file.extractElementsOfTypes(KtParameter::class.java).any { it.name == parameterName }
     }
 }

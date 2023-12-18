@@ -2,5 +2,5 @@ type: framework
 custom_name: Strategy Pattern - Practice
 content:
   - StrategyPattern
-  - Task
+  - Practice
 is_template_based: false

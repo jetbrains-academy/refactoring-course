@@ -1,4 +1,4 @@
 custom_name: What is Inline Method refactoring?
 content:
-- Theory
-- InlineMethodAndVariables
+  - Theory
+  - InlineMethodAndVariablesPractice
