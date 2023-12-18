@@ -1,7 +1,7 @@
 type: framework
 custom_name: What is Move refactoring?
 content:
-- WhatIsMoveMethodRefactoring
-- FindMoreAppropriateFilesForClasses
-- FindMoreAppropriateClassesForMethods
+  - WhatIsMoveMethodRefactoring
+  - FindMoreAppropriateFilesForClassesPractice
+  - FindMoreAppropriateClassesForMethodsPractice
 is_template_based: false

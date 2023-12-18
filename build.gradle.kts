@@ -8,6 +8,12 @@ plugins {
     id("org.jlleitschuh.gradle.ktlint") version "10.0.0"
 }
 
+intellij {
+    version.set("2022.1.1")
+    plugins.set(listOf("java", "Kotlin"))
+    type.set("IC")
+}
+
 buildscript {
     extra["kotlin_version"] = "1.8.20"
 
@@ -32,16 +38,9 @@ fun printOutput(output: Any): Task {
 
 allprojects {
     apply {
-        plugin("org.jetbrains.intellij")
         plugin("application")
         plugin("java")
         plugin("kotlin")
-    }
-
-    intellij {
-        version.set("2022.1.1")
-        plugins.set(listOf("java", "Kotlin"))
-        type.set("IC")
     }
 
     repositories {
@@ -55,10 +54,6 @@ allprojects {
     dependencies {
         implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.20")
         testImplementation("junit:junit:4.13.1")
-
-        val testSystemVersion = "2.1.0"
-        implementation("org.jetbrains.academy.test.system:core:$testSystemVersion")
-        implementation("org.jetbrains.academy.test.system:ij:$testSystemVersion")
 
         val junitJupiterVersion = "5.9.0"
         implementation("org.junit.jupiter:junit-jupiter-api:$junitJupiterVersion")
@@ -124,7 +119,24 @@ configure(subprojects.filter { it.name != "util" }) {
     }
 }
 
-configure(subprojects.filter { it.name == "CodeStyleAndFormatting-CodeSchemasAndEditorConfig-ReformatTheCodeAccordingToStyleSettings" }) {
+configure(subprojects.filter { it.name.endsWith("Practice") }) {
+    plugins.apply("org.jetbrains.intellij")
+
+    intellij {
+        version.set("2022.1.1")
+        plugins.set(listOf("java", "Kotlin"))
+        type.set("IC")
+    }
+
+    dependencies {
+        val testSystemVersion = "2.1.1"
+        testImplementation("org.jetbrains.academy.test.system:core:$testSystemVersion")
+        testImplementation("org.jetbrains.academy.test.system:kotlin-psi:$testSystemVersion")
+        testImplementation("org.jetbrains.academy.test.system:common:$testSystemVersion")
+    }
+}
+
+configure(subprojects.filter { it.name == "CodeStyleAndFormatting-CodeSchemasAndEditorConfig-ReformatTheCodeAccordingToStyleSettingsPractice" }) {
     apply {
         plugin("org.jlleitschuh.gradle.ktlint")
     }
