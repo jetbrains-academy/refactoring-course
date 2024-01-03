@@ -48,5 +48,5 @@ Embark on a coding journey with refactoring and design patterns – your path to
     - [Lesson 3: Strategy Pattern](course://RefactoringToDesignPatterns/StrategyPatternTheory)
     - [Lesson 4: Factory Method Pattern](course://RefactoringToDesignPatterns/FactoryMethodPatternTheory)
 - **[Section 8: Conclusion](course://Conclusion)**
-    - Next steps for further learning
+    - [Next steps for further learning](course://Conclusion/Conclusion)
 </div>
