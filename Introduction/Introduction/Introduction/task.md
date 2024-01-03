@@ -2,7 +2,7 @@
 
 Hello!
 
-Welcome to the **Introduction to IDE Code Refactoring** course.✨ 
+Welcome to the **Introduction to IDE Code Refactoring in Kotlin** course.✨ 
 
 <p align="center">
     <img src="../../../util/src/main/resources/images/Introduction/Introduction/introduction_intro.png" alt="Introduction" width="400"/>

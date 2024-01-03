@@ -1,6 +1,6 @@
 # What this repository is
 
-This repository contains sources of the _Introduction to IDE Code Refactoring_ course.
+This repository contains sources of the _Introduction to IDE Code Refactoring in Kotlin_ course.
 
 # Contributing
 
