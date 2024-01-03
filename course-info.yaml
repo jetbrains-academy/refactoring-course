@@ -1,5 +1,5 @@
 type: marketplace
-title: Introduction to IDE Code Refactoring
+title: Introduction to IDE Code Refactoring in Kotlin
 language: English
 summary: |-
   This course will introduce you to refactorings and the IDE features that will help you to perform them in an effective way. You will learn to recognize refactoring opportunities in code and to deal with them. Using automatic IDE refactorings, you will transform code to improve its structure, readability, and maintainability.
