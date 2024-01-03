@@ -119,7 +119,7 @@ configure(subprojects.filter { it.name != "util" }) {
     }
 }
 
-configure(subprojects.filter { it.name.endsWith("Practice") }) {
+configure(subprojects.filter { it.name.endsWith("Practice") || it.name.endsWith("task") }) {
     plugins.apply("org.jetbrains.intellij")
 
     intellij {

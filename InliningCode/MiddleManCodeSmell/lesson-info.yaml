@@ -2,5 +2,5 @@ type: framework
 custom_name: Middle Man code smell
 content:
   - Theory
-  - PracticePractice
+  - Practice
 is_template_based: false
