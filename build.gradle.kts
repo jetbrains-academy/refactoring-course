@@ -107,6 +107,12 @@ allprojects {
     }
 }
 
+tasks {
+    wrapper {
+        gradleVersion = project.findProperty("gradleVersion").toString()
+    }
+}
+
 project(":util") {
     dependencies {
         implementation("junit:junit:4.13")
