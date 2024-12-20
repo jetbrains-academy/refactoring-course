@@ -1,4 +1,4 @@
-# Task 2/2: Extract magic numbers
+Task 2/2: Extract magic numbers
 
 ### Task
 

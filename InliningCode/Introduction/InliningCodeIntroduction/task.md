@@ -1,4 +1,4 @@
-# Section 6: Inlining code
+Section 6: Inlining code
 
 In this section, we will cover the following topics:
 - Inline Variable refactoring

@@ -1,4 +1,4 @@
-# Task 3/4: Reformat the code
+Task 3/4: Reformat the code
 
 ### Task
 

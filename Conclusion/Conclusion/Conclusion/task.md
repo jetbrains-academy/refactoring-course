@@ -1,4 +1,4 @@
-# Section 8: Conclusion
+Section 8: Conclusion
 
 Congratulations! 🎉
 

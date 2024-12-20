@@ -1,4 +1,4 @@
-# Task 2/2: Inline methods and variables
+Task 2/2: Inline methods and variables
 
 ### Task
 

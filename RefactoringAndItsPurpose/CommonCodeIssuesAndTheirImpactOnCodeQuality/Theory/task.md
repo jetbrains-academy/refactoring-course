@@ -1,4 +1,4 @@
-# Task 1/2: Common code issues and their impact on code quality
+Task 1/2: Common code issues and their impact on code quality
 
 Martin Fowler introduced the **_code smell_** term, which indicates that code might have some issues or shortcomings in its
 implementation. That doesn’t necessarily mean that code has bugs, but the smell makes code understanding, developing, and

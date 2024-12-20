@@ -1,4 +1,4 @@
-# Task 2/2: What is Inline Variable refactoring?
+Task 2/2: What is Inline Variable refactoring?
 
 In this task, you need to identify unnecessary variables and inline them using the automatic Inline
 refactoring.
