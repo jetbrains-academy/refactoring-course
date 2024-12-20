@@ -1,4 +1,4 @@
-# Task 2/2: Extract duplicated code
+Task 2/2: Extract duplicated code
 
 ### Task
 

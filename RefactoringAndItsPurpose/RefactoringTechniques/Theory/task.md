@@ -1,4 +1,4 @@
-# Task 1/2: Refactoring techniques
+Task 1/2: Refactoring techniques
 
 Developers refactor code to achieve different goals. 
 Sometimes refactoring is the goal in itself: for example, splitting one monolith project into several microservices. 

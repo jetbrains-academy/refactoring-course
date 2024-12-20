@@ -1,4 +1,4 @@
-# Task 1/3: Rename refactoring in IDE
+Task 1/3: Rename refactoring in IDE
 
 If you want to rename a code entity, you can click on the entity’s name and press the
 **&shortcut:RenameElement;** (macOS) or **Shift+F6** (Windows/Linux) shortcut.

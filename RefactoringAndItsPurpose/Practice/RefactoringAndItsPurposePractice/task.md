@@ -1,4 +1,4 @@
-# Task 1/1: Identify code issues and fix them
+Task 1/1: Identify code issues and fix them
 
 ### Task
 

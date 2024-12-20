@@ -1,4 +1,4 @@
-# Task 1/1: Design patterns and their relationship with refactoring
+Task 1/1: Design patterns and their relationship with refactoring
 
 Design patterns are reusable solutions to common problems that software developers face during the design and
 implementation of their applications. 

@@ -1,4 +1,4 @@
-# Feedback survey
+Feedback survey
 
 Thank you for taking our Introduction to IDE Code Refactoring in Kotlin course!
 We would really appreciate it if you could take a few minutes to
