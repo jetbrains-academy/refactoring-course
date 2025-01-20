@@ -1,4 +1,4 @@
-# Task 1/2: What is code refactoring?
+Task 1/2: What is code refactoring?
 
 **_Refactoring_** is a process of modifying source code without changing its behavior. For example, renaming a method or
 extracting a _magic constant_ into a separate variable. It improves code readability but doesn’t change what code does.

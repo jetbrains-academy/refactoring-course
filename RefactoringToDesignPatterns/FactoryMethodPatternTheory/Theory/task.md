@@ -1,4 +1,4 @@
-# Task 1/1: Factory Method Pattern – Theory
+Task 1/1: Factory Method Pattern – Theory
 
 The **Factory Method** is a _creational design pattern_ that provides an interface for creating objects 
 in a superclass, while allowing subclasses to alter the type of objects that will be created.

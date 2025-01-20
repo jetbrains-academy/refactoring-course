@@ -1,4 +1,4 @@
-# Task 3/3: Fix typos, change the code to comply with naming rules and camelCase convention
+Task 3/3: Fix typos, change the code to comply with naming rules and camelCase convention
 
 ### Task
 

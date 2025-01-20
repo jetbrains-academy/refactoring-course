@@ -1,4 +1,4 @@
-# Task 1/4: What is formatting?
+Task 1/4: What is formatting?
 
 **_Code style_** is a set of guidelines used in a development team on how to write code. 
 Usually, the code style depends on the programming language and developers’ preferences and includes rules about formatting,

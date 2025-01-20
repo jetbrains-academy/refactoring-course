@@ -1,4 +1,4 @@
-# Task 1/1: Getting familiar with IDE refactoring features
+Task 1/1: Getting familiar with IDE refactoring features
 
 There are two places to explore available refactoring actions in the IDE: the **Refactor This** and **Search Everywhere**
 dialogs.

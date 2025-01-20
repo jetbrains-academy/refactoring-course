@@ -1,4 +1,4 @@
-# Task 1/1: Strategy Pattern – Theory
+Task 1/1: Strategy Pattern – Theory
 
 The **Strategy** is a _behavioral pattern_ that allows you to define a family of algorithms,
 encapsulate each algorithm, and make them interchangeable.

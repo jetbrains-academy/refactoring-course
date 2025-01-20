@@ -1,4 +1,4 @@
-# Task 4/4: Reformat the code using IDE
+Task 4/4: Reformat the code using IDE
 
 ### Theory
 

@@ -1,4 +1,4 @@
-# Task 1/2: What is Extract Method refactoring?
+Task 1/2: What is Extract Method refactoring?
 
 As we mentioned before, **duplicated code can lead to undesirable effects**, such as when you fix a bug in one place
 but forget to fix it consistently in duplicates. 
