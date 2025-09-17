@@ -1,5 +1,5 @@
 custom_name: "Section 3: Renaming code"
 content:
-- Introduction
-- NamingRules
-- RenameRefactoringInIDE
+  - Introduction
+  - NamingRules
+  - RenameRefactoringInIDE

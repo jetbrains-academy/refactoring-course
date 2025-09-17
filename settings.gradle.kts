@@ -9,7 +9,7 @@ pluginManagement {
 
 fun sanitizeName(name: String) = name.replace("listOf( /\\\\:<>\"?*|())", "_").replace("(^listOf(.)+)|(listOf(.)+\$)", "")
 
-rootProject.name = "Refactoring_Course"
+rootProject.name = "Practical_IDE_Code_Refactoring_in_Kotlin"
 
 rootProject.projectDir.walkTopDown().forEach {
     if (!isTaskDir(it) || it.path.contains(".idea")) {
