@@ -1,19 +1,19 @@
 type: choice
-custom_name: What is the primary benefit of following consistent code formatting?
 is_multiple_choice: false
 options:
-- text: It guarantees bug-free code.
-  is_correct: false
-- text: It impresses colleagues and managers.
-  is_correct: false
-- text: It improves the performance of the code.
-  is_correct: false
-- text: It enhances code readability and maintainability.
-  is_correct: true
+  - text: It guarantees bug-free code.
+    is_correct: false
+  - text: It impresses colleagues and managers.
+    is_correct: false
+  - text: It improves the performance of the code.
+    is_correct: false
+  - text: It enhances code readability and maintainability.
+    is_correct: true
 message_incorrect: "Incorrect solution. Explanation: Consistent code formatting helps\
   \ to improve code readability and maintainability, but it doesn't guarantee that\
   \ the code is completely free of bugs. Formatting doesn't impact on code performance."
 files:
-- name: src/main/kotlin/jetbrains/refactoring/course/formatting/Main.kt
-  visible: true
+  - name: src/main/kotlin/jetbrains/refactoring/course/formatting/Main.kt
+    visible: true
+custom_name: What is the primary benefit of following consistent code formatting?
 local_check: true

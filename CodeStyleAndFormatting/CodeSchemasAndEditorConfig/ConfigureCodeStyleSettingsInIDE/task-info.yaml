@@ -1,9 +1,9 @@
 type: edu
 custom_name: Configure code style settings in IDE
 files:
-- name: .editorconfig
-  visible: true
-- name: test/EditorconfigTest.kt
-  visible: false
-- name: src/main/kotlin/jetbrains/refactoring/course/formatting/Task.kt
-  visible: true
+  - name: .editorconfig
+    visible: true
+  - name: test/EditorconfigTest.kt
+    visible: false
+  - name: src/main/kotlin/jetbrains/refactoring/course/formatting/Task.kt
+    visible: true

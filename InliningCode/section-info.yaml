@@ -1,6 +1,6 @@
 custom_name: "Section 6: Inlining code"
 content:
-- Introduction
-- WhatIsInlineVariableRefactoring
-- InlineMethodRefactoring
-- MiddleManCodeSmell
+  - Introduction
+  - WhatIsInlineVariableRefactoring
+  - InlineMethodRefactoring
+  - MiddleManCodeSmell

@@ -1,7 +1,9 @@
 [![official project](https://jb.gg/badges/official.svg)](https://confluence.jetbrains.com/display/ALL/JetBrains+on+GitHub)
 [![Gradle Build](https://github.com/jetbrains-academy/refactoring-course/actions/workflows/gradle-build.yml/badge.svg)](https://github.com/jetbrains-academy/refactoring-course/actions/workflows/gradle-build.yml)
+<a href="https://plugins.jetbrains.com/plugin/23048/versions" target="_blank">
+<img src="https://img.shields.io/badge/dynamic/yaml?query=%24.course_version&url=https://raw.githubusercontent.com/jetbrains-academy/refactoring-course/refs/heads/main/course-remote-info.yaml&logo=jetbrains&logoColor=FC801D&label=Marketplace&color=6b59fe&style=flat&prefix=v" alt="Marketplace"></a>
 
-# Introduction to IDE Code Refactoring in Kotlin
+# Practical IDE Code Refactoring in Kotlin
 
 This course will introduce you to refactorings and the IDE features that will help you to perform them in an effective way.
 You will learn to recognize refactoring opportunities in code and to deal with them.
